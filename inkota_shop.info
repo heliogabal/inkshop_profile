@@ -1,0 +1,127 @@
+; Packaging information for inkota_shop
+name = "INKOTA Shop"
+description = "Shop für INKOTA"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = fpa
+
+; CCK
+dependencies[] = filefield_nginx_progress
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+;dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = translation
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_ui
+
+; Fields
+;dependencies[] = name
+dependencies[] = field_group
+; Location
+dependencies[] = addressfield
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+
+; Other
+dependencies[] = breakpoints
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = libraries
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = title
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = robotstxt
+dependencies[] = socialshareprivacy
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = link
+dependencies[] = uuid
+dependencies[] = uuid_path
+dependencies[] = colorbox
+dependencies[] = colorbox_node
+
+; Picture
+dependencies[] = picture
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_context
+dependencies[] = metatag_opengraph
+dependencies[] = metatag_views
+
+; User interface
+dependencies[] = wysiwyg
+dependencies[] = float_filter
+dependencies[] = flexslider
+dependencies[] = linkit
+dependencies[] = linkit_target
+dependencies[] = image_resize_filter
+
+; Variable
+dependencies[] = variable
+dependencies[] = variable_realm
+dependencies[] = variable_store
+; Views
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = views_fluid_grid
+; Webform
+dependencies[] = compact_forms
+; Features
+dependencies[] = features
+dependencies[] = strongarm
+
+; Development
+;dependencies[] = bundle_copy
+;dependencies[] = devel
+;dependencies[] = search_krumo
+;dependencies[] = styleguide
+dependencies[] = diff
