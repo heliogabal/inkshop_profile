@@ -259,10 +259,49 @@ projects[commerceguys_marketplace][subdir] = "commerce"
 projects[commerce_sofortbanking] = "1.0"
 projects[commerce_sofortbanking][subdir] = "commerce"
 
+projects[commerce_contributions][version] = "1.x-dev"
+projects[commerce_contributions][subdir] = "contrib"
+
+projects[commerce_donate][version] = "1.0-beta1"
+projects[commerce_donate][subdir] = "commerce"
+
+projects[commerce_feeds][version] = "1.3"
+projects[commerce_feeds][subdir] = "commerce"
+
+projects[commerce_stock][version] = "2.0-rc1"
+projects[commerce_stock][subdir] = "commerce"
+
+projects[commerce_option][version] = "1.0-beta2"
+projects[commerce_option][subdir] ="commerce"
+
+projects[commerce_buttonloesung][version] = "1.x-dev"
+projects[commerce_buttonloesung][subdir] = "commerce"
+
 ; Other commerce contribs.
 
 projects[countries][version] = 2.1
 projects[countries][subdir] = "contrib"
+
+projects[select_or_other][version] = "2.20"
+projects[select_or_other][subdir] = "contrib"
+
+projects[visualization][version] = "1.0-alpha1"
+projects[visualization][subdir] = "contrib"
+
+projects[commerce_reports][version] = "4.0-alpha1"
+projects[commerce_reports][subdir] = "contrib"
+
+projects[commerce_invoice_receipt][version] = "1.1"
+projects[commerce_invoice_receipt][subdir] = "commerce"
+
+projects[services][version] = "3.5"
+projects[services][subdir] = "contrib"
+
+projects[options_element][version] = "1.10"
+projects[options_element][subdir] = "contrib"
+
+projects[Image_delta_formatter][version] = "1.0-rc1"
+projects[Image_delta_formatter][subdir] = "contrib"
 
 projects[remote_stream_wrapper][version] = 1.0-beta4
 projects[remote_stream_wrapper][subdir] = "contrib"
@@ -270,8 +309,8 @@ projects[remote_stream_wrapper][subdir] = "contrib"
 projects[physical][version] = 1.x-dev
 projects[physical][subdir] = "contrib"
 
-projects[crumbs][version] = 1.10
-projects[crumbs][subdir] = "contrib"
+projects[crumbs][version] = 1.1
+0projects[crumbs][subdir] = "contrib"
 
 projects[http_client][version] = 2.4
 projects[http_client][subdir] = "contrib"
@@ -358,6 +397,9 @@ projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-
 
 projects[search_api_sorts][version] = 1.4
 projects[search_api_sorts][subdir] = "contrib"
+
+projects[search_api_solr][version] = "1.3"
+projects[search_api_solr][subdir] = "contrib"
 
 
 ; +++++ Development +++++++
