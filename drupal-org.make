@@ -51,8 +51,8 @@ projects[ds][subdir] = "contrib"
 
 projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
-projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
-projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
+;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
+;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
@@ -126,8 +126,8 @@ projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.2"
 projects[link][subdir] = "contrib"
-projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
-projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
+;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
+;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[title][version] = 1.0-alpha7
 projects[title][subdir] = "contrib"
