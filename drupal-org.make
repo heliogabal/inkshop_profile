@@ -215,9 +215,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
-projects[inkshop_theme][type] = "theme"
-projects[inkshop_theme][version] = "1.0"
-projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
+;projects[inkshop_theme][type] = "theme"
+;projects[inkshop_theme][version] = "1.0"
+;projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; +++++ Translations +++++
 
