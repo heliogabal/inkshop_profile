@@ -98,7 +98,6 @@ dependencies[] = metatag_views
 
 ; User interface
 dependencies[] = wysiwyg
-dependencies[] = float_filter
 dependencies[] = flexslider
 dependencies[] = linkit
 dependencies[] = linkit_target
