@@ -6,7 +6,7 @@
  */
 
 function inkota_shop_profile_details(){
-  $details['language'] = "de";
+  $details['language'] = "en";
   return $details;
 }
 
@@ -43,7 +43,7 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
   }
 }
 
-function inkota_shop_install_tasks($install_state) {
+/*function inkota_shop_install_tasks($install_state) {
   return array(
     'inkota_shop_install_import_locales' => array(
       'display_name' => 'Install additional languages',
@@ -90,7 +90,7 @@ function inkota_shop_install_import_locales(&$install_state) {
       variable_set('inkota_shop_install_import_locales', $batch['#components']);
       return $batch;
   }
-}
+}*/
 
 /**
  * Implement hook_install_tasks().
@@ -101,10 +101,10 @@ function inkota_shop_install_import_locales(&$install_state) {
  *
  * Perform actions to set up the site for this profile.
  */
-function inkota_shop_install_tasks_alter(&$tasks, $install_state) {
+/*function inkota_shop_install_tasks_alter(&$tasks, $install_state) {
   // Remove core steps for translation imports.
   unset($tasks['install_import_locales']);
-  unset($tasks['install_import_locales_remaining']);
+  unset($tasks['install_import_locales_remaining']);*/
 
    // Für Domain Access Modul
  // http://sachachua.com/blog/2008/06/drupal-adding-lines-to-settingsphp-in-an-installation-profile-2/
@@ -125,7 +125,7 @@ function inkota_shop_install_tasks_alter(&$tasks, $install_state) {
  * @param $install_state
  *   An array of information about the current installation state.
  */
-function inkota_shop_import_translation(&$install_state) {
+/*function inkota_shop_import_translation(&$install_state) {
   // Enable installation language as default site language.
   include_once DRUPAL_ROOT . '/includes/locale.inc';
   $install_locale = $install_state['parameters']['locale'];
@@ -141,4 +141,4 @@ function inkota_shop_import_translation(&$install_state) {
   $updates = _l10n_update_prepare_updates($updates, NULL, array());
   $batch = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
   return $batch;
-}
+}*/
