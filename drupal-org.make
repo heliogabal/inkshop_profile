@@ -300,8 +300,8 @@ projects[services][subdir] = "contrib"
 projects[options_element][version] = "1.10"
 projects[options_element][subdir] = "contrib"
 
-projects[Image_delta_formatter][version] = "1.0-rc1"
-projects[Image_delta_formatter][subdir] = "contrib"
+projects[image_delta_formatter][version] = "1.0-rc1"
+projects[image_delta_formatter][subdir] = "contrib"
 
 projects[remote_stream_wrapper][version] = 1.0-beta4
 projects[remote_stream_wrapper][subdir] = "contrib"
