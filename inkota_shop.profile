@@ -116,8 +116,8 @@ function inkota_shop_install_import_locales(&$install_state) {
       fclose($file);
     } else {
       drupal_set_message("Can't add domain-related lines to sites/default/settings.php");
-    }*/
-}
+    }
+}*/
 
 /**
  * Installation step callback.
