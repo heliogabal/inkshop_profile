@@ -200,7 +200,9 @@ projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
 projects[commerce_features][version] = 1.0-rc1
 projects[commerce_features][subdir] = "commerce"
-projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
+;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
+projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
+projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
 
 projects[commerce_addressbook][version] = 2.0-rc7
 projects[commerce_addressbook][subdir] = "commerce"
@@ -246,6 +248,7 @@ projects[commerce_add_to_cart_confirmation][version] = 1.0-rc2
 
 projects[commerce_physical][version] = 1.x-dev
 projects[commerce_physical][subdir] = "commerce"
+projects[commerce_physical][patch][] = "http://drupal.org/files/commerce_physical_rules_conditions-1344962-2.patch"
 
 projects[commerce_bean][subdir] = "commerce"
 projects[commerce_bean][version] = 1.0-beta1
