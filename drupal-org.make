@@ -25,6 +25,9 @@ projects[fpa][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
 
+projects[feeds_tamper][version] = "1.0-beta5"
+projects[feeds_tamper][subdir] = "contrib"
+
 projects[job_scheduler][version] = 2.0-alpha3
 projects[job_scheduler][subdir] = "contrib"
 
@@ -216,6 +219,9 @@ projects[commerce_features][patch][] = "https://drupal.org/files/commerce_featur
 projects[commerce_addressbook][version] = 2.0-rc7
 projects[commerce_addressbook][subdir] = "commerce"
 
+projects[commerce_bank_transfer][version] = "1.0-alpha3"
+projects[commerce_bank_transfer][subdir] = "commerce"
+
 projects[commerce_shipping][version] = 2.0
 projects[commerce_shipping][subdir] = "commerce"
 
@@ -365,6 +371,9 @@ projects[mailsystem][subdir] = "contrib"
 projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
+
+projects[mailchimp][version] = "2.12"
+projects[mailchimp][subdir] = "contrib"
 
 projects[token][version] = 1.5
 projects[token][subdir] = "contrib"
