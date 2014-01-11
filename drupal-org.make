@@ -343,7 +343,7 @@ projects[connector][subdir] = "contrib"
 projects[oauthconnector][version] = 1.0-beta2
 projects[oauthconnector][subdir] = "contrib"
 
-projects[inline_entity_form][version] = 1.4i
+projects[inline_entity_form][version] = 1.4
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[inline_conditions][version] = 1.0-alpha3
@@ -364,7 +364,7 @@ projects[mailsystem][subdir] = "contrib"
 
 projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = "contrib"
-projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
+;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
 projects[token][version] = 1.5
 projects[token][subdir] = "contrib"
