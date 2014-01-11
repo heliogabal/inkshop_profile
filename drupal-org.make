@@ -96,8 +96,11 @@ projects[media][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha3"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta3"
-projects[entity_translation][subdir] = "contrib"
+projects[entityreference][version] = "1.0"
+projects[entityreference][subdir] = "contrib"
+
+;projects[entity_translation][version] = "1.0-beta3"
+;projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib

@@ -68,6 +68,7 @@ dependencies[] = media
 ; Other
 dependencies[] = breakpoints
 dependencies[] = entity
+dependencies[] = entityreference
 dependencies[] = entity_token
 dependencies[] = libraries
 dependencies[] = module_filter
