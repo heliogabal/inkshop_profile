@@ -96,7 +96,7 @@ projects[media][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha3"
 projects[file_entity][subdir] = "contrib"
 
-projects[entityreference][version] = "1.0"
+projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 
 ;projects[entity_translation][version] = "1.0-beta3"
@@ -112,7 +112,7 @@ projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.2"
+projects[entity][version] = "1.3"
 projects[entity][subdir] = "contrib"
 
 projects[field_group][version] = "1.3"
@@ -193,7 +193,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[views_megarow][version] = 1.1
+projects[views_megarow][version] = 1.2
 projects[views_megarow][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
@@ -201,7 +201,7 @@ projects[commerce][version] = 1.8
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
-projects[commerce_features][version] = 1.0-rc1
+projects[commerce_features][version] = 1.0
 projects[commerce_features][subdir] = "commerce"
 ;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
 projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
@@ -222,7 +222,7 @@ projects[commerce_fancy_attributes][subdir] = "commerce"
 projects[commerce_discount][version] = 1.0-alpha3
 projects[commerce_discount][subdir] = "commerce"
 
-projects[commerce_checkout_progress][version] = 1.2
+projects[commerce_checkout_progress][version] = 1.3
 projects[commerce_checkout_progress][subdir] = "commerce"
 
 projects[commerce_extra_price_formatters][version] = 1.x-dev
@@ -235,10 +235,10 @@ projects[commerce_checkout_redirect][version] = 2.0-beta1
 projects[commerce_checkout_redirect][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = 2.0
+projects[commerce_paypal][version] = 2.2
 
 projects[commerce_backoffice][subdir] = "commerce"
-projects[commerce_backoffice][version] = 1.3
+projects[commerce_backoffice][version] = 1.4
 
 projects[commerce_message][subdir] = "commerce"
 projects[commerce_message][version] = 1.0-rc1
@@ -312,7 +312,7 @@ projects[remote_stream_wrapper][subdir] = "contrib"
 projects[physical][version] = 1.x-dev
 projects[physical][subdir] = "contrib"
 
-projects[crumbs][version] = 1.1
+projects[crumbs][version] = 1.10
 0projects[crumbs][subdir] = "contrib"
 
 projects[http_client][version] = 2.4
@@ -328,10 +328,10 @@ projects[connector][subdir] = "contrib"
 projects[oauthconnector][version] = 1.0-beta2
 projects[oauthconnector][subdir] = "contrib"
 
-projects[inline_entity_form][version] = 1.3
+projects[inline_entity_form][version] = 1.4i
 projects[inline_entity_form][subdir] = "contrib"
 
-projects[inline_conditions][version] = 1.0-alpha1
+projects[inline_conditions][version] = 1.0-alpha3
 projects[inline_conditions][subdir] = "contrib"
 
 projects[field_extractor][version] = 1.3
@@ -347,7 +347,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[mailsystem][version] = 2.34
 projects[mailsystem][subdir] = "contrib"
 
-projects[mimemail][version] = 1.0-alpha2
+projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = "contrib"
 projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
@@ -364,7 +364,7 @@ projects[message][subdir] = "contrib"
 projects[message_notify][version] = 2.5
 projects[message_notify][subdir] = "contrib"
 
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 projects[date][subdir] = "contrib"
 
 projects[menu_attributes][version] = 1.0-rc2
@@ -384,10 +384,10 @@ projects[chosen][version] = 1.x-dev
 projects[chosen][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = 1.7
+projects[search_api][version] = 1.11
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = 1.0-rc2
+projects[search_api_db][version] = 1.2
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = 1.4
@@ -401,7 +401,7 @@ projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-
 projects[search_api_sorts][version] = 1.4
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.3"
+projects[search_api_solr][version] = "1.4"
 projects[search_api_solr][subdir] = "contrib"
 
 
