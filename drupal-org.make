@@ -40,6 +40,9 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
+projects[charts][version] = "2.0-beta5"
+projects[charts][subdir] = "contrib"
+
 projects[date][version] = "2.7"
 projects[date][subdir] = "contrib"
 
@@ -196,6 +199,9 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 projects[views_megarow][version] = 1.2
 projects[views_megarow][subdir] = "contrib"
 
+projects[views_date_format_sql][version] = "3.1"
+projects[views_date_format_sql][subdir] = "contrib"
+
 ; Drupal Commerce and Commerce contribs.
 projects[commerce][version] = 1.8
 projects[commerce][subdir] = "commerce"
@@ -277,6 +283,9 @@ projects[commerce_stock][subdir] = "commerce"
 projects[commerce_option][version] = "1.0-beta2"
 projects[commerce_option][subdir] ="commerce"
 
+projects[commerce_product_attributes][version] = "1.0-beta3"
+projects[commerce_product_attributes][subdir] = "contrib"
+
 projects[commerce_buttonloesung][version] = "1.x-dev"
 projects[commerce_buttonloesung][subdir] = "commerce"
 
@@ -284,6 +293,12 @@ projects[commerce_buttonloesung][subdir] = "commerce"
 
 projects[countries][version] = 2.1
 projects[countries][subdir] = "contrib"
+
+projects[context][version] = "3.1"
+projects[context][subdir] = "contrib"
+
+projects[emogrifier][version] = "1.18"
+projects[emogrifier][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.20"
 projects[select_or_other][subdir] = "contrib"

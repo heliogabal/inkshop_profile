@@ -85,6 +85,7 @@ dependencies[] = uuid
 dependencies[] = uuid_path
 dependencies[] = colorbox
 dependencies[] = colorbox_node
+dependencies[] = context
 
 ; Picture
 dependencies[] = picture
@@ -109,6 +110,7 @@ dependencies[] = commerce_checkout_redirect
 dependencies[] = commerce_contributions
 ;dependencies[] = commerce_discount
 dependencies[] = commerce_donate
+dependencies[] = emogrifier
 dependencies[] = commerce_extra_panes
 dependencies[] = commerce_extra_price_formatters
 dependencies[] = commerce_fancy_attributes
@@ -119,6 +121,7 @@ dependencies[] = commerceguys_marketplace
 dependencies[] = commerce_invoice_receipt
 dependencies[] = commerce_message
 dependencies[] = commerce_option
+dependencies[] = commerce_product_attributes
 dependencies[] = commerce_paypal
 dependencies[] = commerce_physical
 dependencies[] = commerce_reports
@@ -159,6 +162,7 @@ dependencies[] = service_links
 dependencies[] = services
 dependencies[] = title
 dependencies[] = views_megarow
+dependencies[] = views_date_format_sql
 dependencies[] = visualization
 
 ; User interface
