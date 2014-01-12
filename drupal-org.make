@@ -78,11 +78,6 @@ projects[uuid_features][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "dev"
 
-projects[checkout_shipping_taxes][type] = module
-projects[checkout_shipping_taxes][version] = "1.0"
-projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
-projects[checkout_shipping_taxes][subdir] = "features"
-
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
 projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
@@ -444,6 +439,17 @@ projects[masquerade][version] = "1.0-rc5"
 projects[masquerade][subdir] = "dev"
 
 
+; +++++ Features +++++
+projects[checkout_shipping_taxes][type] = module
+projects[checkout_shipping_taxes][version] = "1.0"
+projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
+projects[checkout_shipping_taxes][subdir] = "features"
+
+projects[inkshop_content_types][type] = module
+projects[inkshop_content_types][version] = "1.1"
+projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
+projects[inkshop_content_types][subdir] "features"
+
 ; +++++ Themes +++++
 
 ; omega
@@ -451,9 +457,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
-;projects[inkshop_theme][type] = "theme"
-;projects[inkshop_theme][version] = "1.0"
-;projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
+projects[inkshop_theme][type] = "theme"
+projects[inkshop_theme][version] = "1.0"
+projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; +++++ Translations +++++
 
