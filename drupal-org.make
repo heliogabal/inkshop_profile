@@ -463,7 +463,7 @@ projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; +++++ Translations +++++
 
-translations[] = de
+;translations[] = de
 
 ; +++++ Libraries +++++
 
