@@ -457,9 +457,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
-projects[inkshop_theme][type] = "theme"
-projects[inkshop_theme][version] = "1.0"
-projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
+projects[mcf_theme][type] = "theme"
+projects[mcf_theme][version] = "1.0"
+projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; +++++ Translations +++++
 
