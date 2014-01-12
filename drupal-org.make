@@ -455,7 +455,9 @@ projects[inkshop_content_types][subdir] "features"
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
-projects[omega][subdir] = "contrib"
+
+projects[shiny][type] = "theme"
+projects[shiny][version] = "1.4"
 
 projects[mcf_theme][type] = "theme"
 projects[mcf_theme][version] = "1.0"
