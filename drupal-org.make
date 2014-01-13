@@ -440,7 +440,7 @@ projects[masquerade][subdir] = "dev"
 
 
 ; +++++ Features +++++
-projects[checkout_shipping_taxes][type] = module
+projects[pping_taxes][type] = module
 projects[checkout_shipping_taxes][version] = "1.0"
 projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
 projects[checkout_shipping_taxes][subdir] = "features"
@@ -459,9 +459,9 @@ projects[omega][version] = "4.1"
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.4"
 
-projects[mcf_theme][type] = "theme"
-projects[mcf_theme][version] = "1.0"
-projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
+projects[inkshop_theme][type] = "theme"
+projects[inkshop_theme][version] = "1.2"
+projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; +++++ Translations +++++
 
