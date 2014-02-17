@@ -176,6 +176,7 @@ dependencies[] = views_date_format_sql
 dependencies[] = visualization
 
 ; User interface
+dependencies[] = chosen
 dependencies[] = wysiwyg
 dependencies[] = flexslider
 dependencies[] = linkit

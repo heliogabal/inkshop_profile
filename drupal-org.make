@@ -40,7 +40,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.2"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-beta5"
@@ -51,6 +51,9 @@ projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
+
+projects[panels][version] = 3.4
+projects[panels][subdir] = contrib
 
 projects[ds][version] = "2.6"
 projects[ds][subdir] = "contrib"
@@ -125,7 +128,7 @@ projects[flexslider][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
 
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.2"
@@ -160,7 +163,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.0-beta7"
+projects[metatag][version] = "1.0-beta9"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
@@ -175,13 +178,13 @@ projects[linkit][subdir] = "contrib"
 projects[linkit_target][version] = "1.0"
 projects[linkit_target][subdir] = "contrib"
 
-projects[image_resize_filter][version] = "1.13"
+projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
-projects[variable][version] = "2.3"
+projects[variable][version] = "2.4"
 projects[variable][subdir] = "contrib"
 
 projects[views][version] = "3.7"
@@ -242,7 +245,7 @@ projects[commerce_checkout_redirect][version] = 2.0-beta1
 projects[commerce_checkout_redirect][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = 2.2
+projects[commerce_paypal][version] = 2.3
 
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = 1.4
@@ -274,6 +277,7 @@ projects[commerce_contributions][subdir] = "contrib"
 
 projects[commerce_donate][version] = "1.0-beta1"
 projects[commerce_donate][subdir] = "commerce"
+projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
 
 projects[commerce_feeds][version] = "1.3"
 projects[commerce_feeds][subdir] = "commerce"
@@ -285,7 +289,7 @@ projects[commerce_option][version] = "1.0-beta2"
 projects[commerce_option][subdir] ="commerce"
 
 projects[commerce_product_attributes][version] = "1.0-beta3"
-projects[commerce_product_attributes][subdir] = "contrib"
+projects[commerce_product_attributes][subdir] = "commerce"
 
 projects[commerce_buttonloesung][version] = "1.x-dev"
 projects[commerce_buttonloesung][subdir] = "commerce"
@@ -295,7 +299,7 @@ projects[commerce_buttonloesung][subdir] = "commerce"
 projects[countries][version] = 2.1
 projects[countries][subdir] = "contrib"
 
-projects[context][version] = "3.1"
+projects[context][version] = "3.2"
 projects[context][subdir] = "contrib"
 
 projects[emogrifier][version] = "1.18"
@@ -308,12 +312,12 @@ projects[visualization][version] = "1.0-alpha1"
 projects[visualization][subdir] = "contrib"
 
 projects[commerce_reports][version] = "4.0-alpha1"
-projects[commerce_reports][subdir] = "contrib"
+projects[commerce_reports][subdir] = "conmmerce"
 
 projects[commerce_invoice_receipt][version] = "1.1"
 projects[commerce_invoice_receipt][subdir] = "commerce"
 
-projects[services][version] = "3.5"
+projects[services][version] = "3.7"
 projects[services][subdir] = "contrib"
 
 projects[options_element][version] = "1.10"
@@ -344,7 +348,7 @@ projects[connector][subdir] = "contrib"
 projects[oauthconnector][version] = 1.0-beta2
 projects[oauthconnector][subdir] = "contrib"
 
-projects[inline_entity_form][version] = 1.4
+projects[inline_entity_form][version] = 1.5
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[inline_conditions][version] = 1.0-alpha3
@@ -399,7 +403,7 @@ projects[cloud_zoom][subdir] = "contrib"
 projects[special_menu_items][version] = 2.0
 projects[special_menu_items][subdir] = "contrib"
 
-projects[chosen][version] = 1.x-dev
+projects[chosen][version] = 2.0-alpha4
 projects[chosen][subdir] = "contrib"
 
 ; Search related modules.
@@ -409,15 +413,15 @@ projects[search_api][subdir] = "contrib"
 projects[search_api_db][version] = 1.2
 projects[search_api_db][subdir] = "contrib"
 
-projects[search_api_ranges][version] = 1.4
+projects[search_api_ranges][version] = 1.5
 projects[search_api_ranges][subdir] = "contrib"
-projects[search_api_ranges][patch][] = "http://drupal.org/files/search_api_ranges-rewrite-data-alteration-callback-2001846-3.patch"
+;projects[search_api_ranges][patch][] = "http://drupal.org/files/search_api_ranges-rewrite-data-alteration-callback-2001846-3.patch"
 
 projects[facetapi][version] = 1.3
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 
-projects[search_api_sorts][version] = 1.4
+projects[search_api_sorts][version] = 1.5
 projects[search_api_sorts][subdir] = "contrib"
 
 projects[search_api_solr][version] = "1.4"
@@ -440,7 +444,7 @@ projects[masquerade][subdir] = "dev"
 
 
 ; +++++ Features +++++
-projects[pping_taxes][type] = module
+projects[checkout_shipping_taxes][type] = module
 projects[checkout_shipping_taxes][version] = "1.0"
 projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
 projects[checkout_shipping_taxes][subdir] = "features"
@@ -495,3 +499,8 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
+
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
