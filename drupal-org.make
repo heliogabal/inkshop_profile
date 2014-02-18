@@ -463,9 +463,11 @@ projects[omega][version] = "4.1"
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.4"
 
-projects[inkshop_theme][type] = "theme"
-projects[inkshop_theme][version] = "1.2"
-projects[inkshop_theme][location] = "http://features.otro-mundo.org/fserver"
+projects[inkshop][type] = "theme"
+projects[inkshop][version] = "1.3"
+projects[inkshop][download][type] = get
+projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop/archive/7.x-1.3.tar.gz"
+
 
 ; +++++ Translations +++++
 
