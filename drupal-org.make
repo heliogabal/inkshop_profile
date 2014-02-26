@@ -220,7 +220,7 @@ projects[commerce_addressbook][subdir] = "commerce"
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
-projects[commerce_shipping][version] = 2.0
+projects[commerce_shipping][version] = 2.1
 projects[commerce_shipping][subdir] = "commerce"
 
 projects[commerce_flat_rate][version] = 1.0-beta2
@@ -367,7 +367,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[mailsystem][version] = 2.34
 projects[mailsystem][subdir] = "contrib"
 
-projects[mimemail][version] = 1.0-beta1
+projects[mimemail][version] = 1.0-beta2
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
@@ -405,6 +405,12 @@ projects[special_menu_items][subdir] = "contrib"
 
 projects[chosen][version] = 2.0-alpha4
 projects[chosen][subdir] = "contrib"
+
+projects[interval][version] = "1.0"
+projects[interval][subdir] = "contrib"
+
+projects[taxonomy_menu_block][version] = "1.3"
+projects[taxonomy_menu_block][subdir] = "contrib"
 
 ; Search related modules.
 projects[search_api][version] = 1.11
@@ -458,7 +464,7 @@ projects[inkshop_content_types][subdir] "features"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.1"
+projects[omega][version] = "4.2"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.4"
