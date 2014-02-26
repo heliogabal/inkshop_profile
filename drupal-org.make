@@ -458,8 +458,10 @@ projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogaba
 projects[checkout_shipping_taxes][subdir] = "features"
 
 projects[inkshop_content_types][type] = module
-projects[inkshop_content_types][version] = "1.1"
-projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
+projects[inkshop_content_types][version] = "1.0"
+projects[inkshop_content_types][download][type] = get
+projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types/archive/inkshop_content_types_7.x-1.0.tar.gz"
+;projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_content_types][subdir] "features"
 
 ; +++++ Themes +++++
