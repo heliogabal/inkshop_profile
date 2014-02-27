@@ -180,6 +180,7 @@ projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
+projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 
 projects[metatag][version] = "1.0-beta9"
 projects[metatag][subdir] = "contrib"
@@ -483,7 +484,7 @@ projects[checkout_shipping_taxes][subdir] = "features"
 
 projects[inkshop_content_types][type] = module
 projects[inkshop_content_types][version] = "1.0"
-projects[inkshop_content_types][download][type] = get
+projects[inkshop_content_types][download][type] = "get"
 projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types/archive/inkshop_content_types_7.x-1.0.tar.gz"
 ;projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_content_types][subdir] "features"
