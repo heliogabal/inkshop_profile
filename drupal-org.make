@@ -275,6 +275,12 @@ projects[commerce_paypal][version] = 2.3
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = 1.4
 
+projects[commerce_billy][version] = "1.0-beta1"
+projects[commerce_billy][subdir] = "commerce"
+
+projects[commerce_billy_mail][version] = "1.x-dev"
+projects[commerce_billy_mail][subdir] = "commerce"
+
 projects[commerce_message][subdir] = "commerce"
 projects[commerce_message][version] = 1.0-rc1
 
@@ -506,7 +512,7 @@ projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop/archiv
 
 ; +++++ Translations +++++
 
-;translations[] = de
+translations[] = de
 
 ; +++++ Libraries +++++
 
@@ -537,7 +543,14 @@ libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/z
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 
+; chosen
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
+
+; dompdf for commerce billy
+libraries[dompdf][download][type] = "get"
+libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][directory_name] = "dompdf"
+libraries[dompdf][destination] = "libraries"
