@@ -506,7 +506,7 @@ projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop/archiv
 
 ; +++++ Translations +++++
 
-translations[] = de
+;translations[] = de
 
 ; +++++ Libraries +++++
 
