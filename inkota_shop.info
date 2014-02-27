@@ -68,7 +68,7 @@ dependencies[] = media
 ; Languages
 dependencies[] = transliteration
 dependencies[] = i18n
-dependencies[] = i18n_strings
+;dependencies[] = i18n_strings
 
 ; Other
 dependencies[] = breakpoints
