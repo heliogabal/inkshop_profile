@@ -357,7 +357,7 @@ projects[physical][version] = 1.x-dev
 projects[physical][subdir] = "contrib"
 
 projects[crumbs][version] = 1.10
-0projects[crumbs][subdir] = "contrib"
+projects[crumbs][subdir] = "contrib"
 
 projects[http_client][version] = 2.4
 projects[http_client][subdir] = "contrib"
