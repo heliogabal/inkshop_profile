@@ -89,6 +89,9 @@ projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-foll
 projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
+projects[better_exposed_filters][version] = "3.0-beta4"
+projects[better_exposed_filters][subdir] = "contrib"
+
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
@@ -128,6 +131,9 @@ projects[flexslider][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
+
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
@@ -151,11 +157,23 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
+projects[i18n][version] = "1.10"
+projects[i18n][subdir] = "contrib"
+
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
+projects[taxonomy_manager][version] = "1.0"
+projects[taxonomy_manager][subdir] ="contrib"
+
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
+
+projects[equalheights][version] = "2.4"
+projects[equalheights][subdir] = "contrib"
+
+projects[editablefields][version] = "1.0-alpha2"
+projects[editablefields][subdir] ="contrib"
 
 projects[picture][version] = "1.2"
 projects[picture][subdir] = "contrib"
@@ -192,6 +210,12 @@ projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_litepager][version] ="3.0"
+projects[views_litepager][subdir] ="contrib"
+
+projects[views_php][version] = "1.0-alpha1"
+projects[views_php][subdir] = "contrib"
 
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"

@@ -65,6 +65,11 @@ dependencies[] = addressfield
 dependencies[] = file_entity
 dependencies[] = media
 
+; Languages
+dependencies[] = transliteration
+dependencies[] = i18n
+dependencies[] = i18n_strings
+
 ; Other
 dependencies[] = breakpoints
 dependencies[] = entity
@@ -79,7 +84,6 @@ dependencies[] = globalredirect
 dependencies[] = robotstxt
 dependencies[] = socialshareprivacy
 dependencies[] = token
-dependencies[] = transliteration
 dependencies[] = link
 dependencies[] = uuid
 dependencies[] = uuid_path
@@ -176,22 +180,29 @@ dependencies[] = views_date_format_sql
 dependencies[] = visualization
 
 ; User interface
+dependencies[] = better_exposed_filters
 dependencies[] = chosen
-dependencies[] = wysiwyg
+dependencies[] = editablefields
 dependencies[] = flexslider
 dependencies[] = linkit
 dependencies[] = linkit_target
 dependencies[] = image_resize_filter
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
 
 ; Variable
 dependencies[] = variable
 dependencies[] = variable_realm
 dependencies[] = variable_store
+
 ; Views
 dependencies[] = views
+dependencies[] = views_litepager
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = views_fluid_grid
+dependencies[] = equalheights
+
 ; Webform
 dependencies[] = compact_forms
 ; Features
