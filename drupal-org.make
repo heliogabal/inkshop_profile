@@ -212,7 +212,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[views_litepager][version] ="3.0"
+projects[views_litepager][version] ="3.x-dev"
 projects[views_litepager][subdir] ="contrib"
 
 projects[views_php][version] = "1.0-alpha1"
