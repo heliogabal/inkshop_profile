@@ -336,7 +336,7 @@ projects[visualization][version] = "1.0-alpha1"
 projects[visualization][subdir] = "contrib"
 
 projects[commerce_reports][version] = "4.0-alpha1"
-projects[commerce_reports][subdir] = "conmmerce"
+projects[commerce_reports][subdir] = "commerce"
 
 projects[commerce_invoice_receipt][version] = "1.1"
 projects[commerce_invoice_receipt][subdir] = "commerce"
