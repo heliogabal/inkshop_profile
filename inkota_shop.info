@@ -188,6 +188,7 @@ dependencies[] = linkit
 dependencies[] = linkit_target
 dependencies[] = image_resize_filter
 dependencies[] = jquery_update
+dependencies[] = taxonomy_manager
 dependencies[] = wysiwyg
 
 ; Variable
