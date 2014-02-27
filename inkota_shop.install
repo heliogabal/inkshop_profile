@@ -6,7 +6,7 @@
  */
 function inkota_shop_install() {
   // Enable some make_chocolate_fair blocks.
-  $default_theme = 'bartik';
+  $default_theme = 'inkshop';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
@@ -284,7 +284,7 @@ function inkota_shop_install() {
 
   // revert features to ensure they are all installed
   $features = array(
-    'checkout_shipping_taxes'//,
+    //'checkout_shipping_taxes'//,
     //'mcf_content'
   );
   features_revert($features);
@@ -295,5 +295,5 @@ function inkota_shop_install() {
     // Update the menu router information.
   menu_rebuild();
 
-  module_enable(array('checkout_shipping_taxes'));
+  //module_enable(array('checkout_shipping_taxes'));
 }
