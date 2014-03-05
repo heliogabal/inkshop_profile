@@ -245,6 +245,12 @@ projects[commerce_addressbook][subdir] = "commerce"
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
+projects[commerce_billy][version] = "1.0-beta1"
+projects[commerce_billy][subdir] = "commerce"
+
+projects[commerce_billy_mail][version] = "1.x-dev"
+projects[commerce_billy_mail][subdir] = "commerce"
+
 projects[commerce_shipping][version] = 2.1
 projects[commerce_shipping][subdir] = "commerce"
 
