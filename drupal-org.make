@@ -379,6 +379,12 @@ projects[oauth][version] = 3.1
 projects[oauth][subdir] = "contrib"
 projects[oauth][patch][] = "http://drupal.org/files/980340-d7.patch"
 
+projects[payment][version] ="1.9"
+projects[payment][subdir] = "contrib"
+
+projects[payment_commerce][version] = "1.6"
+projects[payment_commerce][subdir] = "contrib"
+
 projects[connector][version] = 1.0-beta2
 projects[connector][subdir] = "contrib"
 
