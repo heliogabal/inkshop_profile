@@ -37,7 +37,7 @@ projects[filefield_nginx_progress][subdir] = "contrib"
 projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.2"
+projects[colorbox_node][version] = "3.3"
 projects[colorbox_node][subdir] = "contrib"
 
 projects[ctools][version] = "1.4"
