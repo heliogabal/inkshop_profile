@@ -526,7 +526,7 @@ projects[inkshop_theme][download][url] = "https://github.com/heliogabal/inkshop_
 
 ; +++++ Translations +++++
 
-translations[] = de
+;translations[] = de
 
 ; +++++ Libraries +++++
 
