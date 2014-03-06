@@ -256,8 +256,8 @@ projects[commerce_billy_mail][subdir] = "commerce"
 projects[commerce_cardonfile][version] = "2.0-beta2"
 projects[commerce_cardonfile][subdir] = "commerce"
 
-projects[¢ommerce_recurring][version] = "2.x-dev"
-projects[¢ommerce_recurring][subdir] = "commerce"
+projects[commerce_recurring][version] = "2.x-dev"
+projects[commerce_recurring][subdir] = "commerce"
 
 projects[commerce_repair][version] = "1.x-dev"
 projects[commerce_repair][subdir] = "commerce"
@@ -504,32 +504,32 @@ projects[masquerade][subdir] = "dev"
 
 
 ; +++++ Features +++++
-projects[checkout_shipping_taxes][type] = module
-projects[checkout_shipping_taxes][version] = "1.4"
-projects[checkout_shipping_taxes][download][type] = "get"
-;projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes/archive/7.x-1.0.zip"
-projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
-projects[checkout_shipping_taxes][subdir] = "features"
+;projects[checkout_shipping_taxes][type] = module
+;projects[checkout_shipping_taxes][version] = "1.4"
+;projects[checkout_shipping_taxes][download][type] = "get"
+;;projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes/archive/7.x-1.0.zip"
+;projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
+;projects[checkout_shipping_taxes][subdir] = "features"
 
-projects[inkshop_content_types][type] = module
-projects[inkshop_content_types][version] = "1.2"
-projects[inkshop_content_types][download][type] = "get"
-;projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types/archive/inkshop_content_types_7.x-1.0.tar.gz"
-projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
-projects[inkshop_content_types][subdir] "features"
+;projects[inkshop_content_types][type] = module
+;projects[inkshop_content_types][version] = "1.2"
+;projects[inkshop_content_types][download][type] = "get"
+;;projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types/archive/inkshop_content_types_7.x-1.0.tar.gz"
+;projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
+;projects[inkshop_content_types][subdir] "features"
 
-projects[inkshop_search][type] = module
-projects[inkshop_search][version] = "1.2"
-projects[inkshop_search][download][type] = "get"
-projects[inkshop_search][download][url] = "http://features.otro-mundo.org/sites/features.otro-mundo.org/files/fserver/inkshop_search-7.x-1.2.tar_.gz"
-;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
-projects[inkshop_search][subdir] "features"
+;projects[inkshop_search][type] = module
+;projects[inkshop_search][version] = "1.2"
+;projects[inkshop_search][download][type] = "get"
+;projects[inkshop_search][download][url] = "http://features.otro-mundo.org/sites/features.otro-mundo.org/files/fserver/inkshop_search-7.x-1.2.tar_.gz"
+;;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
+;projects[inkshop_search][subdir] "features"
 
-projects[inkshop_views][type] = module
-projects[inkshop_views][version] = "1.0"
-projects[inkshop_views][download][type] = "get"
-projects[inkshop_views][location] = http://features.otro-mundo.org/fserver
-projects[inkshop_views][subdir] "features"
+;projects[inkshop_views][type] = module
+;projects[inkshop_views][version] = "1.0"
+;projects[inkshop_views][download][type] = "get"
+;projects[inkshop_views][location] = http://features.otro-mundo.org/fserver
+;projects[inkshop_views][subdir] "features"
 
 ; +++++ Themes +++++
 
