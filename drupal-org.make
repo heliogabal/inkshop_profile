@@ -181,6 +181,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
+projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
 projects[metatag][version] = "1.0-beta9"
 projects[metatag][subdir] = "contrib"
@@ -190,6 +191,7 @@ projects[addanother][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = "contrib"
@@ -251,6 +253,15 @@ projects[commerce_billy][subdir] = "commerce"
 projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
+projects[commerce_cardonfile][version] = "2.0-beta2"
+projects[commerce_cardonfile][subdir] = "commerce"
+
+projects[¢ommerce_recurring][version] = "2.x-dev"
+projects[¢ommerce_recurring][subdir] = "commerce"
+
+projects[commerce_repair][version] = "1.x-dev"
+projects[commerce_repair][subdir] = "commerce"
+
 projects[commerce_shipping][version] = 2.1
 projects[commerce_shipping][subdir] = "commerce"
 
@@ -310,7 +321,7 @@ projects[commerce_sofortbanking] = "1.0"
 projects[commerce_sofortbanking][subdir] = "commerce"
 
 projects[commerce_contributions][version] = "1.x-dev"
-projects[commerce_contributions][subdir] = "contrib"
+projects[commerce_contributions][subdir] = "commerce"
 
 projects[commerce_donate][version] = "1.0-beta1"
 projects[commerce_donate][subdir] = "commerce"
@@ -351,8 +362,8 @@ projects[visualization][subdir] = "contrib"
 projects[commerce_reports][version] = "4.0-alpha1"
 projects[commerce_reports][subdir] = "commerce"
 
-projects[commerce_invoice_receipt][version] = "1.1"
-projects[commerce_invoice_receipt][subdir] = "commerce"
+;projects[commerce_invoice_receipt][version] = "1.1"
+;projects[commerce_invoice_receipt][subdir] = "commerce"
 
 projects[services][version] = "3.7"
 projects[services][subdir] = "contrib"
@@ -383,7 +394,7 @@ projects[payment][version] ="1.9"
 projects[payment][subdir] = "contrib"
 
 projects[payment_commerce][version] = "1.6"
-projects[payment_commerce][subdir] = "contrib"
+projects[payment_commerce][subdir] = "commerce"
 
 projects[connector][version] = 1.0-beta2
 projects[connector][subdir] = "contrib"
@@ -511,7 +522,7 @@ projects[inkshop_content_types][subdir] "features"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.2"
+projects[omega][version] = "4.x-dev"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.4"

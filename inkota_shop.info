@@ -126,7 +126,7 @@ dependencies[] = commerce_features
 dependencies[] = commerce_feeds
 dependencies[] = commerce_flat_rate
 dependencies[] = commerceguys_marketplace
-dependencies[] = commerce_invoice_receipt
+;dependencies[] = commerce_invoice_receipt
 dependencies[] = commerce_message
 dependencies[] = commerce_option
 dependencies[] = commerce_product_attributes
@@ -140,7 +140,7 @@ dependencies[] = commerce_stock
 dependencies[] = commerce_stock_ui
 ;dependencies[] = commerce_stock_simple_stock
 
-dependencies[] = connector
+;dependencies[] = connector
 dependencies[] = countries
 dependencies[] = crumbs
 dependencies[] = eva
