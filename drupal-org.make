@@ -521,7 +521,8 @@ projects[inkshop_content_types][subdir] "features"
 projects[inkshop_search][type] = module
 projects[inkshop_search][version] = "1.2"
 projects[inkshop_search][download][type] = "get"
-projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
+projects[inkshop_search][download][url] = "http://features.otro-mundo.org/sites/features.otro-mundo.org/files/fserver/inkshop_search-7.x-1.2.tar_.gz"
+;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_search][subdir] "features"
 
 projects[inkshop_views][type] = module
