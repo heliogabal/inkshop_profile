@@ -114,7 +114,7 @@ projects[entity_menu_links][subdir] = contrib
 
 projects[l10n_update][version] = "1.0-rc1"
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
+;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
