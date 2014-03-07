@@ -112,7 +112,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[l10n_update][version] = "1.0-beta3"
+projects[l10n_update][version] = "1.0-rc1"
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
@@ -231,7 +231,7 @@ projects[views_date_format_sql][version] = "3.1"
 projects[views_date_format_sql][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = 1.8
+projects[commerce][version] = 1.9
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
@@ -421,7 +421,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[mailsystem][version] = 2.34
 projects[mailsystem][subdir] = "contrib"
 
-projects[mimemail][version] = 1.0-beta2
+projects[mimemail][version] = 1.0-beta3
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
@@ -457,7 +457,7 @@ projects[cloud_zoom][subdir] = "contrib"
 projects[special_menu_items][version] = 2.0
 projects[special_menu_items][subdir] = "contrib"
 
-projects[chosen][version] = 2.0-alpha4
+projects[chosen][version] = 2.0-beta1
 projects[chosen][subdir] = "contrib"
 
 projects[interval][version] = "1.0"
