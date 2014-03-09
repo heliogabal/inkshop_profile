@@ -594,7 +594,7 @@ libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
 ; imagesloaded for equalheights
-libraries[imagesloaded][download][type] = "get"
-libraries[imagesloaded][url] = "http://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
-libraries[imagesloaded][directory_name] = "imagesloaded"
-libraries[imagesloaded][destination] = "libraries"
+;libraries[imagesloaded][download][type] = "get"
+;libraries[imagesloaded][url] = "http://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
+;libraries[imagesloaded][directory_name] = "imagesloaded"
+;libraries[imagesloaded][destination] = "libraries"
