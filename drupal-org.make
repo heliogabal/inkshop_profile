@@ -505,28 +505,28 @@ projects[masquerade][subdir] = "dev"
 
 ; +++++ Features +++++
 ;projects[checkout_shipping_taxes][type] = module
-;projects[checkout_shipping_taxes][version] = "1.4"
+;projects[checkout_shipping_taxes][version] = "1.5"
 ;projects[checkout_shipping_taxes][download][type] = "get"
 ;;projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes/archive/7.x-1.0.zip"
 ;projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
 ;projects[checkout_shipping_taxes][subdir] = "features"
 
 ;projects[inkshop_content_types][type] = module
-;projects[inkshop_content_types][version] = "1.2"
+;projects[inkshop_content_types][version] = "1.3"
 ;projects[inkshop_content_types][download][type] = "get"
 ;;projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types/archive/inkshop_content_types_7.x-1.0.tar.gz"
 ;projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
 ;projects[inkshop_content_types][subdir] "features"
 
 ;projects[inkshop_search][type] = module
-;projects[inkshop_search][version] = "1.2"
+;projects[inkshop_search][version] = "1.3"
 ;projects[inkshop_search][download][type] = "get"
 ;projects[inkshop_search][download][url] = "http://features.otro-mundo.org/sites/features.otro-mundo.org/files/fserver/inkshop_search-7.x-1.2.tar_.gz"
 ;;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
 ;projects[inkshop_search][subdir] "features"
 
 ;projects[inkshop_views][type] = module
-;projects[inkshop_views][version] = "1.0"
+;projects[inkshop_views][version] = "1.1"
 ;projects[inkshop_views][download][type] = "get"
 ;projects[inkshop_views][location] = http://features.otro-mundo.org/fserver
 ;projects[inkshop_views][subdir] "features"
@@ -595,6 +595,6 @@ libraries[dompdf][destination] = "libraries"
 
 ; imagesloaded for equalheights
 libraries[imagesloaded][download][type] = "get"
-libraries[imagesloaded][url] = "https://drupal.org/files/imagesloaded.zip"
+libraries[imagesloaded][url] = "http://drupal.org/files/imagesloaded.tar.gz"
 libraries[imagesloaded][directory_name] = "imagesloaded"
 libraries[imagesloaded][destination] = "libraries"
