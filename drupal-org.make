@@ -325,9 +325,9 @@ projects[commerce_sofortbanking][subdir] = "commerce"
 projects[commerce_contributions][version] = "1.x-dev"
 projects[commerce_contributions][subdir] = "commerce"
 
-projects[commerce_donate][version] = "1.0-beta1"
+projects[commerce_donate][version] = "1.x-dev"
 projects[commerce_donate][subdir] = "commerce"
-projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
+;projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
 
 projects[commerce_feeds][version] = "1.3"
 projects[commerce_feeds][subdir] = "commerce"
@@ -488,6 +488,9 @@ projects[search_api_sorts][subdir] = "contrib"
 
 projects[search_api_solr][version] = "1.4"
 projects[search_api_solr][subdir] = "contrib"
+
+projects[search_api_autocomplete][version] = "1.0"
+projects[search_api_autocomplete][subdir] = "contrib"
 
 
 ; +++++ Development +++++++
