@@ -1,11 +1,7 @@
-; inkota shop make file for local development
-core = "7.x"
-api = "2"
-
-;Use Omega8 core instead of Drupal core:
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.26.1.tar.gz"
+api = 2
+core = 7.x
+; Include the definition for how to build Drupal core directly, including patches:
+includes[] = drupal-org-core.make
 
 ; include mcf profile from github
 projects[inkota_shop][type] = "profile"
