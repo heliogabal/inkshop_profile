@@ -131,8 +131,10 @@ projects[flexslider][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = "2.x-dev"
 projects[jquery_update][subdir] = "contrib"
+# Patch needed until newer version comes out: https://drupal.org/node/1448490
+projects[jquery_update][patch][] = "https://drupal.org/files/issues/jquery_update-remove_states_js.patch"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
