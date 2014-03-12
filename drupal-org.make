@@ -258,6 +258,9 @@ projects[commerce_billy_mail][subdir] = "commerce"
 projects[commerce_cardonfile][version] = "2.0-beta2"
 projects[commerce_cardonfile][subdir] = "commerce"
 
+projects[commerce_checkout_login][version] = "1.x-dev"
+projects[commerce_checkout_login][subdir] = "commerce"
+
 projects[commerce_recurring][version] = "2.x-dev"
 projects[commerce_recurring][subdir] = "commerce"
 
@@ -381,6 +384,7 @@ projects[remote_stream_wrapper][subdir] = "contrib"
 
 projects[physical][version] = 1.x-dev
 projects[physical][subdir] = "contrib"
+projects[physical][patch][] = https://drupal.org/files/1372070-integrate_with_feeds.patch
 
 projects[crumbs][version] = 1.10
 projects[crumbs][subdir] = "contrib"
@@ -416,6 +420,9 @@ projects[field_extractor][subdir] = "contrib"
 projects[service_links][version] = 2.2
 projects[service_links][subdir] = "contrib"
 projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
+
+projects[stringoverrides][version] = "1.8"
+projects[stringoverrides][subdir] = "contrib"
 
 projects[advanced_help][version] = 1.x-dev
 projects[advanced_help][subdir] = "contrib"
