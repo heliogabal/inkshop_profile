@@ -444,6 +444,12 @@ projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-171
 projects[eva][version] = 1.2
 projects[eva][subdir] = "contrib"
 
+projects[icon][version] = "1.0-beta5"
+projects[icon][version][subdir] = "contrib"
+
+projects[fontello][version] = "1.0"
+projects[fontello][subdir] = "contrib"
+
 projects[message][version] = 1.9
 projects[message][subdir] = "contrib"
 
@@ -489,6 +495,12 @@ projects[search_api_ranges][subdir] = "contrib"
 projects[facetapi][version] = 1.3
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
+
+projects[facetapi_pretty_paths][version] = "1.0"
+projects[facetapi_pretty_paths][subdir] = "contrib"
+
+projects[facetapi_tagcloud][version] = "1.0-beta1"
+projects[facetapi_tagcloud][subdir] = "contrib"
 
 projects[search_api_sorts][version] = 1.5
 projects[search_api_sorts][subdir] = "contrib"
