@@ -276,6 +276,12 @@ projects[commerce_flat_rate][subdir] = "commerce"
 projects[commerce_fancy_attributes][version] = 1.0
 projects[commerce_fancy_attributes][subdir] = "commerce"
 
+projects[commerce_fieldgroup_panes][version] = 1.0
+projects[commerce_fieldgroup_panes][subdir] = "commerce"
+
+projects[dc_co_pages][version] = 1.0
+projects[dc_co_pages][subdir] = "commerce"
+
 projects[commerce_discount][version] = 1.0-alpha3
 projects[commerce_discount][subdir] = "commerce"
 
