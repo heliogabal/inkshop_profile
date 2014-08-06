@@ -257,6 +257,7 @@ projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_cardonfile][version] = "2.0-beta5"
 projects[commerce_cardonfile][subdir] = "commerce"
+projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
 
 projects[commerce_checkout_login][version] = "1.x-dev"
 projects[commerce_checkout_login][subdir] = "commerce"
@@ -272,6 +273,9 @@ projects[redhen_donation][subdir] = "commerce"
 
 projects[commerce_recurring][version] = "2.x-dev"
 projects[commerce_recurring][subdir] = "commerce"
+; Patches for Redhen Donation https://www.drupal.org/node/2275247
+projects[commerce_recurring][patch][] = "https://www.drupal.org/files/issues/commerce_recurring-custom_order_types-2273443-1.patch"
+projects[commerce_recurring][patch][] = "https://www.drupal.org/files/issues/commerce_recurring-Alter_recurring_price-2263371-1.patch"
 
 projects[commerce_repair][version] = "1.x-dev"
 projects[commerce_repair][subdir] = "commerce"
