@@ -264,6 +264,11 @@ projects[commerce_checkout_login][subdir] = "commerce"
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 
+projects[redhen][version] = "1.7"
+projects[redhen][subdir] = "commerce"
+
+projects[redhen_donation][version] = "1.0-beta2"
+projects[redhen_donation][subdir] = "commerce"
 
 projects[commerce_recurring][version] = "2.x-dev"
 projects[commerce_recurring][subdir] = "commerce"
