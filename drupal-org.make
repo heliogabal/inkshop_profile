@@ -252,12 +252,6 @@ projects[commerce_addressbook][subdir] = "commerce"
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
-projects[commerce_billy][version] = "1.0-beta1"
-projects[commerce_billy][subdir] = "commerce"
-
-projects[commerce_billy_mail][version] = "1.x-dev"
-projects[commerce_billy_mail][subdir] = "commerce"
-
 projects[commerce_bpc][version] = "1.0-rc6"
 projects[commerce_bpc][subdir] = "commerce"
 
@@ -328,7 +322,7 @@ projects[commerce_paypal][version] = "2.3"
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.4"
 
-projects[commerce_billy][version] = "1.0-beta"2
+projects[commerce_billy][version] = "1.0-beta2"
 projects[commerce_billy][subdir] = "commerce"
 
 projects[commerce_billy_mail][version] = "1.x-dev"
