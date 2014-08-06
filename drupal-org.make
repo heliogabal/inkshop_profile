@@ -468,7 +468,7 @@ projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
 
 projects[icon][version] = "1.0-beta5"
-projects[icon][version][subdir] = "contrib"
+projects[icon][subdir] = "contrib"
 
 projects[fontello][version] = "1.0"
 projects[fontello][subdir] = "contrib"
