@@ -222,6 +222,9 @@ projects[views_litepager][subdir] ="contrib"
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
 
+projects[views_data_export][version] = "3.0-beta7"
+projects[views_data_export][subdir] = "contrib"
+
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
@@ -255,12 +258,21 @@ projects[commerce_billy][subdir] = "commerce"
 projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
+projects[commerce_bpc][version] = "1.0-rc6"
+projects[commerce_bpc][subdir] = "commerce"
+
 projects[commerce_cardonfile][version] = "2.0-beta5"
 projects[commerce_cardonfile][subdir] = "commerce"
 projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
 
 projects[commerce_checkout_login][version] = "1.x-dev"
 projects[commerce_checkout_login][subdir] = "commerce"
+
+projects[commerce_conditions][version] = "1.x-dev"
+projects[commerce_conditions][subdir] = "commerce"
+
+projects[commerce_custom_product][version] = "1.0-beta2"
+projects[commerce_custom_product][subdir] = "commerce"
 
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
@@ -316,7 +328,7 @@ projects[commerce_paypal][version] = "2.3"
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.4"
 
-projects[commerce_billy][version] = "1.0-beta1"
+projects[commerce_billy][version] = "1.0-beta"2
 projects[commerce_billy][subdir] = "commerce"
 
 projects[commerce_billy_mail][version] = "1.x-dev"
@@ -459,6 +471,9 @@ projects[stringoverrides][subdir] = "contrib"
 projects[advanced_help][version] = "1.x-dev"
 projects[advanced_help][subdir] = "contrib"
 
+projects[advancedqueue][version] = "1.0-beta2"
+projects[advancedqueue][subdir] = "contrib"
+
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
 
@@ -491,8 +506,35 @@ projects[message_notify][subdir] = "contrib"
 projects[date][version] = "2.7"
 projects[date][subdir] = "contrib"
 
+projects[draggableviews][version] = "2.0"
+projects[draggableviews][subdir] = "contrib"
+
+projects[emptyparagraphkiller][version] = "1.0-beta2"
+projects[emptyparagraphkiller][subdir] = "contrib"
+
+projects[entitycache][version] = "1.2"
+projects[entitycache][subdir] = "contrib"
+
+projects[login_destination][version] = "1.1"
+projects[login_destination][subdir] = "contrib"
+
+projects[mandrill][version] = "2.0"
+projects[mandrill][subdir] = "contrib"
+
 projects[menu_attributes][version] = "1.0-rc2"
 projects[menu_attributes][subdir] = "contrib"
+
+projects[print][version] = "2.0"
+projects[print][subdir] = "contrib"
+
+projects[rb][version] = "1.x-dev"
+projects[rb][subdir] = "contrib"
+
+projects[references_dialog][version] = "1.0-beta1"
+projects[references_dialog][subdir] = "contrib"
+
+projects[rules_link][version] = "1.0"
+projects[rules_link][subdir] = "contrib"
 
 projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
