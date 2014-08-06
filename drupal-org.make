@@ -134,7 +134,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[jquery_update][version] = "2.x-dev"
 projects[jquery_update][subdir] = "contrib"
 ; # Patch needed until newer version comes out: https://drupal.org/node/1448490
-projects[jquery_update][patch][] = "https://drupal.org/files/issues/jquery_update-remove_states_js.patch"
+; projects[jquery_update][patch][] = "https://drupal.org/files/issues/jquery_update-remove_states_js.patch"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
@@ -193,7 +193,7 @@ projects[addanother][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
+; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = "contrib"
