@@ -177,7 +177,7 @@ projects[equalheights][subdir] = "contrib"
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] ="contrib"
 
-projects[picture][version] = "1.2"
+projects[picture][version] = "1.5"
 projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.7"
@@ -255,7 +255,7 @@ projects[commerce_bank_transfer][subdir] = "commerce"
 projects[commerce_bpc][version] = "1.0-rc6"
 projects[commerce_bpc][subdir] = "commerce"
 
-projects[commerce_cardonfile][version] = "2.0-beta5"
+projects[commerce_cardonfile][version] = "2.0-beta2"
 projects[commerce_cardonfile][subdir] = "commerce"
 projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
 
@@ -301,7 +301,7 @@ projects[commerce_fieldgroup_panes][subdir] = "commerce"
 projects[dc_co_pages][version] = "1.0"
 projects[dc_co_pages][subdir] = "commerce"
 
-projects[commerce_discount][version] = "1.0-alpha3"
+projects[commerce_discount][version] = "1.0-alpha4"
 projects[commerce_discount][subdir] = "commerce"
 
 projects[commerce_checkout_progress][version] = "1.3"
@@ -313,7 +313,7 @@ projects[commerce_extra_price_formatters][subdir] = "commerce"
 projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
-projects[commerce_checkout_redirect][version] = "2.0-beta1"
+projects[commerce_checkout_redirect][version] = "2.0-rc1"
 projects[commerce_checkout_redirect][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
@@ -497,7 +497,7 @@ projects[message][subdir] = "contrib"
 projects[message_notify][version] = "2.5"
 projects[message_notify][subdir] = "contrib"
 
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 projects[date][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.0"
