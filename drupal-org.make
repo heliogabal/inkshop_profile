@@ -183,7 +183,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
-projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
+;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
 projects[metatag][version] = "1.0-rc2"
 projects[metatag][subdir] = "contrib"
@@ -442,7 +442,7 @@ projects[field_extractor][subdir] = "contrib"
 projects[service_links][version] = "2.x-dev"
 ; /* needs dev for facebook like */
 projects[service_links][subdir] = "contrib"
-projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
+;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
 projects[stringoverrides][version] = "1.8"
 projects[stringoverrides][subdir] = "contrib"
