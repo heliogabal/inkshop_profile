@@ -139,6 +139,8 @@ dependencies[] = commerce_sofortbanking
 dependencies[] = commerce_stock
 dependencies[] = commerce_stock_ui
 ;dependencies[] = commerce_stock_simple_stock
+dependencies[] = redhen
+dependencies[] = redhen_donation
 
 ;dependencies[] = connector
 dependencies[] = countries
