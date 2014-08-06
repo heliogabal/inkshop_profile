@@ -439,7 +439,8 @@ projects[inline_conditions][subdir] = "contrib"
 projects[field_extractor][version] = 1.3
 projects[field_extractor][subdir] = "contrib"
 
-projects[service_links][version] = 2.x-dev /* needs dev for facebook like */
+projects[service_links][version] = 2.x-dev
+; /* needs dev for facebook like */
 projects[service_links][subdir] = "contrib"
 projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
