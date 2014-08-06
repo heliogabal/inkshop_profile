@@ -58,7 +58,7 @@ projects[panels][subdir] = "contrib"
 projects[ds][version] = "2.6"
 projects[ds][subdir] = "contrib"
 
-projects[features][version] = "2.1"
+projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -376,7 +376,6 @@ projects[commerce_license][version] = "1.3"
 projects[commerce_license][subdir] = "commerce"
 
 projects[commerce_license_billing][version] = "1.0-beta3"
-projects[commerce_license_billing][subdir] = "commerce"
 
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
@@ -564,7 +563,7 @@ projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 
-projects[facetapi_pretty_paths][version] = "1.0"
+projects[facetapi_pretty_paths][version] = "1.1"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
