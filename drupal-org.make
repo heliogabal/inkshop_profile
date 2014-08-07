@@ -260,7 +260,7 @@ projects[commerce_bank_transfer][subdir] = "commerce"
 projects[commerce_bpc][version] = "1.0-rc6"
 projects[commerce_bpc][subdir] = "commerce"
 
-projects[commerce_cardonfile][version] = "2.0-beta2"
+projects[commerce_cardonfile][version] = "2.0-beta5"
 projects[commerce_cardonfile][subdir] = "commerce"
 projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
 
