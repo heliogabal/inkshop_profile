@@ -690,7 +690,18 @@ libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
 ; imagesloaded for equalheights
-;libraries[imagesloaded][download][type] = "get"
-;libraries[imagesloaded][url] = "http://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
-;libraries[imagesloaded][directory_name] = "imagesloaded"
-;libraries[imagesloaded][destination] = "libraries"
+libraries[imagesloaded][download][type] = "get"
+libraries[imagesloaded][url] = "http://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
+libraries[imagesloaded][directory_name] = "imagesloaded"
+libraries[imagesloaded][destination] = "libraries"
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
+; mandrill
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "libraries"
