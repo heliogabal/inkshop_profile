@@ -60,6 +60,11 @@ projects[ds][subdir] = "contrib"
 
 projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
+
+projects[features][type] = "module"
+projects[features][download] = "get"
+projects[features][url] = "http://ftp.drupal.org/files/projects/features-7.x-2.2.tar.gz"
+
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
