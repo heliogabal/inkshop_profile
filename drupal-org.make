@@ -19,7 +19,7 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
 
-projects[fpa][version] = "2.5"
+projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
 projects[feeds][version] = "2.0-alpha8"
@@ -121,7 +121,7 @@ projects[l10n_update][version] = "1.0-rc1"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
-projects[breakpoints][version] = "1.2"
+projects[breakpoints][version] = "1.3"
 projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.5"
@@ -276,7 +276,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 
-projects[redhen][version] = "1.7"
+projects[redhen][version] = "1.8"
 projects[redhen][subdir] = "commerce"
 
 projects[redhen_donation][version] = "1.0-beta2"
@@ -631,7 +631,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.x-dev"
+projects[omega][version] = "4.2"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
