@@ -651,11 +651,17 @@ translations[] = de
 ; +++++ Libraries +++++
 
 ; ColorBox
-libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][type] = "library"
+;libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = git
+;libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
+
 libraries[colorbox][type] = "library"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
-libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
 
 ; CKEditor
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -690,8 +696,15 @@ libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
 ; imagesloaded for equalheights
-libraries[imagesloaded][download][type] = "get"
-libraries[imagesloaded][url] = "http://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
+;libraries[imagesloaded][download][type] = "get"
+;libraries[imagesloaded][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
+;libraries[imagesloaded][directory_name] = "imagesloaded"
+;libraries[imagesloaded][destination] = "libraries"
+
+; jQuery imagesLoaded.
+libraries[imagesloaded][download][type] = file
+libraries[imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
 libraries[imagesloaded][directory_name] = "imagesloaded"
 libraries[imagesloaded][destination] = "libraries"
 
