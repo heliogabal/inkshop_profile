@@ -227,7 +227,7 @@ projects[views_litepager][subdir] ="contrib"
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
 
-projects[views_data_export][version] = "3.0-beta7"
+projects[views_data_export][version] = "3.0-beta8"
 projects[views_data_export][subdir] = "contrib"
 
 projects[compact_forms][version] = "1.0"
@@ -381,6 +381,7 @@ projects[commerce_license][version] = "1.3"
 projects[commerce_license][subdir] = "commerce"
 
 projects[commerce_license_billing][version] = "1.0-beta3"
+projects[commerce_license_billing][subdir] = "commerce"
 
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
@@ -390,7 +391,7 @@ projects[commerce_rules_extra][subdir] = "commerce"
 
 ; Other commerce contribs.
 
-projects[countries][version] = "2.1"
+projects[countries][version] = "2.3"
 projects[countries][subdir] = "contrib"
 
 projects[context][version] = "3.2"
@@ -469,7 +470,7 @@ projects[stringoverrides][subdir] = "contrib"
 projects[advanced_help][version] = "1.x-dev"
 projects[advanced_help][subdir] = "contrib"
 
-projects[advancedqueue][version] = "1.0-beta2"
+projects[advancedqueue][version] = "1.0-beta3"
 projects[advancedqueue][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.34"
@@ -531,7 +532,7 @@ projects[rb][subdir] = "contrib"
 projects[references_dialog][version] = "1.0-beta1"
 projects[references_dialog][subdir] = "contrib"
 
-projects[rules_link][version] = "1.0"
+projects[rules_link][version] = "1.1"
 projects[rules_link][subdir] = "contrib"
 
 projects[title][version] = "1.0-alpha7"
