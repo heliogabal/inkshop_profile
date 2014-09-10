@@ -406,7 +406,7 @@ projects[select_or_other][subdir] = "contrib"
 projects[visualization][version] = "1.0-alpha1"
 projects[visualization][subdir] = "contrib"
 
-projects[commerce_reports][version] = "4.0-alpha3"
+projects[commerce_reports][version] = "4.0-beta1"
 projects[commerce_reports][subdir] = "commerce"
 
 ;projects[commerce_invoice_receipt][version] = "1.1"
@@ -558,7 +558,7 @@ projects[taxonomy_menu_block][subdir] = "contrib"
 projects[search_api][version] = "1.13"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.3"
+projects[search_api_db][version] = "1.4"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -578,7 +578,7 @@ projects[facetapi_tagcloud][subdir] = "contrib"
 projects[search_api_sorts][version] = "1.5"
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.5"
+projects[search_api_solr][version] = "1.6"
 projects[search_api_solr][subdir] = "contrib"
 
 projects[search_api_autocomplete][version] = "1.0"
