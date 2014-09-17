@@ -386,7 +386,7 @@ projects[commerce_license_billing][subdir] = "commerce"
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
 
-projects[commerce_rules_extra][version] = "2.0-beta2"
+projects[commerce_rules_extra][version] = "2.1-beta2"
 projects[commerce_rules_extra][subdir] = "commerce"
 
 ; Other commerce contribs.
