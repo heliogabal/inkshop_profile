@@ -34,7 +34,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.7"
+projects[colorbox][version] = "2.8"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.3"
@@ -241,7 +241,7 @@ projects[views_date_format_sql][version] = "3.1"
 projects[views_date_format_sql][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = "1.9"
+projects[commerce][version] = "1.10"
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
@@ -330,7 +330,7 @@ projects[commerce_backoffice][version] = "1.4"
 projects[commerce_billy][version] = "1.0-beta2"
 projects[commerce_billy][subdir] = "commerce"
 
-projects[commerce_billy_mail][version] = "1.x-dev"
+projects[commerce_billy_mail][version] = "1.0-beta3"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
@@ -386,7 +386,7 @@ projects[commerce_license_billing][subdir] = "commerce"
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
 
-projects[commerce_rules_extra][version] = "2.0-beta1"
+projects[commerce_rules_extra][version] = "2.0-beta2"
 projects[commerce_rules_extra][subdir] = "commerce"
 
 ; Other commerce contribs.
