@@ -19,6 +19,9 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
 
+projects[block_class][version] = "2.1"
+projects[block_class][subdir] = "contrib"
+
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
