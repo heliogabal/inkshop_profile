@@ -193,7 +193,7 @@ projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.0-rc2"
+projects[metatag][version] = "1.1"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
