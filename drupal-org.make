@@ -120,7 +120,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_menu_links][version] = "1.0-alpha1"
 projects[entity_menu_links][subdir] = "contrib"
 
-projects[l10n_update][version] = "1.0-rc1"
+projects[l10n_update][version] = "1.0"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
