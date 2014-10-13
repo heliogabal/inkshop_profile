@@ -478,6 +478,8 @@ projects[advancedqueue][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
+;Fix lost theme bug
+projects[mailsystem][patch][] = "https://www.drupal.org/files/issues/mailsystem-theme_registry-2051135-3.patch"
 
 projects[mimemail][version] = "1.0-beta3"
 projects[mimemail][subdir] = "contrib"
