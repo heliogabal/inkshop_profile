@@ -40,10 +40,10 @@ projects[filefield_nginx_progress][subdir] = "contrib"
 projects[colorbox][version] = "2.8"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.3"
+projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -58,8 +58,11 @@ projects[profiler_builder][subdir] = "contrib"
 projects[panels][version] = "3.4"
 projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.6"
+projects[ds][version] = "2.7"
 projects[ds][subdir] = "contrib"
+
+projects[download_count][version] = "3.1"
+projects[download_count][subdir] = "contrib"
 
 projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
@@ -80,7 +83,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha5"
+projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
@@ -103,12 +106,12 @@ projects[better_exposed_filters][subdir] = "contrib"
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
-projects[media][version] = "2.0-alpha3"
+projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[file_entity][version] = "2.0-alpha3"
+projects[file_entity][version] = "2.0-beta1"
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
@@ -120,7 +123,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_menu_links][version] = "1.0-alpha1"
 projects[entity_menu_links][subdir] = "contrib"
 
-projects[l10n_update][version] = "1.0"
+projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
@@ -147,7 +150,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.2"
+projects[link][version] = "1.3"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -193,13 +196,13 @@ projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.1"
+projects[metatag][version] = "1.4"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
 projects[addanother][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 ; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
@@ -237,6 +240,12 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
+projects[webform][version] = "4.1"
+projects[webform][subdir] = "contrib"
+
+projects[form_builder][version] = "1.6"
+projects[form_builder][subdir] = "contrib"
+
 projects[views_megarow][version] = "1.4"
 projects[views_megarow][subdir] = "contrib"
 
@@ -254,7 +263,7 @@ projects[commerce_features][subdir] = "commerce"
 projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
 projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
 
-projects[commerce_addressbook][version] = "2.0-rc7"
+projects[commerce_addressbook][version] = "2.0-rc8"
 projects[commerce_addressbook][subdir] = "commerce"
 
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
@@ -383,13 +392,13 @@ projects[commerce_buttonloesung][subdir] = "commerce"
 projects[commerce_license][version] = "1.3"
 projects[commerce_license][subdir] = "commerce"
 
-projects[commerce_license_billing][version] = "1.0-beta3"
+projects[commerce_license_billing][version] = "1.0-beta4"
 projects[commerce_license_billing][subdir] = "commerce"
 
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
 
-projects[commerce_rules_extra][version] = "2.1-beta2"
+projects[commerce_rules_extra][version] = "2.1-beta4"
 projects[commerce_rules_extra][subdir] = "commerce"
 
 ; Other commerce contribs.
@@ -397,7 +406,7 @@ projects[commerce_rules_extra][subdir] = "commerce"
 projects[countries][version] = "2.3"
 projects[countries][subdir] = "contrib"
 
-projects[context][version] = "3.2"
+projects[context][version] = "3.3"
 projects[context][subdir] = "contrib"
 
 projects[emogrifier][version] = "1.18"
@@ -525,7 +534,7 @@ projects[login_destination][subdir] = "contrib"
 projects[mandrill][version] = "2.0"
 projects[mandrill][subdir] = "contrib"
 
-projects[menu_attributes][version] = "1.0-rc2"
+projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
 projects[print][version] = "2.0"
@@ -556,7 +565,7 @@ projects[chosen][subdir] = "contrib"
 projects[interval][version] = "1.0"
 projects[interval][subdir] = "contrib"
 
-projects[taxonomy_menu_block][version] = "1.3"
+projects[taxonomy_menu_block][version] = "1.4"
 projects[taxonomy_menu_block][subdir] = "contrib"
 
 ; Search related modules.
@@ -637,7 +646,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.2"
+projects[omega][version] = "4.3"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
