@@ -16,6 +16,9 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu_source][version] = "1.0"
 projects[admin_menu_source][subdir] = "contrib"
 
+projects[adminimal_admin_menu][version] = "1.5"
+projects[adminimal_admin_menu][subdir] = "contrib"
+
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
@@ -721,8 +724,11 @@ projects[masquerade][subdir] = "dev"
 projects[omega][type] = "theme"
 projects[omega][version] = "4.3"
 
-projects[shiny][type] = "theme"
-projects[shiny][version] = "1.6"
+;projects[shiny][type] = "theme"
+;projects[shiny][version] = "1.6"
+
+projects[adminimal][type] = "theme"
+projects[adminimal][version] = "1.19"
 
 projects[inkshop_theme][type] = "theme"
 projects[inkshop_theme][download][type] = "git"
