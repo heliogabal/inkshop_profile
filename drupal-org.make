@@ -279,6 +279,9 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 projects[webform][version] = "4.2"
 projects[webform][subdir] = "contrib"
 
+projects[webform_rules][version] = "1.6"
+projects[webform_rules][subdir] = "contrib"
+
 ;projects[webform_localization][version] = "1.x-dev"
 ;projects[webform_localization][subdir] = "contrib"
 
