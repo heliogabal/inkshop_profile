@@ -639,7 +639,7 @@ projects[search_api_ranges][patch][] = "https://drupal.org/files/issues/search_a
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
-projects[facetapi][patch][] = "https://drupal.org/files/1616518-term_remove_link-24.patch"
+projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 
 projects[facetapi_pretty_paths][version] = "1.1"
 projects[facetapi_pretty_paths][subdir] = "contrib"
@@ -795,5 +795,5 @@ libraries[mandrill][destination] = "libraries"
 ; Patches from commerce kickstart
 projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
 projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
-projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
-projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
+;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
+;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
