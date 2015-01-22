@@ -7,10 +7,10 @@ api = "2"
 projects[advagg][version] = "2.7"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.4"
+projects[addtoany][version] = "4.6"
 projects[addtoany][subdir] = "contrib"
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
 projects[admin_theme][version] = "1.0"
@@ -64,7 +64,7 @@ projects[ds][subdir] = "contrib"
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
-projects[features][version] = "2.2"
+projects[features][version] = "2.3"
 projects[features][subdir] = "contrib"
 
 ;projects[features][type] = "module"
@@ -97,10 +97,10 @@ projects[name][subdir] = "contrib"
 projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][version] = "1.0"
 projects[addressfield][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.0-beta4"
+projects[better_exposed_filters][version] = "3.0"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -110,6 +110,9 @@ projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
+
+projects[media_youtube][version] = "2.0-rc4"
+projects[media_youtube][subdir] = "contrib"
 
 projects[file_entity][version] = "2.0-beta1"
 projects[file_entity][subdir] = "contrib"
@@ -161,17 +164,35 @@ projects[title][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
+;projects[optimizedb][version] = "1.4"
+;projects[optimizedb][subdir] = "contrib"
+
+;projects[override_node_options][version] = "1.13"
+;projects[override_node_options][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
+
+;projects[pgbar][version] = "1.5"
+;projects[pgbar][subdir] = "contrib"
+
+;projects[plupload][version] = "1.7"
+;projects[plupload][subdir] = "contrib"
+
+;projects[readmorecontrol][version] = "1.2"
+;projects[readmorecontrol][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.2"
+projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
 projects[i18n][version] = "1.11"
 projects[i18n][subdir] = "contrib"
+
+projects[i18nviews][version] = "3.x-dev"
+projects[i18nviews][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
 projects[transliteration][subdir] = "contrib"
@@ -182,6 +203,9 @@ projects[taxonomy_manager][subdir] ="contrib"
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
 
+;projects[views_accordion][version] = "1.0"
+;projects[views_accordion][subdir] = "contrib"
+
 projects[equalheights][version] = "2.4"
 projects[equalheights][subdir] = "contrib"
 
@@ -191,7 +215,7 @@ projects[editablefields][subdir] ="contrib"
 projects[picture][version] = "1.5"
 projects[picture][subdir] = "contrib"
 
-projects[rules][version] = "2.7"
+projects[rules][version] = "2.8"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
@@ -199,14 +223,14 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[metatag][version] = "1.4"
 projects[metatag][subdir] = "contrib"
 
-projects[addanother][version] = "2.1"
+projects[addanother][version] = "2.2"
 projects[addanother][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 ; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
-projects[linkit][version] = "2.6"
+projects[linkit][version] = "2.7"
 projects[linkit][subdir] = "contrib"
 
 projects[linkit_target][version] = "1.0"
@@ -240,8 +264,14 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.1"
+projects[webform][version] = "4.2"
 projects[webform][subdir] = "contrib"
+
+;projects[webform_localization][version] = "1.x-dev"
+;projects[webform_localization][subdir] = "contrib"
+
+;projects[webform_simplenews][version] = "1.x-dev"
+;projects[webform_simplenews][subdir] = "contrib"
 
 projects[form_builder][version] = "1.6"
 projects[form_builder][subdir] = "contrib"
@@ -253,7 +283,7 @@ projects[views_date_format_sql][version] = "3.1"
 projects[views_date_format_sql][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = "1.10"
+projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
@@ -291,7 +321,7 @@ projects[commerce_simplenews_checkout][subdir] = "commerce"
 projects[redhen][version] = "1.8"
 projects[redhen][subdir] = "commerce"
 
-projects[redhen_donation][version] = "1.0-beta2"
+projects[redhen_donation][version] = "1.0"
 projects[redhen_donation][subdir] = "commerce"
 
 projects[commerce_recurring][version] = "2.x-dev"
@@ -377,7 +407,7 @@ projects[commerce_donate][subdir] = "commerce"
 projects[commerce_feeds][version] = "1.3"
 projects[commerce_feeds][subdir] = "commerce"
 
-projects[commerce_stock][version] = "2.0"
+projects[commerce_stock][version] = "2.1"
 projects[commerce_stock][subdir] = "commerce"
 
 projects[commerce_option][version] = "1.0-beta2"
@@ -398,7 +428,7 @@ projects[commerce_license_billing][subdir] = "commerce"
 projects[commerce_file][version] = "2.0-beta3"
 projects[commerce_file][subdir] = "commerce"
 
-projects[commerce_rules_extra][version] = "2.1-beta4"
+projects[commerce_rules_extra][version] = "2.1"
 projects[commerce_rules_extra][subdir] = "commerce"
 
 ; Other commerce contribs.
@@ -406,7 +436,7 @@ projects[commerce_rules_extra][subdir] = "commerce"
 projects[countries][version] = "2.3"
 projects[countries][subdir] = "contrib"
 
-projects[context][version] = "3.3"
+projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
 projects[emogrifier][version] = "1.18"
@@ -468,6 +498,21 @@ projects[inline_entity_form][subdir] = "contrib"
 projects[inline_conditions][version] = "1.0-alpha4"
 projects[inline_conditions][subdir] = "contrib"
 
+;projects[imce][version] = "1.9"
+;projects[imce][subdir] = "contrib"
+
+;projects[jcaption][version] = "1.4"
+;projects[jcaption][subdir] = "contrib"
+
+;projects[languageicons][version] = "1.1"
+;projects[languageicons][subdir] = "contrib"
+
+;projects[domain][version] = "3.11"
+;projects[domain][subdir] = "contrib"
+
+projects[float_filter][version] = "1.2"
+projects[float_filter][subdir] = "contrib"
+
 projects[field_extractor][version] = "1.3"
 projects[field_extractor][subdir] = "contrib"
 
@@ -478,6 +523,9 @@ projects[service_links][subdir] = "contrib"
 
 projects[stringoverrides][version] = "1.8"
 projects[stringoverrides][subdir] = "contrib"
+
+;projects[system_status][version] = "2.7"
+;projects[system_status][subdir] = "contrib"
 
 projects[advanced_help][version] = "1.x-dev"
 projects[advanced_help][subdir] = "contrib"
@@ -531,8 +579,17 @@ projects[entitycache][subdir] = "contrib"
 projects[login_destination][version] = "1.1"
 projects[login_destination][subdir] = "contrib"
 
-projects[mandrill][version] = "2.0"
+;projects[login_security][version] = "1.9"
+;projects[login_security][subdir] = "contrib"
+
+projects[mandrill][version] = "2.1"
 projects[mandrill][subdir] = "contrib"
+
+projects[smtp][version] = "1.2"
+projects[smtp][subdir] = "contrib"
+
+;projects[manualcrop][version] = "1.x-dev"
+;projects[manualcrop][subdir] = "contrib"
 
 projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
@@ -569,7 +626,7 @@ projects[taxonomy_menu_block][version] = "1.4"
 projects[taxonomy_menu_block][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.13"
+projects[search_api][version] = "1.14"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.4"
