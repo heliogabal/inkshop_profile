@@ -634,11 +634,12 @@ projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
 projects[search_api_ranges][subdir] = "contrib"
-;projects[search_api_ranges][patch][] = "http://drupal.org/files/search_api_ranges-rewrite-data-alteration-callback-2001846-3.patch"
+projects[search_api_ranges][patch][] = "https://drupal.org/files/issues/search_api_ranges-rewrite-data-alteration-callback-2001846-4.patch"
 
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
+projects[facetapi][patch][] = "https://drupal.org/files/1616518-term_remove_link-24.patch"
 
 projects[facetapi_pretty_paths][version] = "1.1"
 projects[facetapi_pretty_paths][subdir] = "contrib"
@@ -790,3 +791,9 @@ libraries[mandrill][download][type] = "get"
 libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
 libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
+
+; Patches from commerce kickstart
+projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
+projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
+projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
+projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
