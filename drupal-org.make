@@ -724,8 +724,8 @@ projects[masquerade][subdir] = "dev"
 projects[omega][type] = "theme"
 projects[omega][version] = "4.3"
 
-;projects[shiny][type] = "theme"
-;projects[shiny][version] = "1.6"
+projects[shiny][type] = "theme"
+projects[shiny][version] = "1.6"
 
 projects[adminimal][type] = "theme"
 projects[adminimal][version] = "1.19"
