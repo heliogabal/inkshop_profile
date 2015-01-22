@@ -13,6 +13,9 @@ projects[addtoany][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
+projects[admin_menu_source][version] = "1.0"
+projects[admin_menu_source][subdir] = "contrib"
+
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
@@ -238,6 +241,15 @@ projects[linkit_target][subdir] = "contrib"
 
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
+
+projects[realname][version] = "1.2"
+projects[realname][subdir] = "contrib"
+
+projects[restws][version] = "2.2"
+projects[restws][subdir] = "contrib"
+
+projects[restws][version] = "2.2"
+projects[restws][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
