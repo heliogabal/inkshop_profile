@@ -457,7 +457,7 @@ projects[countries][subdir] = "contrib"
 projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
-projects[emogrifier][version] = "1.18"
+projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.20"
@@ -818,3 +818,9 @@ projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-
 projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
+
+libraries[emogrifier][download][type] = "git"
+libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier.git"
+libraries[emogrifier][download][branch] = "master"
+libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
+libraries[emogrifier][destination] = "libraries"
