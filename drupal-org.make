@@ -49,7 +49,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -194,7 +194,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.11"
+projects[i18n][version] = "1.12"
 projects[i18n][subdir] = "contrib"
 
 projects[i18nviews][version] = "3.x-dev"
@@ -336,7 +336,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 
-projects[redhen][version] = "1.8"
+projects[redhen][version] = "1.9"
 projects[redhen][subdir] = "commerce"
 
 projects[redhen_donation][version] = "1.0"
@@ -659,7 +659,7 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 ;projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 
-projects[facetapi_pretty_paths][version] = "1.1"
+projects[facetapi_pretty_paths][version] = "1.2"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
@@ -727,8 +727,8 @@ projects[omega][version] = "4.3"
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
-projects[adminimal][type] = "theme"
-projects[adminimal][version] = "1.19"
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.19"
 
 projects[inkshop_theme][type] = "theme"
 projects[inkshop_theme][download][type] = "git"
