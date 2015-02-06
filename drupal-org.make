@@ -457,8 +457,14 @@ projects[countries][subdir] = "contrib"
 projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
+projects[context_admin][version] = "1.2"
+projects[context_admin][subdir] = "contrib"
+
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
+
+projects[flag][version] = "3.5"
+projects[flag][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.20"
 projects[select_or_other][subdir] = "contrib"
@@ -642,6 +648,9 @@ projects[interval][subdir] = "contrib"
 
 projects[taxonomy_menu_block][version] = "1.4"
 projects[taxonomy_menu_block][subdir] = "contrib"
+
+projects[translation_helpers][version] = "1.0"
+projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
 projects[search_api][version] = "1.14"
