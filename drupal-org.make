@@ -720,15 +720,16 @@ projects[inkshop_content_types][subdir] "features"
 projects[inkshop_search][type] = module
 ;projects[inkshop_search][version] = "1.3"
 projects[inkshop_search][download][type] = "git"
-projects[inkshop_search][download][url] = "http://features.otro-mundo.org/sites/features.otro-mundo.org/files/fserver/inkshop_search-7.x-1.2.tar_.gz"
+projects[inkshop_search][download][url] = "git@github.com:heliogabal/inkshop_search.git"
 ;;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_search][subdir] "features"
 
-;projects[inkshop_views][type] = module
+projects[inkshop_views][type] = module
 ;projects[inkshop_views][version] = "1.1"
-;projects[inkshop_views][download][type] = "git"
+projects[inkshop_views][download][type] = "git"
+projects[inkshop_views][download][url] = "git@github.com:heliogabal/inkshop_views.git"
 ;projects[inkshop_views][location] = http://features.otro-mundo.org/fserver
-;projects[inkshop_views][subdir] "features"
+projects[inkshop_views][subdir] "features"
 
 ; +++++ Themes +++++
 
