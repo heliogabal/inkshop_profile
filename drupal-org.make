@@ -744,7 +744,7 @@ projects[adminimal_theme][version] = "1.19"
 
 projects[inkshop_theme][type] = "theme"
 projects[inkshop_theme][download][type] = "git"
-projects[inkshop_theme][download][url] = "https://github.com/heliogabal/inkshop_theme.git"
+projects[inkshop_theme][download][url] = "git@github.com:heliogabal/inkshop.git"
 ;projects[inkshop][version] = "1.3"
 ;projects[inkshop][download][type] = get
 ;projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop/archive/7.x-1.3.tar.gz"
