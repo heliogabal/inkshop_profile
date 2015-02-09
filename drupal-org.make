@@ -120,7 +120,10 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta1"
+projects[file_entity][version] = "2.x-dev"
+; dev wegen Fix for file download token problems:
+; https://www.drupal.org/node/2267483
+; https://www.drupal.org/node/2215247
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
