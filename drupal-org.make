@@ -720,7 +720,7 @@ projects[inkshop_content_types][subdir] "features"
 projects[inkshop_search][type] = module
 ;projects[inkshop_search][version] = "1.3"
 projects[inkshop_search][download][type] = "git"
-projects[inkshop_search][download][url] = "git@github.com:heliogabal/inkshop_search.git"
+projects[inkshop_search][download][url] = "https://github.com/heliogabal/inkshop_search.git"
 ;;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_search][subdir] "features"
 
