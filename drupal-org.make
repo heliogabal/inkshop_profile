@@ -710,17 +710,13 @@ projects[masquerade][subdir] = "dev"
 
 ; +++++ Features +++++
 projects[checkout_shipping_taxes][type] = module
-;projects[checkout_shipping_taxes][version] = "1.5"
 projects[checkout_shipping_taxes][download][type] = "git"
 projects[checkout_shipping_taxes][download][url] = "git@github.com:heliogabal/checkout_shipping_taxes.git"
-;projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
 projects[checkout_shipping_taxes][subdir] = "features"
 
 projects[inkshop_content_types][type] = module
-;projects[inkshop_content_types][version] = "1.3"
 projects[inkshop_content_types][download][type] = "git"
 projects[inkshop_content_types][download][url] = "git@github.com:heliogabal/inkshop_content_types.git"
-;projects[inkshop_content_types][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_content_types][subdir] "features"
 
 ;projects[inkshop_search][type] = module
@@ -728,13 +724,10 @@ projects[inkshop_content_types][subdir] "features"
 ;projects[inkshop_search][download][url] = "git@github.com:heliogabal/inkshop_search.git"
 ;projects[inkshop_search][subdir] "features"
 ;projects[inkshop_search][version] = "7.x-1.13-alpha3"
-;projects[inkshop_search][location] = http://features.otro-mundo.org/fserver
 
 projects[inkshop_views][type] = module
-;projects[inkshop_views][version] = "1.1"
 projects[inkshop_views][download][type] = "git"
 projects[inkshop_views][download][url] = "git@github.com:heliogabal/inkshop_views.git"
-;projects[inkshop_views][location] = http://features.otro-mundo.org/fserver
 projects[inkshop_views][subdir] "features"
 
 ; +++++ Themes +++++
