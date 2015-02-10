@@ -333,6 +333,9 @@ projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/co
 projects[commerce_checkout_login][version] = "1.x-dev"
 projects[commerce_checkout_login][subdir] = "commerce"
 
+projects[commerce_checkout_pane_payment][version] = "1.1"
+projects[commerce_checkout_pane_payment][subdir] = "commerce"
+
 projects[commerce_conditions][version] = "1.x-dev"
 projects[commerce_conditions][subdir] = "commerce"
 
