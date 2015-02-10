@@ -752,7 +752,7 @@ projects[inkshop][download][url] = "git@github.com:heliogabal/inkshop.git"
 
 ; +++++ Translations +++++
 
-translations[] = de
+;translations[] = de
 
 ; +++++ Libraries +++++
 
