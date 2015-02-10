@@ -741,7 +741,7 @@ projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.19"
+projects[adminimal_theme][version] = "1.20"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
