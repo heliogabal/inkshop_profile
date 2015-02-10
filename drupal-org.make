@@ -693,6 +693,27 @@ projects[search_api_solr][subdir] = "contrib"
 projects[search_api_autocomplete][version] = "1.0"
 projects[search_api_autocomplete][subdir] = "contrib"
 
+; +++++ Local Installs +++++ -> NEEDED?
+projects[commerce_ajax_cart][version] = "1.0-beta3"
+projects[commerce_ajax_cart][subdir] = "contrib"
+
+projects[commerce_wishlist][version] = "1.0-alpha2"
+projects[commerce_wishlist][subdir] = "contrib"
+
+projects[entity_bundle_plugin][version] = "1.0-beta2"
+projects[entity_bundle_plugin][subdir] = "contrib"
+
+projects[filefield_sources][version] = "1.9"
+projects[filefield_sources][subdir] = "contrib"
+
+projects[follow][version] = "2.0-alpha1"
+projects[follow][subdir] = "contrib"
+
+project[fontyourface][version] = "2.8"
+projects[fontyourface][subdir] = "contrib"
+
+projects[me][version] = "1.1"
+projects[me][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
