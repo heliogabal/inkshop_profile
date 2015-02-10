@@ -635,6 +635,7 @@ projects[rb][subdir] = "contrib"
 
 projects[references_dialog][version] = "1.0-beta1"
 projects[references_dialog][subdir] = "contrib"
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 
 projects[rules_link][version] = "1.1"
 projects[rules_link][subdir] = "contrib"
