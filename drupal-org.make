@@ -718,18 +718,18 @@ projects[checkout_shipping_taxes][subdir] = "features"
 projects[inkshop_content_types][type] = module
 projects[inkshop_content_types][download][type] = "git"
 projects[inkshop_content_types][download][url] = "git@github.com:heliogabal/inkshop_content_types.git"
-projects[inkshop_content_types][subdir] "features"
+projects[inkshop_content_types][subdir] = "features"
 
-;projects[inkshop_search][type] = module
-;projects[inkshop_search][download][type] = "git"
-;projects[inkshop_search][download][url] = "git@github.com:heliogabal/inkshop_search.git"
-;projects[inkshop_search][subdir] "features"
+projects[inkshop_search][type] = module
+projects[inkshop_search][download][type] = "git"
+projects[inkshop_search][download][url] = "git@github.com:heliogabal/inkshop_search.git"
+projects[inkshop_search][subdir] = "features"
 ;projects[inkshop_search][version] = "7.x-1.13-alpha3"
 
 projects[inkshop_views][type] = module
 projects[inkshop_views][download][type] = "git"
 projects[inkshop_views][download][url] = "git@github.com:heliogabal/inkshop_views.git"
-projects[inkshop_views][subdir] "features"
+projects[inkshop_views][subdir] = "features"
 
 ; +++++ Themes +++++
 
