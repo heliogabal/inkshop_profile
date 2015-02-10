@@ -28,6 +28,9 @@ projects[admin_views][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 projects[block_class][subdir] = "contrib"
 
+projects[clientside_validation][version] = "1.41"
+projects[clientside_validation][subdir] = "contrib"
+
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
