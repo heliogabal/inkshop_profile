@@ -79,6 +79,9 @@ projects[ds][subdir] = "contrib"
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
+projects[diff][version] = "3.2"
+projects[diff][subdir] = "contrib"
+
 projects[features][version] = "2.3"
 projects[features][subdir] = "contrib"
 
@@ -89,14 +92,14 @@ projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
-projects[diff][version] = "3.2"
-projects[diff][subdir] = "contrib"
-
-projects[features_translations][version] = "1.0-beta1"
-projects[features_translations][subdir] = "contrib"
+projects[features_override][version] = "2.0-rc2"
+projects[features_override][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
+
+projects[features_translations][version] = "1.0-beta1"
+projects[features_translations][subdir] = "contrib"
 
 projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
