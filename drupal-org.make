@@ -43,6 +43,9 @@ projects[feeds_tamper][subdir] = "contrib"
 projects[habitat][version] = "1.0"
 projects[habitat][subdir] = "contrib"
 
+projects[bear_habitat][version] = "1.x-dev"
+projects[bear_habitat][subdir] = "contrib"
+
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
