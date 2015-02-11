@@ -211,6 +211,7 @@ dependencies[] = equalheights
 dependencies[] = compact_forms
 ; Features
 dependencies[] = features
+dependencies[] = features_override
 dependencies[] = strongarm
 
 ; Development
@@ -220,3 +221,4 @@ dependencies[] = strongarm
 ;dependencies[] = styleguide
 dependencies[] = diff
 dependencies[] = habitat
+dependencies[] = bear_habitat
