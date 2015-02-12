@@ -92,6 +92,9 @@ projects[features][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[features_override][version] = "2.0-rc2"
+projects[features_override][subdir] = "contrib"
+
 projects[features_translations][version] = "1.0-beta1"
 projects[features_translations][subdir] = "contrib"
 
