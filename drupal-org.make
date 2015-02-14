@@ -353,6 +353,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
+projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
 projects[redhen][version] = "1.9"
 projects[redhen][subdir] = "commerce"
