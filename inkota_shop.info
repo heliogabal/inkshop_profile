@@ -160,6 +160,7 @@ dependencies[] = job_scheduler
 dependencies[] = mailsystem
 ;dependencies[] = mailchimp
 dependencies[] = menu_attributes
+dependencies[] = menu_token
 dependencies[] = message
 dependencies[] = message_notify
 dependencies[] = mimemail
