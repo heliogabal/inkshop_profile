@@ -708,6 +708,7 @@ projects[commerce_ajax_cart][subdir] = "commerce"
 
 projects[commerce_wishlist][version] = "1.0-alpha2"
 projects[commerce_wishlist][subdir] = "commerce"
+projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_wishlist-remove-target.patch"
 
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
