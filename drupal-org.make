@@ -151,6 +151,10 @@ projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
+
+projects[logintoboggan][version] = "1.4"
+projects[logintoboggan][subdir] = "contrib"
+
 projects[breakpoints][version] = "1.3"
 projects[breakpoints][subdir] = "contrib"
 
