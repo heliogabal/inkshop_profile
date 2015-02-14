@@ -21,6 +21,7 @@ projects[adminimal_admin_menu][subdir] = "contrib"
 
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
+projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_theme.patch"
 
 projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
