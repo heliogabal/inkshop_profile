@@ -225,3 +225,10 @@ dependencies[] = diff
 dependencies[] = habitat
 dependencies[] = bear_habitat
 dependencies[] = tabtamer
+
+; Features and custom modules
+dependencies[] = inkshop_content_types
+dependencies[] = inkshop_views
+dependencies[] = inkshop_search
+dependencies[] = checkout_shipping_taxes
+dependencies[] = rhadmintheme

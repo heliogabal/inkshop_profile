@@ -778,6 +778,11 @@ projects[bear_habitat_override][download][type] = "git"
 projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
 projects[bear_habitat_override][subdir] = "features"
 
+projects[rhadmintheme][type] = module
+projects[rhadmintheme][download][type] = "git"
+projects[rhadmintheme][download][url] = "https://github.com/heliogabal/rhadmintheme.git"
+projects[rhadmintheme][subdir] = "custom"
+
 ; +++++ Themes +++++
 
 ; omega
