@@ -193,6 +193,7 @@ dependencies[] = linkit_target
 dependencies[] = logintoboggan
 dependencies[] = image_resize_filter
 dependencies[] = jquery_update
+dependencies[] = simplify
 dependencies[] = taxonomy_manager
 dependencies[] = wysiwyg
 

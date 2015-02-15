@@ -125,6 +125,9 @@ projects[better_exposed_filters][subdir] = "contrib"
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
+projects[simplify][version] = "3.2"
+projects[simplify][subdir] = "contrib"
+
 projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
@@ -412,6 +415,10 @@ projects[commerce_paypal][version] = "2.3"
 
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.4"
+# https://www.drupal.org/node/1982728
+# Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
+# files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
+projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/node_product_generic_relationship_handler-1982728-31.patch"
 
 projects[commerce_billy][version] = "1.0-beta2"
 projects[commerce_billy][subdir] = "commerce"
