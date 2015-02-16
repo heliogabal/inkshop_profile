@@ -780,6 +780,11 @@ projects[inkshop_views][download][type] = "git"
 projects[inkshop_views][download][url] = "https://github.com/heliogabal/inkshop_views.git"
 projects[inkshop_views][subdir] = "features"
 
+projects[inkshop_user_accounts][type] = module
+projects[inkshop_user_accounts][download][type] = "git"
+projects[inkshop_user_accounts][download][url] = "https://github.com/heliogabal/inkshop_user_accounts.git"
+projects[inkshop_user_accounts][subdir] = "features"
+
 projects[bear_habitat_override][type] = module
 projects[bear_habitat_override][download][type] = "git"
 projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
