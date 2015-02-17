@@ -763,37 +763,44 @@ projects[checkout_shipping_taxes][type] = module
 projects[checkout_shipping_taxes][download][type] = "git"
 projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes.git"
 projects[checkout_shipping_taxes][subdir] = "features"
+projects[checkout_shipping_taxes][options][working-copy] = TRUE
 
 projects[inkshop_content_types][type] = module
 projects[inkshop_content_types][download][type] = "git"
 projects[inkshop_content_types][download][url] = "https://github.com/heliogabal/inkshop_content_types.git"
 projects[inkshop_content_types][subdir] = "features"
+projects[inkshop_content_types][options][working-copy] = TRUE
 
 projects[inkshop_search][type] = module
 projects[inkshop_search][download][type] = "git"
 projects[inkshop_search][download][url] = "https://github.com/heliogabal/inkshop_search.git"
 projects[inkshop_search][subdir] = "features"
 ;projects[inkshop_search][version] = "7.x-1.13-alpha3"
+projects[inkshop_search][options][working-copy] = TRUE
 
 projects[inkshop_views][type] = module
 projects[inkshop_views][download][type] = "git"
 projects[inkshop_views][download][url] = "https://github.com/heliogabal/inkshop_views.git"
 projects[inkshop_views][subdir] = "features"
+projects[inkshop_views][options][working-copy] = TRUE
 
 projects[inkshop_user_accounts][type] = module
 projects[inkshop_user_accounts][download][type] = "git"
 projects[inkshop_user_accounts][download][url] = "https://github.com/heliogabal/inkshop_user_accounts.git"
 projects[inkshop_user_accounts][subdir] = "features"
+projects[inkshop_user_accounts][options][working-copy] = TRUE
 
 projects[bear_habitat_override][type] = module
 projects[bear_habitat_override][download][type] = "git"
 projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
 projects[bear_habitat_override][subdir] = "features"
+projects[bear_habitat_override][options][working-copy] = TRUE
 
 projects[rhadmintheme][type] = module
 projects[rhadmintheme][download][type] = "git"
 projects[rhadmintheme][download][url] = "https://github.com/heliogabal/rhadmintheme.git"
 projects[rhadmintheme][subdir] = "custom"
+projects[rhadmintheme][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
 
@@ -810,6 +817,7 @@ projects[adminimal_theme][version] = "1.20"
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
 projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop.git"
+projects[inkshop][options][working-copy] = TRUE
 ;projects[inkshop][version] = "1.3"
 ;projects[inkshop][download][type] = get
 ;projects[inkshop][download][url] = "https://github.com/heliogabal/inkshop/archive/7.x-1.3.tar.gz"
