@@ -581,8 +581,8 @@ projects[service_links][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 projects[stringoverrides][subdir] = "contrib"
 
-;projects[system_status][version] = "2.7"
-;projects[system_status][subdir] = "contrib"
+projects[system_status][version] = "2.7"
+projects[system_status][subdir] = "contrib"
 
 projects[advanced_help][version] = "1.x-dev"
 projects[advanced_help][subdir] = "contrib"
