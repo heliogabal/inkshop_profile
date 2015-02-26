@@ -332,9 +332,17 @@ projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
 projects[commerce_features][version] = "1.0"
 projects[commerce_features][subdir] = "commerce"
+; https://www.drupal.org/node/1973602
+;projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
+projects[commerce_features][patch][] = https://www.drupal.org/files/issues/make_commerce_checkout-1973602-8.patch
+https://www.drupal.org/node/1402762
+projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-export-shipping-rate-1402762-20.patch
+;projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
 ;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
-projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
-projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
+;https://www.drupal.org/node/2292895
+projects[commerce_features][patch][] = https://www.drupal.org/files/issues/2292895-commerce_features-customer_commerce_fix.patch
+;https://www.drupal.org/node/1973098
+projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
 
 projects[commerce_addressbook][version] = "2.0-rc8"
 projects[commerce_addressbook][subdir] = "commerce"
