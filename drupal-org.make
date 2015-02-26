@@ -699,8 +699,8 @@ projects[search_api_ranges][patch][] = "https://drupal.org/files/issues/search_a
 
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
-;projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
+;projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
+projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 
 projects[facetapi_pretty_paths][version] = "1.3"
 projects[facetapi_pretty_paths][subdir] = "contrib"
