@@ -23,7 +23,7 @@ projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_theme.patch"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 projects[admin_views][subdir] = "contrib"
 
 projects[block_class][version] = "2.1"
@@ -105,7 +105,7 @@ projects[features_extra][subdir] = "contrib"
 projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
 
-projects[uuid_features][version] = "1.0-alpha3"
+projects[uuid_features][version] = "1.0-alpha4"
 projects[uuid_features][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -161,7 +161,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[breakpoints][version] = "1.3"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
@@ -189,7 +189,7 @@ projects[link][subdir] = "contrib"
 projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "1.8"
+projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
 ;projects[optimizedb][version] = "1.4"
@@ -273,7 +273,7 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[realname][version] = "1.2"
 projects[realname][subdir] = "contrib"
 
-projects[restws][version] = "2.2"
+projects[restws][version] = "2.3"
 projects[restws][subdir] = "contrib"
 
 projects[restws][version] = "2.2"
@@ -287,6 +287,8 @@ projects[variable][subdir] = "contrib"
 
 projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
+; https://www.drupal.org/node/2059555
+projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
@@ -304,7 +306,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.2"
+projects[webform][version] = "4.3"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -722,7 +724,7 @@ projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_solr][version] = "1.6"
 projects[search_api_solr][subdir] = "contrib"
 
-projects[search_api_autocomplete][version] = "1.0"
+projects[search_api_autocomplete][version] = "1.1"
 projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++ -> NEEDED?
