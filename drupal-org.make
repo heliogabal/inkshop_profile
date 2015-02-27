@@ -794,11 +794,11 @@ projects[inkshop_views][download][url] = "https://github.com/heliogabal/inkshop_
 projects[inkshop_views][subdir] = "features"
 projects[inkshop_views][options][working-copy] = TRUE
 
-projects[inkshop_user_accounts][type] = module
-projects[inkshop_user_accounts][download][type] = "git"
-projects[inkshop_user_accounts][download][url] = "https://github.com/heliogabal/inkshop_user_accounts.git"
-projects[inkshop_user_accounts][subdir] = "features"
-projects[inkshop_user_accounts][options][working-copy] = TRUE
+projects[inkshop_users_accounts][type] = module
+projects[inkshop_users_accounts][download][type] = "git"
+projects[inkshop_users_accounts][download][url] = "https://github.com/heliogabal/inkshop_users_accounts.git"
+projects[inkshop_users_accounts][subdir] = "features"
+projects[inkshop_users_accounts][options][working-copy] = TRUE
 
 projects[bear_habitat_override][type] = module
 projects[bear_habitat_override][download][type] = "git"
