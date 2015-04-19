@@ -373,7 +373,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 
 projects[commerce_simplenews_checkout][version] = "1.x-dev"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
-projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
+;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
 projects[redhen][version] = "1.9"
 projects[redhen][subdir] = "commerce"
@@ -910,7 +910,7 @@ libraries[mandrill][destination] = "libraries"
 
 ; Patches from commerce kickstart
 projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
-projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
+;projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
