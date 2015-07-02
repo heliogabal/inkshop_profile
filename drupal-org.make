@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.7"
+projects[advagg][version] = "2.13"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.6"
@@ -35,10 +35,10 @@ projects[clientside_validation][subdir] = "contrib"
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.0-alpha9"
 projects[feeds][subdir] = "contrib"
 
-projects[feeds_tamper][version] = "1.0"
+projects[feeds_tamper][version] = "1.1"
 projects[feeds_tamper][subdir] = "contrib"
 
 projects[habitat][version] = "1.0"
@@ -53,13 +53,13 @@ projects[job_scheduler][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.9"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -74,13 +74,13 @@ projects[profiler_builder][subdir] = "contrib"
 projects[panels][version] = "3.4"
 projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.10"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
-projects[features][version] = "2.3"
+projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
 
 ;projects[features][type] = "module"
@@ -116,16 +116,16 @@ projects[name][subdir] = "contrib"
 projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.0"
+projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.0"
+projects[better_exposed_filters][version] = "3.2"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
-projects[simplify][version] = "3.2"
+projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
 projects[media][version] = "2.0-alpha4"
@@ -210,13 +210,13 @@ projects[pathauto][subdir] = "contrib"
 ;projects[readmorecontrol][version] = "1.2"
 ;projects[readmorecontrol][subdir] = "contrib"
 
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc2"
 projects[redirect][subdir] = "contrib"
 
 projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.13"
 projects[i18n][subdir] = "contrib"
 
 projects[i18nviews][version] = "3.x-dev"
@@ -246,12 +246,12 @@ projects[editablefields][subdir] ="contrib"
 projects[picture][version] = "1.5"
 projects[picture][subdir] = "contrib"
 
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.4"
+projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.2"
@@ -273,7 +273,7 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[realname][version] = "1.2"
 projects[realname][subdir] = "contrib"
 
-projects[restws][version] = "2.3"
+projects[restws][version] = "2.4"
 projects[restws][subdir] = "contrib"
 
 projects[restws][version] = "2.2"
@@ -285,12 +285,12 @@ projects[socialshareprivacy][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 projects[views][subdir] = "contrib"
-; https://www.drupal.org/node/2059555
-projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
+; https://www.drupal.org/node/2059555 not needed any more?
+; projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
 
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_litepager][version] ="3.x-dev"
@@ -306,7 +306,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.3"
+projects[webform][version] = "4.9"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -318,7 +318,7 @@ projects[webform_rules][subdir] = "contrib"
 ;projects[webform_simplenews][version] = "1.x-dev"
 ;projects[webform_simplenews][subdir] = "contrib"
 
-projects[form_builder][version] = "1.6"
+projects[form_builder][version] = "1.9"
 projects[form_builder][subdir] = "contrib"
 
 projects[views_megarow][version] = "1.4"
@@ -331,6 +331,8 @@ projects[views_date_format_sql][subdir] = "contrib"
 projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
+; try instead of views patch https://www.drupal.org/node/2057073
+projects[commerce][patch][] = "https://www.drupal.org/files/2057073-15-reduce-views-form-state-cache.patch"
 
 projects[commerce_features][version] = "1.0"
 projects[commerce_features][subdir] = "commerce"
@@ -390,7 +392,7 @@ projects[commerce_recurring][patch][] = "https://www.drupal.org/files/issues/com
 projects[commerce_repair][version] = "1.x-dev"
 projects[commerce_repair][subdir] = "commerce"
 
-projects[commerce_shipping][version] = "2.1"
+projects[commerce_shipping][version] = "2.2"
 projects[commerce_shipping][subdir] = "commerce"
 
 projects[commerce_flat_rate][version] = "1.0-beta2"
@@ -430,7 +432,7 @@ projects[commerce_backoffice][version] = "1.4"
 # files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
 projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/node_product_generic_relationship_handler-1982728-31.patch"
 
-projects[commerce_billy][version] = "1.0-beta2"
+projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
 
 projects[commerce_billy_mail][version] = "1.0-beta3"
@@ -506,16 +508,16 @@ projects[context_admin][subdir] = "contrib"
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
 
-projects[flag][version] = "3.5"
+projects[flag][version] = "3.6"
 projects[flag][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.20"
+projects[select_or_other][version] = "2.22"
 projects[select_or_other][subdir] = "contrib"
 
-projects[visualization][version] = "1.0-alpha1"
+projects[visualization][version] = "1.0-beta1"
 projects[visualization][subdir] = "contrib"
 
-projects[commerce_reports][version] = "4.0-beta1"
+projects[commerce_reports][version] = "4.0-beta2"
 projects[commerce_reports][subdir] = "commerce"
 
 ;projects[commerce_invoice_receipt][version] = "1.1"
@@ -559,7 +561,7 @@ projects[connector][subdir] = "contrib"
 projects[oauthconnector][version] = "1.0-beta2"
 projects[oauthconnector][subdir] = "contrib"
 
-projects[inline_entity_form][version] = "1.5"
+projects[inline_entity_form][version] = "1.6"
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[inline_conditions][version] = "1.0-alpha4"
@@ -612,9 +614,10 @@ projects[mimemail][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 projects[mailchimp][subdir] = "contrib"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
-projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
+; not needed any more? https://www.drupal.org/node/1712336
+;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 
 projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
@@ -625,7 +628,7 @@ projects[icon][subdir] = "contrib"
 projects[fontello][version] = "1.0"
 projects[fontello][subdir] = "contrib"
 
-projects[message][version] = "1.9"
+projects[message][version] = "1.10"
 projects[message][subdir] = "contrib"
 
 projects[message_notify][version] = "2.5"
@@ -634,7 +637,7 @@ projects[message_notify][subdir] = "contrib"
 projects[date][version] = "2.8"
 projects[date][subdir] = "contrib"
 
-projects[draggableviews][version] = "2.0"
+projects[draggableviews][version] = "2.1"
 projects[draggableviews][subdir] = "contrib"
 
 projects[emptyparagraphkiller][version] = "1.0-beta2"
@@ -697,7 +700,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.14"
+projects[search_api][version] = "1.15"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.4"
@@ -712,7 +715,7 @@ projects[facetapi][subdir] = "contrib"
 ;projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 
-projects[facetapi_pretty_paths][version] = "1.3"
+projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
@@ -721,7 +724,7 @@ projects[facetapi_tagcloud][subdir] = "contrib"
 projects[search_api_sorts][version] = "1.x-dev"
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.6"
+projects[search_api_solr][version] = "1.8"
 projects[search_api_solr][subdir] = "contrib"
 
 projects[search_api_autocomplete][version] = "1.1"
@@ -822,7 +825,7 @@ projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.20"
+projects[adminimal_theme][version] = "1.21"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
