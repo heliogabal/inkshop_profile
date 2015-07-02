@@ -276,9 +276,6 @@ projects[realname][subdir] = "contrib"
 projects[restws][version] = "2.4"
 projects[restws][subdir] = "contrib"
 
-projects[restws][version] = "2.2"
-projects[restws][subdir] = "contrib"
-
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
