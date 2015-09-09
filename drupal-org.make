@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.13"
+projects[advagg][version] = "2.15"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.6"
@@ -16,14 +16,14 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu_source][version] = "1.0"
 projects[admin_menu_source][subdir] = "contrib"
 
-projects[adminimal_admin_menu][version] = "1.5"
+projects[adminimal_admin_menu][version] = "1.6"
 projects[adminimal_admin_menu][subdir] = "contrib"
 
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_theme.patch"
 
-projects[admin_views][version] = "1.4"
+projects[admin_views][version] = "1.5"
 projects[admin_views][subdir] = "contrib"
 
 projects[block_class][version] = "2.1"
@@ -35,7 +35,7 @@ projects[clientside_validation][subdir] = "contrib"
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-alpha9"
+projects[feeds][version] = "2.0-beta1"
 projects[feeds][subdir] = "contrib"
 
 projects[feeds_tamper][version] = "1.1"
@@ -56,16 +56,16 @@ projects[filefield_nginx_progress][subdir] = "contrib"
 projects[colorbox][version] = "2.9"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.4"
+projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
 projects[charts][subdir] = "contrib"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
@@ -74,7 +74,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[panels][version] = "3.4"
 projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.10"
+projects[ds][version] = "2.11"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
@@ -82,13 +82,6 @@ projects[download_count][subdir] = "contrib"
 
 projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
-
-;projects[features][type] = "module"
-;projects[features][download] = "get"
-;projects[features][url] = "http://ftp.drupal.org/files/projects/features-7.x-2.2.tar.gz"
-
-;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
-;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
@@ -99,7 +92,7 @@ projects[features_override][subdir] = "contrib"
 projects[features_translations][version] = "1.0-beta1"
 projects[features_translations][subdir] = "contrib"
 
-projects[features_extra][version] = "1.0-beta1"
+projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
 projects[uuid][version] = "1.0-alpha6"
@@ -128,7 +121,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-alpha4"
+projects[media][version] = "2.0-beta1"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -136,7 +129,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.0-beta2"
 ; dev wegen Fix for file download token problems:
 ; https://www.drupal.org/node/2267483
 ; https://www.drupal.org/node/2215247
@@ -167,7 +160,7 @@ projects[entity][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
-projects[flexslider][version] = "2.0-alpha3"
+projects[flexslider][version] = "2.0-rc1"
 projects[flexslider][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
@@ -210,7 +203,7 @@ projects[pathauto][subdir] = "contrib"
 ;projects[readmorecontrol][version] = "1.2"
 ;projects[readmorecontrol][subdir] = "contrib"
 
-projects[redirect][version] = "1.0-rc2"
+projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
 projects[robotstxt][version] = "1.3"
@@ -251,7 +244,7 @@ projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.6"
+projects[metatag][version] = "1.7"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.2"
@@ -303,7 +296,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.9"
+projects[webform][version] = "4.10"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -315,10 +308,10 @@ projects[webform_rules][subdir] = "contrib"
 ;projects[webform_simplenews][version] = "1.x-dev"
 ;projects[webform_simplenews][subdir] = "contrib"
 
-projects[form_builder][version] = "1.9"
+projects[form_builder][version] = "1.13"
 projects[form_builder][subdir] = "contrib"
 
-projects[views_megarow][version] = "1.4"
+projects[views_megarow][version] = "1.5"
 projects[views_megarow][subdir] = "contrib"
 
 projects[views_date_format_sql][version] = "3.1"
@@ -331,7 +324,7 @@ projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 ; try instead of views patch https://www.drupal.org/node/2057073
 projects[commerce][patch][] = "https://www.drupal.org/files/2057073-15-reduce-views-form-state-cache.patch"
 
-projects[commerce_features][version] = "1.0"
+projects[commerce_features][version] = "1.1"
 projects[commerce_features][subdir] = "commerce"
 ; https://www.drupal.org/node/1973602
 ;projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
@@ -345,7 +338,7 @@ projects[commerce_features][patch][] = https://www.drupal.org/files/issues/22928
 ;https://www.drupal.org/node/1973098
 projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
 
-projects[commerce_addressbook][version] = "2.0-rc8"
+projects[commerce_addressbook][version] = "2.0-rc9"
 projects[commerce_addressbook][subdir] = "commerce"
 
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
@@ -432,14 +425,14 @@ projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/no
 projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
 
-projects[commerce_billy_mail][version] = "1.0-beta3"
+projects[commerce_billy_mail][version] = "1.0-beta5"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
 projects[commerce_message][version] = 1.0-rc3
 
 projects[commerce_search_api][subdir] = "commerce"
-projects[commerce_search_api][version] = "1.3"
+projects[commerce_search_api][version] = "1.4"
 
 projects[commerce_add_to_cart_confirmation][subdir] = "commerce"
 projects[commerce_add_to_cart_confirmation][version] = "1.0-rc2"
@@ -460,7 +453,7 @@ projects[commerce_sofortbanking][subdir] = "commerce"
 projects[commerce_contributions][version] = "1.x-dev"
 projects[commerce_contributions][subdir] = "commerce"
 
-projects[commerce_donate][version] = "1.x-dev"
+projects[commerce_donate][version] = "1.0"
 projects[commerce_donate][subdir] = "commerce"
 ;projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
 
@@ -511,10 +504,10 @@ projects[flag][subdir] = "contrib"
 projects[select_or_other][version] = "2.22"
 projects[select_or_other][subdir] = "contrib"
 
-projects[visualization][version] = "1.0-beta1"
+projects[visualization][version] = "1.0-beta2"
 projects[visualization][subdir] = "contrib"
 
-projects[commerce_reports][version] = "4.0-beta2"
+projects[commerce_reports][version] = "4.0-beta3"
 projects[commerce_reports][subdir] = "commerce"
 
 ;projects[commerce_invoice_receipt][version] = "1.1"
@@ -604,7 +597,7 @@ projects[mailsystem][subdir] = "contrib"
 ;Fix lost theme bug
 projects[mailsystem][patch][] = "https://www.drupal.org/files/issues/mailsystem-theme_registry-2051135-3.patch"
 
-projects[mimemail][version] = "1.0-beta3"
+projects[mimemail][version] = "1.0-beta4"
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
@@ -619,7 +612,7 @@ projects[token][subdir] = "contrib"
 projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
 
-projects[icon][version] = "1.0-beta5"
+projects[icon][version] = "1.0-beta6"
 projects[icon][subdir] = "contrib"
 
 projects[fontello][version] = "1.0"
@@ -697,10 +690,10 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.15"
+projects[search_api][version] = "1.16"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.4"
+projects[search_api_db][version] = "1.5"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -711,6 +704,7 @@ projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 ;projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
+projects[facetapi][patch][2378693] = "https://www.drupal.org/files/issues/notice_undefined-2378693-3.patch"
 
 projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
@@ -721,10 +715,10 @@ projects[facetapi_tagcloud][subdir] = "contrib"
 projects[search_api_sorts][version] = "1.x-dev"
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.8"
+projects[search_api_solr][version] = "1.9"
 projects[search_api_solr][subdir] = "contrib"
 
-projects[search_api_autocomplete][version] = "1.1"
+projects[search_api_autocomplete][version] = "1.4"
 projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++ -> NEEDED?
@@ -738,7 +732,7 @@ projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliog
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
 
-projects[filefield_sources][version] = "1.9"
+projects[filefield_sources][version] = "1.10"
 projects[filefield_sources][subdir] = "contrib"
 
 projects[follow][version] = "2.0-alpha1"
@@ -816,13 +810,13 @@ projects[rhadmintheme][options][working-copy] = TRUE
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.3"
+projects[omega][version] = "4.4"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.21"
+projects[adminimal_theme][version] = "1.22"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
@@ -835,17 +829,11 @@ projects[inkshop][options][working-copy] = TRUE
 
 ; +++++ Translations +++++
 
-;translations[] = de
+translations[] = de
 
 ; +++++ Libraries +++++
 
 ; ColorBox
-;libraries[colorbox][directory_name] = "colorbox"
-;libraries[colorbox][type] = "library"
-;libraries[colorbox][destination] = "libraries"
-;libraries[colorbox][download][type] = git
-;libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
-
 libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
@@ -857,7 +845,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.1/ckeditor_4.5.1_full.zip"
 
 ; socialshareprivacy
 libraries[socialshareprivacy][directory_name] = "socialshareprivacy"
@@ -884,13 +872,7 @@ libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
-; imagesloaded for equalheights
-;libraries[imagesloaded][download][type] = "get"
-;libraries[imagesloaded][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.2.zip"
-;libraries[imagesloaded][directory_name] = "imagesloaded"
-;libraries[imagesloaded][destination] = "libraries"
-
-; jQuery imagesLoaded.
+; jQuery imagesLoaded. (equalheights)
 libraries[imagesloaded][download][type] = file
 libraries[imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
 libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
@@ -910,9 +892,12 @@ libraries[mandrill][destination] = "libraries"
 
 ; Patches from commerce kickstart
 projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
-;projects[views][patch][] = "http://drupal.org/files/2059555-reduce-formatter-form-state.patch"
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
+
+projects[features][patch][2143765] = "http://drupal.org/files/issues/features-fix-modules-enabled-2143765-1.patch"
+projects[features][patch][2479803] = "https://www.drupal.org/files/issues/ignore_hidden_modules-2479803-1.patch"
+projects[features][patch][2534138] = "https://www.drupal.org/files/issues/2534138-field-base-exception-catch-1.patch"
 
 libraries[emogrifier][download][type] = "git"
 libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier.git"
