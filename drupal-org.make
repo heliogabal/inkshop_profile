@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.15"
+projects[advagg][version] = "2.16"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.6"
@@ -53,7 +53,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.9"
+projects[colorbox][version] = "2.10"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
@@ -80,13 +80,13 @@ projects[ds][subdir] = "contrib"
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
-projects[features][version] = "2.6"
+projects[features][version] = "2.7"
 projects[features][subdir] = "contrib"
 
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[features_override][version] = "2.0-rc2"
+projects[features_override][version] = "2.0-rc3"
 projects[features_override][subdir] = "contrib"
 
 projects[features_translations][version] = "1.0-beta1"
@@ -95,7 +95,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha6"
+projects[uuid][version] = "1.0-beta1"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha4"
@@ -109,7 +109,7 @@ projects[name][subdir] = "contrib"
 projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.1"
+projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
 
 projects[better_exposed_filters][version] = "3.2"
@@ -194,7 +194,7 @@ projects[module_filter][subdir] = "contrib"
 ;projects[override_node_options][version] = "1.13"
 ;projects[override_node_options][subdir] = "contrib"
 
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
 
 ;projects[pgbar][version] = "1.5"
@@ -278,7 +278,7 @@ projects[socialshareprivacy][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][subdir] = "contrib"
 ; https://www.drupal.org/node/2059555 not needed any more?
 ; projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
@@ -289,17 +289,17 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_litepager][version] ="3.x-dev"
 projects[views_litepager][subdir] ="contrib"
 
-projects[views_php][version] = "1.0-alpha1"
+projects[views_php][version] = "1.0-alpha3"
 projects[views_php][subdir] = "contrib"
 
-projects[views_data_export][version] = "3.0-beta8"
+projects[views_data_export][version] = "3.0-beta9"
 projects[views_data_export][subdir] = "contrib"
 
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.10"
+projects[webform][version] = "4.12"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -366,11 +366,11 @@ projects[commerce_conditions][subdir] = "commerce"
 projects[commerce_custom_product][version] = "1.0-beta2"
 projects[commerce_custom_product][subdir] = "commerce"
 
-projects[commerce_simplenews_checkout][version] = "1.x-dev"
+projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 ;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
-projects[redhen][version] = "1.9"
+projects[redhen][version] = "1.10"
 projects[redhen][subdir] = "commerce"
 
 projects[redhen_donation][version] = "1.0"
@@ -403,7 +403,7 @@ projects[dc_co_pages][subdir] = "commerce"
 projects[commerce_discount][version] = "1.0-alpha4"
 projects[commerce_discount][subdir] = "commerce"
 
-projects[commerce_checkout_progress][version] = "1.3"
+projects[commerce_checkout_progress][version] = "1.4"
 projects[commerce_checkout_progress][subdir] = "commerce"
 
 projects[commerce_extra_price_formatters][version] = "1.x-dev"
@@ -419,11 +419,11 @@ projects[commerce_paypal][subdir] = "commerce"
 projects[commerce_paypal][version] = "2.3"
 
 projects[commerce_backoffice][subdir] = "commerce"
-projects[commerce_backoffice][version] = "1.4"
+projects[commerce_backoffice][version] = "1.5"
 # https://www.drupal.org/node/1982728
 # Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
 # files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
-projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/node_product_generic_relationship_handler-1982728-31.patch"
+projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
 
 projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
@@ -460,10 +460,10 @@ projects[commerce_donate][version] = "1.0"
 projects[commerce_donate][subdir] = "commerce"
 ;projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
 
-projects[commerce_feeds][version] = "1.3"
+projects[commerce_feeds][version] = "1.4"
 projects[commerce_feeds][subdir] = "commerce"
 
-projects[commerce_stock][version] = "2.1"
+projects[commerce_stock][version] = "2.2"
 projects[commerce_stock][subdir] = "commerce"
 
 projects[commerce_option][version] = "1.0-beta2"
@@ -501,7 +501,7 @@ projects[context_admin][subdir] = "contrib"
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
 
-projects[flag][version] = "3.6"
+projects[flag][version] = "3.7"
 projects[flag][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.22"
@@ -586,7 +586,7 @@ projects[service_links][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 projects[stringoverrides][subdir] = "contrib"
 
-projects[system_status][version] = "2.7"
+projects[system_status][version] = "3.1"
 projects[system_status][subdir] = "contrib"
 
 projects[advanced_help][version] = "1.x-dev"
@@ -645,7 +645,7 @@ projects[login_destination][subdir] = "contrib"
 ;projects[login_security][version] = "1.9"
 ;projects[login_security][subdir] = "contrib"
 
-projects[mandrill][version] = "2.1"
+projects[mandrill][version] = "2.2"
 projects[mandrill][subdir] = "contrib"
 
 projects[smart_trim][version] = 1.5
@@ -822,7 +822,7 @@ projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.22"
+projects[adminimal_theme][version] = "1.23"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
