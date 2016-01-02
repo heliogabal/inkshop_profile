@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.16"
+projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.6"
@@ -16,7 +16,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu_source][version] = "1.0"
 projects[admin_menu_source][subdir] = "contrib"
 
-projects[adminimal_admin_menu][version] = "1.6"
+projects[adminimal_admin_menu][version] = "1.7"
 projects[adminimal_admin_menu][subdir] = "contrib"
 
 projects[admin_theme][version] = "1.0"
@@ -26,7 +26,7 @@ projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_the
 projects[admin_views][version] = "1.5"
 projects[admin_views][subdir] = "contrib"
 
-projects[block_class][version] = "2.1"
+projects[block_class][version] = "2.3"
 projects[block_class][subdir] = "contrib"
 
 projects[clientside_validation][version] = "1.41"
@@ -151,7 +151,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[logintoboggan][version] = "1.4"
 projects[logintoboggan][subdir] = "contrib"
 
-projects[breakpoints][version] = "1.3"
+projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.6"
@@ -621,7 +621,7 @@ projects[icon][subdir] = "contrib"
 projects[fontello][version] = "1.0"
 projects[fontello][subdir] = "contrib"
 
-projects[message][version] = "1.10"
+projects[message][version] = "1.11"
 projects[message][subdir] = "contrib"
 
 projects[message_notify][version] = "2.5"
@@ -639,7 +639,7 @@ projects[emptyparagraphkiller][subdir] = "contrib"
 projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 
-projects[login_destination][version] = "1.1"
+projects[login_destination][version] = "1.3"
 projects[login_destination][subdir] = "contrib"
 
 ;projects[login_security][version] = "1.9"
@@ -651,7 +651,7 @@ projects[mandrill][subdir] = "contrib"
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.3"
 projects[smtp][subdir] = "contrib"
 
 ;projects[manualcrop][version] = "1.x-dev"
@@ -718,7 +718,7 @@ projects[facetapi_pretty_paths][subdir] = "contrib"
 projects[facetapi_tagcloud][version] = "1.0-beta1"
 projects[facetapi_tagcloud][subdir] = "contrib"
 
-projects[search_api_sorts][version] = "1.x-dev"
+projects[search_api_sorts][version] = "1.6"
 projects[search_api_sorts][subdir] = "contrib"
 
 projects[search_api_solr][version] = "1.9"
@@ -750,7 +750,7 @@ projects[fontyourface][subdir] = "contrib"
 ;projects[me][version] = "1.1"
 ;projects[me][subdir] = "contrib"
 
-projects[menu_token][version] = "1.0-beta5"
+projects[menu_token][version] = "1.0-beta6"
 projects[menu_token][subdir] = "contrib"
 
 ; +++++ Development +++++++
