@@ -628,7 +628,7 @@ projects[message][subdir] = "contrib"
 projects[message_notify][version] = "2.5"
 projects[message_notify][subdir] = "contrib"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.1"
@@ -637,7 +637,7 @@ projects[draggableviews][subdir] = "contrib"
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[emptyparagraphkiller][subdir] = "contrib"
 
-projects[entitycache][version] = "1.2"
+projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
 projects[login_destination][version] = "1.3"
