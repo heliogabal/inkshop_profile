@@ -333,6 +333,8 @@ projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 ; try instead of views patch https://www.drupal.org/node/2057073
 projects[commerce][patch][] = "https://www.drupal.org/files/2057073-15-reduce-views-form-state-cache.patch"
+; Submit button problem when form validation fails: https://www.drupal.org/node/1775750
+projects[commerce][patch][] = "https://www.drupal.org/files/issues/disable-button-on-submit-instead-of-click-1775750-3.patch"
 
 projects[commerce_features][version] = "1.1"
 projects[commerce_features][subdir] = "commerce"
