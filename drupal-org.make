@@ -26,6 +26,9 @@ projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_the
 projects[admin_views][version] = "1.5"
 projects[admin_views][subdir] = "contrib"
 
+projects[autocomplete_deluxe][version] = "2.1"
+projects[autocomplete_deluxe][subdir] = "contrib"
+
 projects[block_class][version] = "2.3"
 projects[block_class][subdir] = "contrib"
 
@@ -70,6 +73,9 @@ projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
+
+projects[prlp][version] = "1.1"
+projects[prlp][subdir] = "contrib"
 
 projects[panels][version] = "3.4"
 projects[panels][subdir] = "contrib"
