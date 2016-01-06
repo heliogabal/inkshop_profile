@@ -163,7 +163,7 @@ projects[breakpoints][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
 projects[flexslider][version] = "2.0-rc1"
@@ -377,7 +377,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 
 projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
-;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
+projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
 projects[redhen][version] = "1.10"
 projects[redhen][subdir] = "commerce"
@@ -740,9 +740,9 @@ projects[search_api_autocomplete][subdir] = "contrib"
 projects[commerce_ajax_cart][version] = "1.0-beta3"
 projects[commerce_ajax_cart][subdir] = "commerce"
 
-projects[commerce_wishlist][version] = "1.0-alpha2"
+projects[commerce_wishlist][version] = "2.0-alpha1"
 projects[commerce_wishlist][subdir] = "commerce"
-projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_wishlist-remove-target.patch"
+;projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_wishlist-remove-target.patch"
 
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
