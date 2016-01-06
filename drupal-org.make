@@ -276,6 +276,9 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[realname][version] = "1.2"
 projects[realname][subdir] = "contrib"
 
+projects[email_registration][version] = "1.3"
+projects[email_registration][subdir] = "contrib"
+
 projects[restws][version] = "2.4"
 projects[restws][subdir] = "contrib"
 
