@@ -420,6 +420,8 @@ projects[commerce_checkout_progress][subdir] = "commerce"
 
 projects[commerce_extra_price_formatters][version] = "1.x-dev"
 projects[commerce_extra_price_formatters][subdir] = "commerce"
+; Adds Price component order: https://www.drupal.org/node/1853988
+projects[commerce_extra_price_formatters][patch][] = "https://www.drupal.org/files/issues/1853988-merge-commerce-price-extra-functionality-6.patch"
 
 projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
