@@ -284,6 +284,7 @@ projects[restws][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
+projects[socialshareprivacy][patch][] = "https://www.drupal.org/files/issues/socialshareprivacy-D7.patch"
 
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
@@ -742,7 +743,7 @@ projects[search_api_autocomplete][version] = "1.4"
 projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++ -> NEEDED?
-projects[commerce_ajax_cart][version] = "1.0-beta3"
+projects[commerce_ajax_cart][version] = "1.x-dev"
 projects[commerce_ajax_cart][subdir] = "commerce"
 
 projects[commerce_wishlist][version] = "2.0-alpha1"
