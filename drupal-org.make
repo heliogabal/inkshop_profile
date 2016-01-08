@@ -285,6 +285,7 @@ projects[restws][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 projects[socialshareprivacy][patch][] = "https://www.drupal.org/files/issues/socialshareprivacy-D7.patch"
+projects[socialshareprivacy][patch][] = "https://www.drupal.org/files/issues/socialshareprivacy-support_entity_api-2533580-1-D7.patch"
 
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
