@@ -763,6 +763,9 @@ projects[filefield_sources][subdir] = "contrib"
 projects[follow][version] = "2.0-alpha1"
 projects[follow][subdir] = "contrib"
 
+projects[editableviews][version] = "1.0-beta10"
+projects[editableviews][subdir] = "contrib"
+
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
