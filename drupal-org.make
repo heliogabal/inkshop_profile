@@ -6,6 +6,8 @@ api = "2"
 
 projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
+; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
+projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
 projects[addtoany][version] = "4.6"
 projects[addtoany][subdir] = "contrib"
@@ -25,6 +27,9 @@ projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_the
 
 projects[admin_views][version] = "1.5"
 projects[admin_views][subdir] = "contrib"
+
+projects[autoassignrole][version] = "1.0"
+projects[autoassignrole][subdir] = "contrib"
 
 projects[autocomplete_deluxe][version] = "2.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
