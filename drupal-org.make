@@ -122,6 +122,8 @@ projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-foll
 
 projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
+; Try to resolve duplicate addresses on commerce_addressbook, but it doesn not seem to work: https://www.drupal.org/node/2169863
+;projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_addressbook-fix-profile-dupes.patch"
 
 projects[better_exposed_filters][version] = "3.2"
 projects[better_exposed_filters][subdir] = "contrib"
