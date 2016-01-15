@@ -7,6 +7,7 @@ api = "2"
 projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
+projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
 projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
 projects[addtoany][version] = "4.6"
@@ -368,6 +369,9 @@ projects[commerce_features][patch][] = https://www.drupal.org/files/issues/comme
 projects[commerce_addressbook][version] = "2.0-rc9"
 projects[commerce_addressbook][subdir] = "commerce"
 
+projects[commerce_addressbook_extra][version] = "1.4"
+projects[commerce_addressbook_extra][subdir] = "commerce"
+
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
@@ -454,7 +458,7 @@ projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/pr
 projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
 
-projects[commerce_billy_mail][version] = "1.0-beta5"
+projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
