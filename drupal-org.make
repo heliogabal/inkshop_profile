@@ -742,6 +742,9 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 projects[facetapi][patch][2378693] = "https://www.drupal.org/files/issues/notice_undefined-2378693-3.patch"
 
+projects[facetapi_bonus][version] = "1.1"
+projects[facetapi_bonus][subdir] = "contrib"
+
 projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
