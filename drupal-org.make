@@ -86,7 +86,7 @@ projects[prlp][subdir] = "contrib"
 projects[panels][version] = "3.4"
 projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.11"
+projects[ds][version] = "2.12"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
@@ -188,7 +188,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.3"
+projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -262,7 +262,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.7"
+projects[metatag][version] = "1.8"
 projects[metatag][subdir] = "contrib"
 
 projects[addanother][version] = "2.2"
@@ -398,7 +398,7 @@ projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
-projects[redhen][version] = "1.10"
+projects[redhen][version] = "1.11"
 projects[redhen][subdir] = "commerce"
 
 projects[redhen_donation][version] = "1.0"
@@ -462,7 +462,7 @@ projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
-projects[commerce_message][version] = 1.0-rc3
+projects[commerce_message][version] = "1.0-rc4"
 
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.4"
@@ -760,7 +760,7 @@ projects[search_api_solr][subdir] = "contrib"
 projects[search_api_autocomplete][version] = "1.4"
 projects[search_api_autocomplete][subdir] = "contrib"
 
-; +++++ Local Installs +++++ -> NEEDED?
+; +++++ Local Installs +++++
 projects[commerce_ajax_cart][version] = "1.x-dev"
 projects[commerce_ajax_cart][subdir] = "commerce"
 
