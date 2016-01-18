@@ -468,8 +468,8 @@ projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.4"
 
 projects[commerce_add_to_cart_confirmation][subdir] = "commerce"
-projects[commerce_add_to_cart_confirmation][version] = "1.0-rc2"
-"
+projects[commerce_add_to_cart_confirmation][version] = "1.x-dev"
+
 projects[commerce_physical][version] = "1.x-dev"
 projects[commerce_physical][subdir] = "commerce"
 ;projects[commerce_physical][patch][] = "http://drupal.org/files/commerce_physical_rules_conditions-1344962-2.patch"
