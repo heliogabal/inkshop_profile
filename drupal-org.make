@@ -10,8 +10,8 @@ projects[advagg][subdir] = "contrib"
 projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
 projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
-projects[addtoany][version] = "4.6"
-projects[addtoany][subdir] = "contrib"
+;projects[addtoany][version] = "4.6"
+;projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
@@ -77,14 +77,11 @@ projects[charts][subdir] = "contrib"
 projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.0-rc4"
-projects[profiler_builder][subdir] = "contrib"
-
 projects[prlp][version] = "1.1"
 projects[prlp][subdir] = "contrib"
 
-projects[panels][version] = "3.4"
-projects[panels][subdir] = "contrib"
+;projects[panels][version] = "3.4"
+;projects[panels][subdir] = "contrib"
 
 projects[ds][version] = "2.12"
 projects[ds][subdir] = "contrib"
@@ -116,10 +113,10 @@ projects[uuid_features][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "dev"
 
-projects[name][version] = "1.9"
-projects[name][subdir] = "contrib"
-projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
-projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
+;projects[name][version] = "1.9"
+;projects[name][subdir] = "contrib"
+;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
+;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
 projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
@@ -155,8 +152,8 @@ projects[entityreference][subdir] = "contrib"
 ;projects[entity_translation][version] = "1.0-beta3"
 ;projects[entity_translation][subdir] = "contrib"
 
-projects[entity_menu_links][version] = "1.0-alpha1"
-projects[entity_menu_links][subdir] = "contrib"
+;projects[entity_menu_links][version] = "1.0-alpha1"
+;projects[entity_menu_links][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
@@ -174,8 +171,8 @@ projects[entity][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
-projects[flexslider][version] = "2.0-rc1"
-projects[flexslider][subdir] = "contrib"
+;projects[flexslider][version] = "2.0-rc1"
+;projects[flexslider][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
@@ -253,8 +250,8 @@ projects[equalheights][subdir] = "contrib"
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] ="contrib"
 
-projects[picture][version] = "1.5"
-projects[picture][subdir] = "contrib"
+;projects[picture][version] = "1.5"
+;projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
@@ -265,8 +262,8 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n
 projects[metatag][version] = "1.8"
 projects[metatag][subdir] = "contrib"
 
-projects[addanother][version] = "2.2"
-projects[addanother][subdir] = "contrib"
+;projects[addanother][version] = "2.2"
+;projects[addanother][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
@@ -287,8 +284,8 @@ projects[realname][subdir] = "contrib"
 projects[email_registration][version] = "1.3"
 projects[email_registration][subdir] = "contrib"
 
-projects[restws][version] = "2.4"
-projects[restws][subdir] = "contrib"
+projects[;restws][version] = "2.4"
+projects[;restws][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
@@ -378,12 +375,12 @@ projects[commerce_bank_transfer][subdir] = "commerce"
 projects[commerce_bpc][version] = "1.0-rc6"
 projects[commerce_bpc][subdir] = "commerce"
 
-projects[commerce_cardonfile][version] = "2.0-beta5"
-projects[commerce_cardonfile][subdir] = "commerce"
-projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
+;projects[commerce_cardonfile][version] = "2.0-beta5"
+;projects[commerce_cardonfile][subdir] = "commerce"
+;projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
 
-projects[commerce_checkout_login][version] = "1.x-dev"
-projects[commerce_checkout_login][subdir] = "commerce"
+;projects[commerce_checkout_login][version] = "1.x-dev"
+;projects[commerce_checkout_login][subdir] = "commerce"
 
 projects[commerce_checkout_pane_payment][version] = "1.1"
 projects[commerce_checkout_pane_payment][subdir] = "commerce"
@@ -401,8 +398,8 @@ projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent
 projects[redhen][version] = "1.11"
 projects[redhen][subdir] = "commerce"
 
-projects[redhen_donation][version] = "1.0"
-projects[redhen_donation][subdir] = "commerce"
+;projects[redhen_donation][version] = "1.0"
+;projects[redhen_donation][subdir] = "commerce"
 
 projects[commerce_recurring][version] = "2.x-dev"
 projects[commerce_recurring][subdir] = "commerce"
@@ -410,8 +407,8 @@ projects[commerce_recurring][subdir] = "commerce"
 projects[commerce_recurring][patch][] = "https://www.drupal.org/files/issues/commerce_recurring-custom_order_types-2273443-1.patch"
 projects[commerce_recurring][patch][] = "https://www.drupal.org/files/issues/commerce_recurring-Alter_recurring_price-2263371-1.patch"
 
-projects[commerce_repair][version] = "1.x-dev"
-projects[commerce_repair][subdir] = "commerce"
+;projects[commerce_repair][version] = "1.x-dev"
+;projects[commerce_repair][subdir] = "commerce"
 
 projects[commerce_shipping][version] = "2.2"
 projects[commerce_shipping][subdir] = "commerce"
@@ -419,8 +416,8 @@ projects[commerce_shipping][subdir] = "commerce"
 projects[commerce_flat_rate][version] = "1.0-beta2"
 projects[commerce_flat_rate][subdir] = "commerce"
 
-projects[commerce_fancy_attributes][version] = "1.0"
-projects[commerce_fancy_attributes][subdir] = "commerce"
+;projects[commerce_fancy_attributes][version] = "1.0"
+;projects[commerce_fancy_attributes][subdir] = "commerce"
 
 projects[commerce_fieldgroup_panes][version] = "1.0"
 projects[commerce_fieldgroup_panes][subdir] = "commerce"
@@ -428,8 +425,8 @@ projects[commerce_fieldgroup_panes][subdir] = "commerce"
 projects[dc_co_pages][version] = "1.0"
 projects[dc_co_pages][subdir] = "commerce"
 
-projects[commerce_discount][version] = "1.0-alpha4"
-projects[commerce_discount][subdir] = "commerce"
+;projects[commerce_discount][version] = "1.0-alpha4"
+;projects[commerce_discount][subdir] = "commerce"
 
 projects[commerce_checkout_progress][version] = "1.4"
 projects[commerce_checkout_progress][subdir] = "commerce"
@@ -442,8 +439,8 @@ projects[commerce_extra_price_formatters][patch][] = "https://www.drupal.org/fil
 projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
-projects[commerce_checkout_redirect][version] = "2.0-rc1"
-projects[commerce_checkout_redirect][subdir] = "commerce"
+;projects[commerce_checkout_redirect][version] = "2.0-rc1"
+;projects[commerce_checkout_redirect][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
 projects[commerce_paypal][version] = "2.3"
@@ -467,8 +464,8 @@ projects[commerce_message][version] = "1.0-rc4"
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.4"
 
-projects[commerce_add_to_cart_confirmation][subdir] = "commerce"
-projects[commerce_add_to_cart_confirmation][version] = "1.x-dev"
+;projects[commerce_add_to_cart_confirmation][subdir] = "commerce"
+;projects[commerce_add_to_cart_confirmation][version] = "1.x-dev"
 
 projects[commerce_physical][version] = "1.x-dev"
 projects[commerce_physical][subdir] = "commerce"
@@ -477,14 +474,14 @@ projects[commerce_physical][subdir] = "commerce"
 projects[commerce_bean][subdir] = "commerce"
 projects[commerce_bean][version] = "1.0-beta1"
 
-projects[commerceguys_marketplace][version] = "1.0-beta4"
-projects[commerceguys_marketplace][subdir] = "commerce"
+;projects[commerceguys_marketplace][version] = "1.0-beta4"
+;projects[commerceguys_marketplace][subdir] = "commerce"
 
-projects[commerce_sofortbanking] = "1.0"
-projects[commerce_sofortbanking][subdir] = "commerce"
+;projects[commerce_sofortbanking] = "1.0"
+;projects[commerce_sofortbanking][subdir] = "commerce"
 
-projects[commerce_contributions][version] = "1.x-dev"
-projects[commerce_contributions][subdir] = "commerce"
+;projects[commerce_contributions][version] = "1.x-dev"
+;projects[commerce_contributions][subdir] = "commerce"
 
 projects[commerce_donate][version] = "1.0"
 projects[commerce_donate][subdir] = "commerce"
@@ -496,23 +493,23 @@ projects[commerce_feeds][subdir] = "commerce"
 projects[commerce_stock][version] = "2.2"
 projects[commerce_stock][subdir] = "commerce"
 
-projects[commerce_option][version] = "1.0-beta2"
-projects[commerce_option][subdir] ="commerce"
+;projects[commerce_option][version] = "1.0-beta2"
+;projects[commerce_option][subdir] ="commerce"
 
-projects[commerce_product_attributes][version] = "1.0-beta3"
-projects[commerce_product_attributes][subdir] = "commerce"
+;projects[commerce_product_attributes][version] = "1.0-beta3"
+;projects[commerce_product_attributes][subdir] = "commerce"
 
 projects[commerce_buttonloesung][version] = "1.x-dev"
 projects[commerce_buttonloesung][subdir] = "commerce"
 
-projects[commerce_license][version] = "1.3"
-projects[commerce_license][subdir] = "commerce"
+;projects[commerce_license][version] = "1.3"
+;projects[commerce_license][subdir] = "commerce"
 
-projects[commerce_license_billing][version] = "1.0-beta4"
-projects[commerce_license_billing][subdir] = "commerce"
+;projects[commerce_license_billing][version] = "1.0-beta4"
+;projects[commerce_license_billing][subdir] = "commerce"
 
-projects[commerce_file][version] = "2.0-beta3"
-projects[commerce_file][subdir] = "commerce"
+;projects[commerce_file][version] = "2.0-beta3"
+;projects[commerce_file][subdir] = "commerce"
 
 projects[commerce_rules_extra][version] = "2.1"
 projects[commerce_rules_extra][subdir] = "commerce"
@@ -546,14 +543,14 @@ projects[commerce_reports][subdir] = "commerce"
 ;projects[commerce_invoice_receipt][version] = "1.1"
 ;projects[commerce_invoice_receipt][subdir] = "commerce"
 
-projects[services][version] = "3.7"
-projects[services][subdir] = "contrib"
+;projects[services][version] = "3.7"
+;projects[services][subdir] = "contrib"
 
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
-projects[image_delta_formatter][version] = "1.0-rc1"
-projects[image_delta_formatter][subdir] = "contrib"
+;projects[image_delta_formatter][version] = "1.0-rc1"
+;projects[image_delta_formatter][subdir] = "contrib"
 
 projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[remote_stream_wrapper][subdir] = "contrib"
@@ -562,33 +559,33 @@ projects[physical][version] = "1.x-dev"
 projects[physical][subdir] = "contrib"
 projects[physical][patch][] = "https://drupal.org/files/1372070-integrate_with_feeds.patch"
 
-projects[crumbs][version] = "1.10"
-projects[crumbs][subdir] = "contrib"
+;projects[crumbs][version] = "1.10"
+;projects[crumbs][subdir] = "contrib"
 
 projects[http_client][version] = "2.4"
 projects[http_client][subdir] = "contrib"
 
-projects[oauth][version] = "3.1"
-projects[oauth][subdir] = "contrib"
-projects[oauth][patch][] = "http://drupal.org/files/980340-d7.patch"
+;projects[oauth][version] = "3.1"
+;projects[oauth][subdir] = "contrib"
+;projects[oauth][patch][] = "http://drupal.org/files/980340-d7.patch"
 
-projects[payment][version] ="1.9"
-projects[payment][subdir] = "contrib"
+;projects[payment][version] ="1.9"
+;projects[payment][subdir] = "contrib"
 
-projects[payment_commerce][version] = "1.6"
-projects[payment_commerce][subdir] = "commerce"
+;projects[payment_commerce][version] = "1.6"
+;projects[payment_commerce][subdir] = "commerce"
 
-projects[connector][version] = "1.0-beta2"
-projects[connector][subdir] = "contrib"
+;projects[connector][version] = "1.0-beta2"
+;projects[connector][subdir] = "contrib"
 
-projects[oauthconnector][version] = "1.0-beta2"
-projects[oauthconnector][subdir] = "contrib"
+;projects[oauthconnector][version] = "1.0-beta2"
+;projects[oauthconnector][subdir] = "contrib"
 
 projects[inline_entity_form][version] = "1.6"
 projects[inline_entity_form][subdir] = "contrib"
 
-projects[inline_conditions][version] = "1.0-alpha4"
-projects[inline_conditions][subdir] = "contrib"
+;projects[inline_conditions][version] = "1.0-alpha4"
+;projects[inline_conditions][subdir] = "contrib"
 
 ;projects[imce][version] = "1.9"
 ;projects[imce][subdir] = "contrib"
@@ -619,11 +616,11 @@ projects[stringoverrides][subdir] = "contrib"
 projects[system_status][version] = "3.1"
 projects[system_status][subdir] = "contrib"
 
-projects[advanced_help][version] = "1.x-dev"
-projects[advanced_help][subdir] = "contrib"
+;projects[advanced_help][version] = "1.x-dev"
+;projects[advanced_help][subdir] = "contrib"
 
-projects[advancedqueue][version] = "1.0-beta3"
-projects[advancedqueue][subdir] = "contrib"
+;projects[advancedqueue][version] = "1.0-beta3"
+;projects[advancedqueue][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
@@ -634,8 +631,8 @@ projects[mimemail][version] = "1.0-beta4"
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
-projects[mailchimp][version] = "2.12"
-projects[mailchimp][subdir] = "contrib"
+;projects[mailchimp][version] = "2.12"
+;projects[mailchimp][subdir] = "contrib"
 
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
@@ -707,8 +704,8 @@ projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
 projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
-projects[cloud_zoom][version] = "1.x-dev"
-projects[cloud_zoom][subdir] = "contrib"
+;projects[cloud_zoom][version] = "1.x-dev"
+;projects[cloud_zoom][subdir] = "contrib"
 
 projects[special_menu_items][version] = "2.0"
 projects[special_menu_items][subdir] = "contrib"
@@ -716,8 +713,8 @@ projects[special_menu_items][subdir] = "contrib"
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
 
-projects[interval][version] = "1.0"
-projects[interval][subdir] = "contrib"
+;projects[interval][version] = "1.0"
+;projects[interval][subdir] = "contrib"
 
 projects[taxonomy_menu_block][version] = "1.4"
 projects[taxonomy_menu_block][subdir] = "contrib"
@@ -791,17 +788,20 @@ projects[menu_token][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
-projects[devel] = "1.3"
-projects[devel][subdir] = "dev"
+;projects[devel] = "1.3"
+;projects[devel][subdir] = "dev"
 
-projects[search_krumo] = "1.5"
-projects[search_krumo][subdir] = "dev"
+;projects[search_krumo] = "1.5"
+;projects[search_krumo][subdir] = "dev"
 
-projects[styleguide] = "1.1"
-projects[styleguide][subdir] = "dev"
+;projects[styleguide] = "1.1"
+;projects[styleguide][subdir] = "dev"
 
-projects[masquerade][version] = "1.0-rc5"
-projects[masquerade][subdir] = "dev"
+;projects[masquerade][version] = "1.0-rc5"
+;projects[masquerade][subdir] = "dev"
+
+;projects[profiler_builder][version] = "1.0-rc4"
+;projects[profiler_builder][subdir] = "contrib"
 
 
 ; +++++ Features +++++
@@ -897,10 +897,10 @@ libraries[socialshareprivacy][download][type] = "get"
 libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
 
 ; flexslider
-libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
-libraries[flexslider][directory_name] = "flexslider"
-libraries[flexslider][type] = "library"
+;libraries[flexslider][download][type] = "get"
+;libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
+;libraries[flexslider][directory_name] = "flexslider"
+;libraries[flexslider][type] = "library"
 
 ; chosen
 libraries[chosen][download][type] = "get"
@@ -921,10 +921,10 @@ libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
 libraries[imagesloaded][directory_name] = "imagesloaded"
 libraries[imagesloaded][destination] = "libraries"
 
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][destination] = "libraries"
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+;libraries[mailchimp][directory_name] = "mailchimp"
+;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
 libraries[mandrill][download][type] = "get"
