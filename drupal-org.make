@@ -123,6 +123,9 @@ projects[addressfield][subdir] = "contrib"
 ; Try to resolve duplicate addresses on commerce_addressbook, but it doesn not seem to work: https://www.drupal.org/node/2169863
 ;projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_addressbook-fix-profile-dupes.patch"
 
+projects[addressfield_title][version] = "1.0"
+projects[addressfield_title][subdir] = "contrib"
+
 projects[better_exposed_filters][version] = "3.2"
 projects[better_exposed_filters][subdir] = "contrib"
 
@@ -226,8 +229,8 @@ projects[robotstxt][subdir] = "contrib"
 projects[i18n][version] = "1.13"
 projects[i18n][subdir] = "contrib"
 
-projects[i18nviews][version] = "3.x-dev"
-projects[i18nviews][subdir] = "contrib"
+;projects[i18nviews][version] = "3.x-dev"
+;projects[i18nviews][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
 projects[tabtamer][subdir] = "contrib"
@@ -610,11 +613,11 @@ projects[service_links][version] = "2.x-dev"
 projects[service_links][subdir] = "contrib"
 ;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
-projects[stringoverrides][version] = "1.8"
-projects[stringoverrides][subdir] = "contrib"
+;projects[stringoverrides][version] = "1.8"
+;projects[stringoverrides][subdir] = "contrib"
 
-projects[system_status][version] = "3.1"
-projects[system_status][subdir] = "contrib"
+;projects[system_status][version] = "3.1"
+;projects[system_status][subdir] = "contrib"
 
 ;projects[advanced_help][version] = "1.x-dev"
 ;projects[advanced_help][subdir] = "contrib"
@@ -745,8 +748,8 @@ projects[facetapi_bonus][subdir] = "contrib"
 projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
-projects[facetapi_tagcloud][version] = "1.0-beta1"
-projects[facetapi_tagcloud][subdir] = "contrib"
+;projects[facetapi_tagcloud][version] = "1.0-beta1"
+;projects[facetapi_tagcloud][subdir] = "contrib"
 
 projects[search_api_sorts][version] = "1.6"
 projects[search_api_sorts][subdir] = "contrib"
@@ -754,8 +757,8 @@ projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_solr][version] = "1.9"
 projects[search_api_solr][subdir] = "contrib"
 
-projects[search_api_autocomplete][version] = "1.4"
-projects[search_api_autocomplete][subdir] = "contrib"
+;projects[search_api_autocomplete][version] = "1.4"
+;projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++
 projects[commerce_ajax_cart][version] = "1.x-dev"
@@ -764,6 +767,7 @@ projects[commerce_ajax_cart][subdir] = "commerce"
 projects[commerce_wishlist][version] = "2.0-alpha1"
 projects[commerce_wishlist][subdir] = "commerce"
 ;projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_wishlist-remove-target.patch"
+projects[commerce_wishlist][patch][] = "https://www.drupal.org/files/issues/schema-definition-2623040-2.patch"
 
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
