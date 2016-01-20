@@ -62,6 +62,7 @@ dependencies[] = ds_ui
 dependencies[] = field_group
 ; Location
 dependencies[] = addressfield
+dependencies[] = addressfield_title
 ; Media
 dependencies[] = file_entity
 dependencies[] = media
@@ -69,6 +70,7 @@ dependencies[] = media
 ; Languages
 dependencies[] = transliteration
 dependencies[] = i18n
+dependencies[] = translation_helpers
 ;dependencies[] = i18n_strings
 
 ; Other
@@ -113,7 +115,7 @@ dependencies[] = commerce_backoffice_product
 dependencies[] = commerce_bank_transfer
 dependencies[] = commerce_buttonloesung
 dependencies[] = commerce_checkout_progress
-dependencies[] = commerce_checkout_redirect
+;dependencies[] = commerce_checkout_redirect
 ;dependencies[] = commerce_contributions
 dependencies[] = commerce_discount
 dependencies[] = commerce_donate
@@ -128,14 +130,14 @@ dependencies[] = commerce_flat_rate
 ;dependencies[] = commerceguys_marketplace
 ;dependencies[] = commerce_invoice_receipt
 dependencies[] = commerce_message
-dependencies[] = commerce_option
+;dependencies[] = commerce_option
 ;dependencies[] = commerce_product_attributes
 dependencies[] = commerce_paypal
 dependencies[] = commerce_physical
 dependencies[] = commerce_reports
 dependencies[] = commerce_search_api
 dependencies[] = commerce_shipping
-dependencies[] = commerce_sofortbanking
+;dependencies[] = commerce_sofortbanking
 dependencies[] = commerce_stock
 dependencies[] = commerce_stock_ui
 ;dependencies[] = commerce_stock_simple_stock
@@ -152,15 +154,15 @@ dependencies[] = feeds
 dependencies[] = feeds_tamper
 ;dependencies[] = feeds_tamper_admin_ui
 dependencies[] = field_extractor
-dependencies[] = http_client
-dependencies[] = image_delta_formatter
-dependencies[] = inline_conditions
+;dependencies[] = http_client
+;dependencies[] = image_delta_formatter
+;dependencies[] = inline_conditions
 dependencies[] = inline_entity_form
 dependencies[] = job_scheduler
 dependencies[] = mailsystem
 ;dependencies[] = mailchimp
 dependencies[] = menu_attributes
-dependencies[] = menu_token
+;dependencies[] = menu_token
 dependencies[] = message
 dependencies[] = message_notify
 dependencies[] = mimemail
@@ -183,7 +185,7 @@ dependencies[] = views_date_format_sql
 dependencies[] = visualization
 
 ; User interface
-dependencies[] = addanother
+;dependencies[] = addanother
 dependencies[] = better_exposed_filters
 dependencies[] = chosen
 dependencies[] = editablefields

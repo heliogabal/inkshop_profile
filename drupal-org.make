@@ -565,8 +565,8 @@ projects[physical][patch][] = "https://drupal.org/files/1372070-integrate_with_f
 ;projects[crumbs][version] = "1.10"
 ;projects[crumbs][subdir] = "contrib"
 
-projects[http_client][version] = "2.4"
-projects[http_client][subdir] = "contrib"
+;projects[http_client][version] = "2.4"
+;projects[http_client][subdir] = "contrib"
 
 ;projects[oauth][version] = "3.1"
 ;projects[oauth][subdir] = "contrib"
@@ -787,8 +787,8 @@ projects[fontyourface][subdir] = "contrib"
 ;projects[me][version] = "1.1"
 ;projects[me][subdir] = "contrib"
 
-projects[menu_token][version] = "1.0-beta6"
-projects[menu_token][subdir] = "contrib"
+;projects[menu_token][version] = "1.0-beta6"
+;projects[menu_token][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
