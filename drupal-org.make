@@ -457,6 +457,10 @@ projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/pr
 
 projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
+; Show PDF also when order status completed: https://www.drupal.org/node/2108335
+projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerce_billy_pdf-order_statuses_setting-2108335-19.patch"
+; VBO Download PDF Action: https://www.drupal.org/node/2512978
+; projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerce_billy-2512978-3.patch"
 
 projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
