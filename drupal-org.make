@@ -262,7 +262,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.8"
+projects[metatag][version] = "1.13"
 projects[metatag][subdir] = "contrib"
 
 ;projects[addanother][version] = "2.2"
@@ -340,7 +340,7 @@ projects[form_builder][subdir] = "contrib"
 projects[views_megarow][version] = "1.5"
 projects[views_megarow][subdir] = "contrib"
 
-projects[views_date_format_sql][version] = "3.1"
+projects[views_date_format_sql][version] = "3.3"
 projects[views_date_format_sql][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
@@ -673,7 +673,7 @@ projects[emptyparagraphkiller][subdir] = "contrib"
 projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
-projects[login_destination][version] = "1.3"
+projects[login_destination][version] = "1.4"
 projects[login_destination][subdir] = "contrib"
 
 ;projects[login_security][version] = "1.9"
@@ -805,8 +805,8 @@ projects[fontyourface][subdir] = "contrib"
 ;projects[styleguide] = "1.1"
 ;projects[styleguide][subdir] = "dev"
 
-;projects[masquerade][version] = "1.0-rc5"
-;projects[masquerade][subdir] = "dev"
+projects[masquerade][version] = "1.0-rc7"
+projects[masquerade][subdir] = "dev"
 
 ;projects[profiler_builder][version] = "1.0-rc4"
 ;projects[profiler_builder][subdir] = "contrib"
