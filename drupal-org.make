@@ -44,7 +44,7 @@ projects[clientside_validation][subdir] = "contrib"
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-beta1"
+projects[feeds][version] = "2.0-beta2"
 projects[feeds][subdir] = "contrib"
 
 projects[feeds_tamper][version] = "1.1"
@@ -83,7 +83,7 @@ projects[prlp][subdir] = "contrib"
 ;projects[panels][version] = "3.4"
 ;projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.12"
+projects[ds][version] = "2.13"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
@@ -730,7 +730,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.16"
+projects[search_api][version] = "1.17"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.5"
@@ -758,7 +758,7 @@ projects[facetapi_pretty_paths][subdir] = "contrib"
 projects[search_api_sorts][version] = "1.6"
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.9"
+projects[search_api_solr][version] = "1.10"
 projects[search_api_solr][subdir] = "contrib"
 
 ;projects[search_api_autocomplete][version] = "1.4"
@@ -866,7 +866,7 @@ projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.23"
+projects[adminimal_theme][version] = "1.24"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
