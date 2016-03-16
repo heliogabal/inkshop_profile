@@ -272,6 +272,9 @@ projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 ; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
+projects[wysiwyg_template][version] = 2.11
+projects[wysiwyg_template][subdir] = contrib
+
 projects[linkit][version] = "2.7"
 projects[linkit][subdir] = "contrib"
 
@@ -788,8 +791,8 @@ projects[editableviews][subdir] = "contrib"
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
-;projects[me][version] = "1.1"
-;projects[me][subdir] = "contrib"
+projects[me][version] = "1.2"
+projects[me][subdir] = "contrib"
 
 ;projects[menu_token][version] = "1.0-beta6"
 ;projects[menu_token][subdir] = "contrib"
