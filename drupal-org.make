@@ -367,7 +367,7 @@ projects[commerce_features][patch][] = https://www.drupal.org/files/issues/comme
 ;https://www.drupal.org/node/2292895
 projects[commerce_features][patch][] = https://www.drupal.org/files/issues/2292895-commerce_features-customer_commerce_fix.patch
 ;https://www.drupal.org/node/1973098
-projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
+;projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
 
 projects[commerce_addressbook][version] = "2.0-rc9"
 projects[commerce_addressbook][subdir] = "commerce"
@@ -453,10 +453,10 @@ projects[commerce_paypal][version] = "2.3"
 
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.5"
-# https://www.drupal.org/node/1982728
-# Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
-# files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
-projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
+; https://www.drupal.org/node/1982728
+; Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
+; files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
+; projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
 
 projects[commerce_billy][version] = "1.0"
 projects[commerce_billy][subdir] = "commerce"
