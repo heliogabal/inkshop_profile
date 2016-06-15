@@ -62,7 +62,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.10"
+projects[colorbox][version] = "2.12"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
@@ -77,7 +77,7 @@ projects[charts][subdir] = "contrib"
 projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
-projects[prlp][version] = "1.1"
+projects[prlp][version] = "1.3"
 projects[prlp][subdir] = "contrib"
 
 ;projects[panels][version] = "3.4"
@@ -135,7 +135,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta1"
+projects[media][version] = "2.0-beta2"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -143,7 +143,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][version] = "2.0-beta3"
 ; dev wegen Fix for file download token problems:
 ; https://www.drupal.org/node/2267483
 ; https://www.drupal.org/node/2215247
@@ -196,7 +196,7 @@ projects[link][subdir] = "contrib"
 projects[linkchecker][version] = 1.2
 projects[linkchecker][subdir] = contrib
 
-projects[title][version] = "1.0-alpha7"
+projects[title][version] = "1.0-alpha8"
 projects[title][subdir] = "contrib"
 
 projects[module_filter][version] = "2.0"
@@ -262,7 +262,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.13"
+projects[metatag][version] = "1.14"
 projects[metatag][subdir] = "contrib"
 
 ;projects[addanother][version] = "2.2"
@@ -272,7 +272,7 @@ projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 ; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
-projects[wysiwyg_template][version] = 2.11
+projects[wysiwyg_template][version] = 2.12
 projects[wysiwyg_template][subdir] = contrib
 
 projects[linkit][version] = "2.7"
@@ -340,7 +340,7 @@ projects[webform_rules][subdir] = "contrib"
 projects[form_builder][version] = "1.13"
 projects[form_builder][subdir] = "contrib"
 
-projects[views_megarow][version] = "1.5"
+projects[views_megarow][version] = "1.6"
 projects[views_megarow][subdir] = "contrib"
 
 projects[views_date_format_sql][version] = "3.3"
@@ -458,7 +458,7 @@ projects[commerce_backoffice][version] = "1.5"
 # files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
 projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
 
-projects[commerce_billy][version] = "1.0"
+projects[commerce_billy][version] = "1.1"
 projects[commerce_billy][subdir] = "commerce"
 ; Show PDF also when order status completed: https://www.drupal.org/node/2108335
 projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerce_billy_pdf-order_statuses_setting-2108335-19.patch"
@@ -529,7 +529,7 @@ projects[commerce_rules_extra][subdir] = "commerce"
 projects[countries][version] = "2.3"
 projects[countries][subdir] = "contrib"
 
-projects[context][version] = "3.6"
+projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
 projects[context_admin][version] = "1.2"
