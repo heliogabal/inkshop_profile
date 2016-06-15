@@ -4,11 +4,11 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.17"
+projects[advagg][version] = "2.18"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
-projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
-projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
+;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
+;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
 ;projects[addtoany][version] = "4.6"
 ;projects[addtoany][subdir] = "contrib"
@@ -16,7 +16,7 @@ projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
-projects[admin_menu_source][version] = "1.0"
+projects[admin_menu_source][version] = "1.1"
 projects[admin_menu_source][subdir] = "contrib"
 
 projects[adminimal_admin_menu][version] = "1.7"
@@ -83,13 +83,13 @@ projects[prlp][subdir] = "contrib"
 ;projects[panels][version] = "3.4"
 ;projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.13"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
-projects[features][version] = "2.7"
+projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
 projects[diff][version] = "3.2"
@@ -168,7 +168,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 projects[entity][subdir] = "contrib"
 
 projects[field_group][version] = "1.5"
@@ -185,7 +185,7 @@ projects[jquery_update][subdir] = "contrib"
 ; # Patch needed until newer version comes out: https://drupal.org/node/1448490
 ; projects[jquery_update][patch][] = "https://drupal.org/files/issues/jquery_update-remove_states_js.patch"
 
-projects[libraries][version] = "2.2"
+projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.4"
@@ -337,7 +337,7 @@ projects[webform_rules][subdir] = "contrib"
 ;projects[webform_simplenews][version] = "1.x-dev"
 ;projects[webform_simplenews][subdir] = "contrib"
 
-projects[form_builder][version] = "1.13"
+projects[form_builder][version] = "1.17"
 projects[form_builder][subdir] = "contrib"
 
 projects[views_megarow][version] = "1.6"
@@ -347,7 +347,7 @@ projects[views_date_format_sql][version] = "3.3"
 projects[views_date_format_sql][subdir] = "contrib"
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = "1.11"
+projects[commerce][version] = "1.13"
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 ; try instead of views patch https://www.drupal.org/node/2057073
@@ -355,7 +355,7 @@ projects[commerce][patch][] = "https://www.drupal.org/files/2057073-15-reduce-vi
 ; Submit button problem when form validation fails: https://www.drupal.org/node/1775750
 projects[commerce][patch][] = "https://www.drupal.org/files/issues/disable-button-on-submit-instead-of-click-1775750-3.patch"
 
-projects[commerce_features][version] = "1.1"
+projects[commerce_features][version] = "1.2"
 projects[commerce_features][subdir] = "commerce"
 ; https://www.drupal.org/node/1973602
 ;projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
@@ -367,7 +367,7 @@ projects[commerce_features][patch][] = https://www.drupal.org/files/issues/comme
 ;https://www.drupal.org/node/2292895
 projects[commerce_features][patch][] = https://www.drupal.org/files/issues/2292895-commerce_features-customer_commerce_fix.patch
 ;https://www.drupal.org/node/1973098
-projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
+;projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
 
 projects[commerce_addressbook][version] = "2.0-rc9"
 projects[commerce_addressbook][subdir] = "commerce"
@@ -399,7 +399,7 @@ projects[commerce_custom_product][subdir] = "commerce"
 
 projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
-projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
+;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
 projects[redhen][version] = "1.11"
 projects[redhen][subdir] = "commerce"
@@ -453,10 +453,10 @@ projects[commerce_paypal][version] = "2.3"
 
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.5"
-# https://www.drupal.org/node/1982728
-# Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
-# files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
-projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
+; https://www.drupal.org/node/1982728
+; Falsche Produktreferenz, unvollständiger Patch, nachher in commerce_backoffice.info hinzufügen:
+; files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
+; projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
 
 projects[commerce_billy][version] = "1.1"
 projects[commerce_billy][subdir] = "commerce"
@@ -500,7 +500,7 @@ projects[commerce_donate][subdir] = "commerce"
 projects[commerce_feeds][version] = "1.4"
 projects[commerce_feeds][subdir] = "commerce"
 
-projects[commerce_stock][version] = "2.2"
+projects[commerce_stock][version] = "2.3"
 projects[commerce_stock][subdir] = "commerce"
 
 ;projects[commerce_option][version] = "1.0-beta2"
@@ -591,7 +591,7 @@ projects[physical][patch][] = "https://drupal.org/files/1372070-integrate_with_f
 ;projects[oauthconnector][version] = "1.0-beta2"
 ;projects[oauthconnector][subdir] = "contrib"
 
-projects[inline_entity_form][version] = "1.6"
+projects[inline_entity_form][version] = "1.8"
 projects[inline_entity_form][subdir] = "contrib"
 
 ;projects[inline_conditions][version] = "1.0-alpha4"
@@ -682,13 +682,13 @@ projects[login_destination][subdir] = "contrib"
 ;projects[login_security][version] = "1.9"
 ;projects[login_security][subdir] = "contrib"
 
-projects[mandrill][version] = "2.2"
+projects[mandrill][version] = "2.3"
 projects[mandrill][subdir] = "contrib"
 
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[smtp][version] = "1.3"
+projects[smtp][version] = "1.4"
 projects[smtp][subdir] = "contrib"
 
 ;projects[manualcrop][version] = "1.x-dev"
@@ -720,7 +720,7 @@ projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-
 projects[special_menu_items][version] = "2.0"
 projects[special_menu_items][subdir] = "contrib"
 
-projects[chosen][version] = "2.0-beta4"
+projects[chosen][version] = "2.0-beta5"
 projects[chosen][subdir] = "contrib"
 
 ;projects[interval][version] = "1.0"
@@ -733,7 +733,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.17"
+projects[search_api][version] = "1.18"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.5"
@@ -749,7 +749,7 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = https://www.drupal.org/files/issues/current_search-term-remove-link-1616518-30.patch
 projects[facetapi][patch][2378693] = "https://www.drupal.org/files/issues/notice_undefined-2378693-3.patch"
 
-projects[facetapi_bonus][version] = "1.x-dev"
+projects[facetapi_bonus][version] = "1.2"
 projects[facetapi_bonus][subdir] = "contrib"
 
 projects[facetapi_pretty_paths][version] = "1.4"
