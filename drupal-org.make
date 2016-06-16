@@ -262,7 +262,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.14"
+projects[metatag][version] = "1.16"
 projects[metatag][subdir] = "contrib"
 
 ;projects[addanother][version] = "2.2"
@@ -304,7 +304,7 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 projects[views][subdir] = "contrib"
 ; https://www.drupal.org/node/2059555 not needed any more?
 ; projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
@@ -710,9 +710,9 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375
 projects[rules_link][version] = "1.1"
 projects[rules_link][subdir] = "contrib"
 
-projects[title][version] = "1.0-alpha7"
+projects[title][version] = "1.0-alpha8"
 projects[title][subdir] = "contrib"
-projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
+;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
 ;projects[cloud_zoom][version] = "1.x-dev"
 ;projects[cloud_zoom][subdir] = "contrib"
