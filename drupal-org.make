@@ -524,6 +524,9 @@ projects[commerce_buttonloesung][subdir] = "commerce"
 projects[commerce_rules_extra][version] = "2.1"
 projects[commerce_rules_extra][subdir] = "commerce"
 
+projects[commerce_custom_order_status][version] = "1.0"
+projects[commerce_custom_order_status][subdir] = "commerce"
+
 ; Other commerce contribs.
 
 projects[countries][version] = "2.3"
