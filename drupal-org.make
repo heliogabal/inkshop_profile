@@ -853,6 +853,12 @@ projects[inkshop_users_accounts][download][url] = "https://github.com/heliogabal
 projects[inkshop_users_accounts][subdir] = "features"
 projects[inkshop_users_accounts][options][working-copy] = TRUE
 
+projects[dunning][type] = module
+projects[dunning][download][type] = "git"
+projects[dunning][download][url] = "https://github.com/heliogabal/dunning.git"
+projects[dunning][subdir] = "features"
+projects[dunning][options][working-copy] = TRUE
+
 projects[bear_habitat_override][type] = module
 projects[bear_habitat_override][download][type] = "git"
 projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
