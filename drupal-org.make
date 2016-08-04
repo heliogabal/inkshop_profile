@@ -26,7 +26,7 @@ projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_theme.patch"
 
-projects[admin_views][version] = "1.5"
+projects[admin_views][version] = "1.6"
 projects[admin_views][subdir] = "contrib"
 
 projects[autoassignrole][version] = "1.0"
@@ -104,7 +104,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-beta1"
+projects[uuid][version] = "1.0-beta2"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha4"
@@ -262,7 +262,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
-projects[metatag][version] = "1.16"
+projects[metatag][version] = "1.17"
 projects[metatag][subdir] = "contrib"
 
 ;projects[addanother][version] = "2.2"
@@ -284,7 +284,7 @@ projects[linkit_target][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[realname][version] = "1.2"
+projects[realname][version] = "1.3"
 projects[realname][subdir] = "contrib"
 
 projects[email_registration][version] = "1.3"
@@ -325,7 +325,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.13"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -337,7 +337,7 @@ projects[webform_rules][subdir] = "contrib"
 ;projects[webform_simplenews][version] = "1.x-dev"
 ;projects[webform_simplenews][subdir] = "contrib"
 
-projects[form_builder][version] = "1.17"
+projects[form_builder][version] = "1.18"
 projects[form_builder][subdir] = "contrib"
 
 projects[views_megarow][version] = "1.6"
@@ -401,7 +401,7 @@ projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 ;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
-projects[redhen][version] = "1.11"
+projects[redhen][version] = "1.12"
 projects[redhen][subdir] = "commerce"
 
 ;projects[redhen_donation][version] = "1.0"
@@ -425,7 +425,7 @@ projects[commerce_flat_rate][subdir] = "commerce"
 ;projects[commerce_fancy_attributes][version] = "1.0"
 ;projects[commerce_fancy_attributes][subdir] = "commerce"
 
-projects[commerce_fieldgroup_panes][version] = "1.0"
+projects[commerce_fieldgroup_panes][version] = "1.1"
 projects[commerce_fieldgroup_panes][subdir] = "commerce"
 
 projects[dc_co_pages][version] = "1.0"
@@ -472,7 +472,7 @@ projects[commerce_message][subdir] = "commerce"
 projects[commerce_message][version] = "1.0-rc4"
 
 projects[commerce_search_api][subdir] = "commerce"
-projects[commerce_search_api][version] = "1.4"
+projects[commerce_search_api][version] = "1.6"
 
 ;projects[commerce_add_to_cart_confirmation][subdir] = "commerce"
 ;projects[commerce_add_to_cart_confirmation][version] = "1.x-dev"
@@ -661,7 +661,7 @@ projects[icon][subdir] = "contrib"
 projects[fontello][version] = "1.0"
 projects[fontello][subdir] = "contrib"
 
-projects[message][version] = "1.11"
+projects[message][version] = "1.12"
 projects[message][subdir] = "contrib"
 
 projects[message_notify][version] = "2.5"
@@ -706,9 +706,9 @@ projects[print][subdir] = "contrib"
 projects[rb][version] = "1.x-dev"
 projects[rb][subdir] = "contrib"
 
-projects[references_dialog][version] = "1.0-beta1"
+projects[references_dialog][version] = "1.0-beta2"
 projects[references_dialog][subdir] = "contrib"
-projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
+;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 
 projects[rules_link][version] = "1.1"
 projects[rules_link][subdir] = "contrib"
@@ -736,7 +736,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.18"
+projects[search_api][version] = "1.20"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.5"
@@ -764,7 +764,7 @@ projects[facetapi_pretty_paths][subdir] = "contrib"
 projects[search_api_sorts][version] = "1.6"
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.10"
+projects[search_api_solr][version] = "1.11"
 projects[search_api_solr][subdir] = "contrib"
 
 ;projects[search_api_autocomplete][version] = "1.4"
