@@ -346,6 +346,9 @@ projects[views_megarow][subdir] = "contrib"
 projects[views_date_format_sql][version] = "3.3"
 projects[views_date_format_sql][subdir] = "contrib"
 
+projects[pet][version] = "1.0-rc1"
+projects[pet][subdir] = "contrib"
+
 ; Drupal Commerce and Commerce contribs.
 projects[commerce][version] = "1.13"
 projects[commerce][subdir] = "commerce"
