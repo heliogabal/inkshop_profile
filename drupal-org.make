@@ -49,6 +49,8 @@ projects[feeds][subdir] = "contrib"
 
 projects[feeds_tamper][version] = "1.1"
 projects[feeds_tamper][subdir] = "contrib"
+# PHP7 compatibility, already fixed in dev version
+projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
 
 projects[habitat][version] = "1.0"
 projects[habitat][subdir] = "contrib"
