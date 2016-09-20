@@ -937,7 +937,7 @@ libraries[chosen][destination] = "libraries"
 
 ; dompdf for commerce billy
 libraries[dompdf][download][type] = "get"
-libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.7.0/dompdf_0-7-0.zip"
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
@@ -960,7 +960,7 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 ; Patches from commerce kickstart
-projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
+;projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
