@@ -266,6 +266,7 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.patch"
+projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch"
 
 
 projects[metatag][version] = "1.17"
