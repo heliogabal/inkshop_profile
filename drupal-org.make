@@ -252,6 +252,8 @@ projects[equalheights][subdir] = "contrib"
 
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] ="contrib"
+# PHP7 compatability
+projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
 
 ;projects[picture][version] = "1.5"
 ;projects[picture][subdir] = "contrib"
