@@ -70,7 +70,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -151,7 +151,7 @@ projects[file_entity][version] = "2.0-beta3"
 ; https://www.drupal.org/node/2215247
 projects[file_entity][subdir] = "contrib"
 
-projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.2"
 projects[entityreference][subdir] = "contrib"
 
 ;projects[entity_translation][version] = "1.0-beta3"
@@ -322,14 +322,14 @@ projects[views_litepager][subdir] ="contrib"
 projects[views_php][version] = "1.0-alpha3"
 projects[views_php][subdir] = "contrib"
 
-projects[views_data_export][version] = "3.0-beta9"
+projects[views_data_export][version] = "3.1"
 projects[views_data_export][subdir] = "contrib"
 
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.13"
+projects[webform][version] = "4.14"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -548,7 +548,7 @@ projects[context_admin][subdir] = "contrib"
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
 
-projects[flag][version] = "3.7"
+projects[flag][version] = "3.8"
 projects[flag][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.22"
@@ -659,7 +659,7 @@ projects[token][subdir] = "contrib"
 ; not needed any more? https://www.drupal.org/node/1712336
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
 
-projects[eva][version] = "1.2"
+projects[eva][version] = "1.3"
 projects[eva][subdir] = "contrib"
 
 projects[icon][version] = "1.0-beta6"
