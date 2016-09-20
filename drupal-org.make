@@ -265,6 +265,8 @@ projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
 ;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
+projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.patch"
+
 
 projects[metatag][version] = "1.17"
 projects[metatag][subdir] = "contrib"
@@ -692,8 +694,8 @@ projects[login_destination][subdir] = "contrib"
 ;projects[login_security][version] = "1.9"
 ;projects[login_security][subdir] = "contrib"
 
-projects[mandrill][version] = "2.3"
-projects[mandrill][subdir] = "contrib"
+;projects[mandrill][version] = "2.3"
+;projects[mandrill][subdir] = "contrib"
 
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
@@ -954,10 +956,10 @@ libraries[imagesloaded][destination] = "libraries"
 ;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
-libraries[mandrill][download][type] = "get"
-libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
-libraries[mandrill][directory_name] = "mandrill"
-libraries[mandrill][destination] = "libraries"
+;libraries[mandrill][download][type] = "get"
+;libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+;libraries[mandrill][directory_name] = "mandrill"
+;libraries[mandrill][destination] = "libraries"
 
 ; Patches from commerce kickstart
 ;projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-17.patch"
