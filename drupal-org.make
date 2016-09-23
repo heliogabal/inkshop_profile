@@ -156,7 +156,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.7"
+projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
 
 projects[field_group][version] = "1.5"
@@ -294,7 +294,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
 
-projects[form_builder][version] = "1.18"
+projects[form_builder][version] = "1.19"
 projects[form_builder][subdir] = "contrib"
 
 projects[views_megarow][version] = "1.6"
@@ -453,7 +453,7 @@ projects[context_admin][subdir] = "contrib"
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
 
-projects[flag][version] = "3.8"
+projects[flag][version] = "3.9"
 projects[flag][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.22"
