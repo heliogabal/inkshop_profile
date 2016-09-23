@@ -305,6 +305,8 @@ projects[views_date_format_sql][subdir] = "contrib"
 
 projects[pet][version] = "1.0-rc1"
 projects[pet][subdir] = "contrib"
+# allow entity tokens in pet
+projects[pet][patch][] = "https://www.drupal.org/files/issues/pet-specify_entity_types_for_tokens-2612754-1.patch"
 
 ; Drupal Commerce and Commerce contribs.
 projects[commerce][version] = "1.13"
@@ -340,13 +342,6 @@ projects[commerce_bank_transfer][subdir] = "commerce"
 
 projects[commerce_bpc][version] = "1.0-rc6"
 projects[commerce_bpc][subdir] = "commerce"
-
-;projects[commerce_cardonfile][version] = "2.0-beta5"
-;projects[commerce_cardonfile][subdir] = "commerce"
-;projects[commerce_cardonfile][patch][] = "https://www.drupal.org/files/issues/commerce_cardonfile-Returned_method_should_only_expect_FALSE-2275263-1.patch"
-
-;projects[commerce_checkout_login][version] = "1.x-dev"
-;projects[commerce_checkout_login][subdir] = "commerce"
 
 projects[commerce_checkout_pane_payment][version] = "1.1"
 projects[commerce_checkout_pane_payment][subdir] = "commerce"
@@ -692,6 +687,12 @@ projects[rhadmintheme][download][type] = "git"
 projects[rhadmintheme][download][url] = "https://github.com/heliogabal/rhadmintheme.git"
 projects[rhadmintheme][subdir] = "custom"
 projects[rhadmintheme][options][working-copy] = TRUE
+
+projects[commerce_pet][type] = module
+projects[commerce_pet][download][type] = "git"
+projects[commerce_pet][download][url] = "https://git.drupal.org/sandbox/sarjeet.singh/2576101.git"
+projects[commerce_pet][subdir] = "custom"
+projects[commerce_pet][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
 
