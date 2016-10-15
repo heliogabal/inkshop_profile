@@ -35,7 +35,7 @@ projects[autocomplete_deluxe][subdir] = "contrib"
 projects[block_class][version] = "2.3"
 projects[block_class][subdir] = "contrib"
 
-projects[clientside_validation][version] = "1.42"
+projects[clientside_validation][version] = "1.44"
 projects[clientside_validation][subdir] = "contrib"
 
 projects[fpa][version] = "2.6"
@@ -119,6 +119,9 @@ projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_
 
 projects[addressfield_title][version] = "1.0"
 projects[addressfield_title][subdir] = "contrib"
+
+projects[vat_number][version] = "1.0-rc1"
+projects[vat_number][subdir] = "contrib"
 
 projects[better_exposed_filters][version] = "3.2"
 projects[better_exposed_filters][subdir] = "contrib"
@@ -219,7 +222,7 @@ projects[equalheights][subdir] = "contrib"
 
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] ="contrib"
-# PHP7 compatability
+# PHP7 compatibility
 projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
 
 projects[rules][version] = "2.9"

@@ -5,7 +5,7 @@ api = "2"
 ;Use Omega8 core instead of Drupal core:
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.50.1.tar.gz"
+projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.51.1.tar.gz"
 
 ; Patches for Core from Commerce Kickstart
 projects[drupal][patch][] = "http://drupal.org/files/issues/install-redirect-on-empty-database-728702-36.patch"
