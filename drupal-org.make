@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.18"
+projects[advagg][version] = "2.19"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
@@ -67,7 +67,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.10"
+projects[ctools][version] = "1.12"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta2"
+projects[media][version] = "2.0-beta9"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -199,7 +199,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.13"
+projects[i18n][version] = "1.14"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -300,7 +300,7 @@ projects[webform_rules][subdir] = "contrib"
 projects[form_builder][version] = "1.19"
 projects[form_builder][subdir] = "contrib"
 
-projects[views_megarow][version] = "1.6"
+projects[views_megarow][version] = "1.7"
 projects[views_megarow][subdir] = "contrib"
 
 projects[views_date_format_sql][version] = "3.3"
@@ -408,7 +408,7 @@ projects[commerce_message][version] = "1.0-rc4"
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.6"
 
-projects[commerce_physical][version] = "1.x-dev"
+projects[commerce_physical][version] = "1.0"
 projects[commerce_physical][subdir] = "commerce"
 ;projects[commerce_physical][patch][] = "http://drupal.org/files/commerce_physical_rules_conditions-1344962-2.patch"
 
@@ -558,7 +558,7 @@ projects[title][subdir] = "contrib"
 projects[special_menu_items][version] = "2.0"
 projects[special_menu_items][subdir] = "contrib"
 
-projects[chosen][version] = "2.0-beta5"
+projects[chosen][version] = "2.0"
 projects[chosen][subdir] = "contrib"
 
 projects[taxonomy_menu_block][version] = "1.4"
