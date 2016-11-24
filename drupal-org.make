@@ -408,7 +408,7 @@ projects[commerce_message][version] = "1.0-rc4"
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.6"
 
-projects[commerce_physical][version] = "1.0"
+projects[commerce_physical][version] = "1.x-dev"
 projects[commerce_physical][subdir] = "commerce"
 ;projects[commerce_physical][patch][] = "http://drupal.org/files/commerce_physical_rules_conditions-1344962-2.patch"
 
