@@ -385,6 +385,9 @@ projects[commerce_extra_panes][subdir] = "commerce"
 projects[commerce_paypal][subdir] = "commerce"
 projects[commerce_paypal][version] = "2.3"
 
+projects[commerce_price_components][version] = "1-x-dev"
+projects[commerce_price_components][subdir] = "commerce"
+
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = "1.5"
 ; https://www.drupal.org/node/1982728
