@@ -41,7 +41,7 @@ projects[clientside_validation][subdir] = "contrib"
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-beta2"
+projects[feeds][version] = "2.0-beta3"
 projects[feeds][subdir] = "contrib"
 
 projects[feeds_tamper][version] = "1.1"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta9"
+projects[media][version] = "2.0-beta10"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -472,7 +472,7 @@ projects[options_element][subdir] = "contrib"
 projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[remote_stream_wrapper][subdir] = "contrib"
 
-projects[physical][version] = "1.x-dev"
+projects[physical][version] = "1.0"
 projects[physical][subdir] = "contrib"
 projects[physical][patch][] = "https://drupal.org/files/1372070-integrate_with_feeds.patch"
 
