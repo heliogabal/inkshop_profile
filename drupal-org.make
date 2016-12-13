@@ -595,6 +595,7 @@ projects[facetapi_pretty_paths][subdir] = "contrib"
 
 projects[search_api_sorts][version] = "1.6"
 projects[search_api_sorts][subdir] = "contrib"
+projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field_name_inside_the-2753453-2.patch"
 
 projects[search_api_solr][version] = "1.11"
 projects[search_api_solr][subdir] = "contrib"
