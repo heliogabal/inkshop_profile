@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta10"
+projects[media][version] = "2.0-beta14"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -234,7 +234,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch"
 
 
-projects[metatag][version] = "1.17"
+projects[metatag][version] = "1.18"
 projects[metatag][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
@@ -371,7 +371,7 @@ projects[commerce_fieldgroup_panes][subdir] = "commerce"
 projects[dc_co_pages][version] = "1.0"
 projects[dc_co_pages][subdir] = "commerce"
 
-projects[commerce_checkout_progress][version] = "1.4"
+projects[commerce_checkout_progress][version] = "1.5"
 projects[commerce_checkout_progress][subdir] = "commerce"
 
 projects[commerce_extra_price_formatters][version] = "1.x-dev"
@@ -474,7 +474,7 @@ projects[remote_stream_wrapper][subdir] = "contrib"
 
 projects[physical][version] = "1.0"
 projects[physical][subdir] = "contrib"
-projects[physical][patch][] = "https://drupal.org/files/1372070-integrate_with_feeds.patch"
+projects[physical][patch][] = "https://www.drupal.org/files/issues/physical-1372070-integrate_with_feeds-54.patch"
 
 projects[inline_entity_form][version] = "1.8"
 projects[inline_entity_form][subdir] = "contrib"
