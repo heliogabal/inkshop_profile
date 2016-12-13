@@ -374,6 +374,18 @@ projects[dc_co_pages][subdir] = "commerce"
 projects[commerce_checkout_progress][version] = "1.5"
 projects[commerce_checkout_progress][subdir] = "commerce"
 
+projects[commerce_eu_vat][version] = "2.4"
+projects[commerce_eu_vat][subdir] = "commerce"
+
+projects[commerce_ch_vat][version] = "1.0-rc1"
+projects[commerce_ch_vat][subdir] = "commerce"
+
+projects[commerce_no_vat][version] = "1.x-dev"
+projects[commerce_no_vat][subdir] = "commerce"
+
+projects[commerce_vat][version] = "1.0-rc2"
+projects[commerce_vat][subdir] = "commerce"
+
 projects[commerce_extra_price_formatters][version] = "1.x-dev"
 projects[commerce_extra_price_formatters][subdir] = "commerce"
 ; Adds Price component order: https://www.drupal.org/node/1853988
