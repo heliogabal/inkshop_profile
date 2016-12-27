@@ -547,7 +547,7 @@ projects[login_destination][subdir] = "contrib"
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[smtp][version] = "1.4"
+projects[smtp][version] = "1.6"
 projects[smtp][subdir] = "contrib"
 
 projects[menu_attributes][version] = "1.0-rc3"
