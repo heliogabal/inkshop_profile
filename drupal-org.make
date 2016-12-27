@@ -91,7 +91,7 @@ projects[download_count][subdir] = "contrib"
 projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
-projects[diff][version] = "3.2"
+projects[diff][version] = "3.3"
 projects[diff][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-rc3"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta14"
+projects[media][version] = "2.0-rc1"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -297,7 +297,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
 
-projects[form_builder][version] = "1.19"
+projects[form_builder][version] = "1.20"
 projects[form_builder][subdir] = "contrib"
 
 projects[views_megarow][version] = "1.7"
@@ -517,7 +517,7 @@ projects[token][subdir] = "contrib"
 projects[eva][version] = "1.3"
 projects[eva][subdir] = "contrib"
 
-projects[icon][version] = "1.0-beta6"
+projects[icon][version] = "1.0-rc1"
 projects[icon][subdir] = "contrib"
 
 projects[fontello][version] = "1.0"
