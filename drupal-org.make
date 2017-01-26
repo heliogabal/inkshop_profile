@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.19"
+projects[advagg][version] = "2.20"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
@@ -29,7 +29,7 @@ projects[admin_views][subdir] = "contrib"
 projects[autoassignrole][version] = "1.0"
 projects[autoassignrole][subdir] = "contrib"
 
-projects[autocomplete_deluxe][version] = "2.1"
+projects[autocomplete_deluxe][version] = "2.2"
 projects[autocomplete_deluxe][subdir] = "contrib"
 
 projects[block_class][version] = "2.3"
@@ -123,16 +123,16 @@ projects[addressfield_title][subdir] = "contrib"
 projects[vat_number][version] = "1.0-rc1"
 projects[vat_number][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.2"
+projects[better_exposed_filters][version] = "3.3"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
-projects[simplify][version] = "3.3"
+projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-rc1"
+projects[media][version] = "2.0-rc3"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -181,10 +181,10 @@ projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
-projects[linkchecker][version] = 1.2
+projects[linkchecker][version] = 1.3
 projects[linkchecker][subdir] = contrib
 
-projects[title][version] = "1.0-alpha8"
+projects[title][version] = "1.0-alpha9"
 projects[title][subdir] = "contrib"
 
 projects[module_filter][version] = "2.0"
@@ -234,7 +234,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch"
 
 
-projects[metatag][version] = "1.18"
+projects[metatag][version] = "1.20"
 projects[metatag][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
@@ -511,7 +511,7 @@ projects[mimemail][version] = "1.0-beta4"
 projects[mimemail][subdir] = "contrib"
 ;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
-projects[token][version] = "1.6"
+projects[token][version] = "1.7"
 projects[token][subdir] = "contrib"
 
 projects[eva][version] = "1.3"
