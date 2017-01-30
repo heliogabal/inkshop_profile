@@ -207,6 +207,7 @@ projects[tabtamer][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
 projects[transliteration][subdir] = "contrib"
+projects[transliteration][patch][] = "https://www.drupal.org/files/issues/transliteration-better_replace_for_german_umlauts-1802200-7.patch"
 
 projects[taxonomy_manager][version] = "1.0"
 projects[taxonomy_manager][subdir] ="contrib"
