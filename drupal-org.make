@@ -719,6 +719,7 @@ projects[commerce_pet][options][working-copy] = TRUE
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "4.4"
+projects[omega][patch][] = "https://www.drupal.org/files/issues/omega-2492461-1-smarter-element-info-alter.patch"
 
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
