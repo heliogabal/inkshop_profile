@@ -123,7 +123,7 @@ projects[addressfield_title][subdir] = "contrib"
 projects[vat_number][version] = "1.0-rc1"
 projects[vat_number][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.3"
+projects[better_exposed_filters][version] = "3.4"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-rc3"
+projects[media][version] = "2.0-rc5"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -199,7 +199,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.14"
+projects[i18n][version] = "1.15"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -235,7 +235,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch"
 
 
-projects[metatag][version] = "1.20"
+projects[metatag][version] = "1.21"
 projects[metatag][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.x-dev"
@@ -419,7 +419,7 @@ projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
-projects[commerce_message][version] = "1.0-rc4"
+projects[commerce_message][version] = "1.0-rc5"
 
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.6"
@@ -606,7 +606,7 @@ projects[facetapi_bonus][subdir] = "contrib"
 projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
 
-projects[search_api_sorts][version] = "1.6"
+projects[search_api_sorts][version] = "1.7"
 projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field_name_inside_the-2753453-2.patch"
 
