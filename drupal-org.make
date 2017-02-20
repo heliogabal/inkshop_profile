@@ -221,10 +221,10 @@ projects[views_fluid_grid][subdir] = "contrib"
 projects[equalheights][version] = "2.4"
 projects[equalheights][subdir] = "contrib"
 
-projects[editablefields][version] = "1.0-alpha2"
+projects[editablefields][version] = "1.0-alpha3"
 projects[editablefields][subdir] ="contrib"
 # PHP7 compatibility
-projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
+#projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
