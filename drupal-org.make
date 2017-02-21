@@ -153,8 +153,8 @@ projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
-projects[logintoboggan][version] = "1.4"
-projects[logintoboggan][subdir] = "contrib"
+;projects[logintoboggan][version] = "1.4"
+;projects[logintoboggan][subdir] = "contrib"
 
 projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
@@ -482,8 +482,8 @@ projects[commerce_reports][subdir] = "commerce"
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
-projects[remote_stream_wrapper][version] = "1.0-beta4"
-projects[remote_stream_wrapper][subdir] = "contrib"
+;projects[remote_stream_wrapper][version] = "1.0-beta4"
+;projects[remote_stream_wrapper][subdir] = "contrib"
 
 projects[physical][version] = "1.0"
 projects[physical][subdir] = "contrib"
@@ -551,8 +551,8 @@ projects[smart_trim][subdir] = contrib
 projects[smtp][version] = "1.6"
 projects[smtp][subdir] = "contrib"
 
-projects[menu_attributes][version] = "1.0-rc3"
-projects[menu_attributes][subdir] = "contrib"
+;projects[menu_attributes][version] = "1.0-rc3"
+;projects[menu_attributes][subdir] = "contrib"
 
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
@@ -571,8 +571,8 @@ projects[title][version] = "1.0-alpha8"
 projects[title][subdir] = "contrib"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
-projects[special_menu_items][version] = "2.0"
-projects[special_menu_items][subdir] = "contrib"
+;projects[special_menu_items][version] = "2.0"
+;projects[special_menu_items][subdir] = "contrib"
 
 projects[chosen][version] = "2.0"
 projects[chosen][subdir] = "contrib"
@@ -631,14 +631,17 @@ projects[filefield_sources][subdir] = "contrib"
 projects[follow][version] = "2.0-alpha1"
 projects[follow][subdir] = "contrib"
 
-projects[editableviews][version] = "1.0-beta10"
-projects[editableviews][subdir] = "contrib"
+;projects[editableviews][version] = "1.0-beta10"
+;projects[editableviews][subdir] = "contrib"
 
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
 projects[me][version] = "1.2"
 projects[me][subdir] = "contrib"
+
+projects[xmlsitemap][version] = "2.3"
+projects[xmlsitemap][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
@@ -651,8 +654,8 @@ projects[me][subdir] = "contrib"
 ;projects[styleguide] = "1.1"
 ;projects[styleguide][subdir] = "dev"
 
-projects[masquerade][version] = "1.0-rc7"
-projects[masquerade][subdir] = "dev"
+;projects[masquerade][version] = "1.0-rc7"
+;projects[masquerade][subdir] = "dev"
 
 ;projects[profiler_builder][version] = "1.0-rc4"
 ;projects[profiler_builder][subdir] = "contrib"
@@ -721,8 +724,8 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.4"
 projects[omega][patch][] = "https://www.drupal.org/files/issues/omega-2492461-1-smarter-element-info-alter.patch"
 
-projects[shiny][type] = "theme"
-projects[shiny][version] = "1.6"
+;projects[shiny][type] = "theme"
+;projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][version] = "1.24"
