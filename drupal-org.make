@@ -453,16 +453,19 @@ projects[commerce_rules_extra][subdir] = "commerce"
 projects[commerce_custom_order_status][version] = "1.0"
 projects[commerce_custom_order_status][subdir] = "commerce"
 
+projects[commerce_extra_tokens][version] = "1.x-dev"
+projects[commerce_extra_tokens][subdir] = "commerce"
+
 ; Other commerce contribs.
 
 projects[countries][version] = "2.3"
 projects[countries][subdir] = "contrib"
 
-projects[context][version] = "3.7"
-projects[context][subdir] = "contrib"
+;projects[context][version] = "3.7"
+;projects[context][subdir] = "contrib"
 
-projects[context_admin][version] = "1.2"
-projects[context_admin][subdir] = "contrib"
+;projects[context_admin][version] = "1.2"
+;projects[context_admin][subdir] = "contrib"
 
 projects[emogrifier][version] = "2.0-beta1"
 projects[emogrifier][subdir] = "contrib"
