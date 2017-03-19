@@ -725,6 +725,9 @@ projects[commerce_pet][download][url] = "https://git.drupal.org/sandbox/sarjeet.
 projects[commerce_pet][subdir] = "custom"
 projects[commerce_pet][options][working-copy] = TRUE
 
+projects[commerce_taxonomy_conditions][version] = "2.0"
+projects[commerce_taxonomy_conditions][subdir] = "commerce"
+
 ; +++++ Themes +++++
 
 ; omega
