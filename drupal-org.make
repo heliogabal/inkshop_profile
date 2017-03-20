@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.20"
+projects[advagg][version] = "2.21"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
@@ -49,11 +49,11 @@ projects[feeds_tamper][subdir] = "contrib"
 # PHP7 compatibility, already fixed in dev version
 projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
 
-projects[habitat][version] = "1.0"
-projects[habitat][subdir] = "contrib"
+;projects[habitat][version] = "1.0"
+;projects[habitat][subdir] = "contrib"
 
-projects[bear_habitat][version] = "1.x-dev"
-projects[bear_habitat][subdir] = "contrib"
+;projects[bear_habitat][version] = "1.x-dev"
+;projects[bear_habitat][subdir] = "contrib"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-rc5"
+projects[media][version] = "2.0-rc12"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -215,9 +215,6 @@ projects[taxonomy_manager][subdir] ="contrib"
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
 
-;projects[views_accordion][version] = "1.0"
-;projects[views_accordion][subdir] = "contrib"
-
 projects[equalheights][version] = "2.4"
 projects[equalheights][subdir] = "contrib"
 
@@ -271,12 +268,12 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.14"
+projects[views][version] = "3.15"
 projects[views][subdir] = "contrib"
 ; https://www.drupal.org/node/2059555 not needed any more?
 ; projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
 
-projects[views_bulk_operations][version] = "3.3"
+projects[views_bulk_operations][version] = "3.4"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_litepager][version] ="3.x-dev"
@@ -344,8 +341,8 @@ projects[commerce_addressbook_extra][subdir] = "commerce"
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
-projects[commerce_bpc][version] = "1.0-rc6"
-projects[commerce_bpc][subdir] = "commerce"
+;projects[commerce_bpc][version] = "1.0-rc6"
+;projects[commerce_bpc][subdir] = "commerce"
 
 projects[commerce_checkout_pane_payment][version] = "1.1"
 projects[commerce_checkout_pane_payment][subdir] = "commerce"
@@ -408,7 +405,7 @@ projects[commerce_backoffice][version] = "1.5"
 ; files[] = includes/views/handlers/commerce_backoffice_handler_relationship_node_product_data.inc
 ; projects[commerce_backoffice][patch][] = "https://www.drupal.org/files/issues/provide_a_generic-1982728-36.patch"
 
-projects[commerce_billy][version] = "1.1"
+projects[commerce_billy][version] = "1.2"
 projects[commerce_billy][subdir] = "commerce"
 ; Show PDF also when order status completed: https://www.drupal.org/node/2108335
 projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerce_billy_pdf-order_statuses_setting-2108335-19.patch"
@@ -501,9 +498,9 @@ projects[float_filter][subdir] = "contrib"
 projects[field_extractor][version] = "1.3"
 projects[field_extractor][subdir] = "contrib"
 
-projects[service_links][version] = "2.x-dev"
+;projects[service_links][version] = "2.x-dev"
 ; /* needs dev for facebook like */
-projects[service_links][subdir] = "contrib"
+;projects[service_links][subdir] = "contrib"
 ;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
 projects[mailgun][version] = "1.x-dev"
@@ -529,8 +526,8 @@ projects[eva][subdir] = "contrib"
 projects[icon][version] = "1.0-rc1"
 projects[icon][subdir] = "contrib"
 
-projects[fontello][version] = "1.0"
-projects[fontello][subdir] = "contrib"
+;projects[fontello][version] = "1.0"
+;projects[fontello][subdir] = "contrib"
 
 projects[message][version] = "1.12"
 projects[message][subdir] = "contrib"
@@ -562,8 +559,8 @@ projects[smtp][subdir] = "contrib"
 ;projects[menu_attributes][version] = "1.0-rc3"
 ;projects[menu_attributes][subdir] = "contrib"
 
-projects[print][version] = "2.0"
-projects[print][subdir] = "contrib"
+;projects[print][version] = "2.0"
+;projects[print][subdir] = "contrib"
 
 projects[rb][version] = "1.x-dev"
 projects[rb][subdir] = "contrib"
@@ -592,10 +589,10 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.20"
+projects[search_api][version] = "1.21"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.5"
+projects[search_api_db][version] = "1.6"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -618,7 +615,7 @@ projects[search_api_sorts][version] = "1.7"
 projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field_name_inside_the-2753453-2.patch"
 
-projects[search_api_solr][version] = "1.11"
+projects[search_api_solr][version] = "1.12"
 projects[search_api_solr][subdir] = "contrib"
 
 ; +++++ Local Installs +++++
@@ -707,11 +704,11 @@ projects[dunning][download][url] = "https://github.com/heliogabal/dunning.git"
 projects[dunning][subdir] = "features"
 projects[dunning][options][working-copy] = TRUE
 
-projects[bear_habitat_override][type] = module
-projects[bear_habitat_override][download][type] = "git"
-projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
-projects[bear_habitat_override][subdir] = "features"
-projects[bear_habitat_override][options][working-copy] = TRUE
+;projects[bear_habitat_override][type] = module
+;projects[bear_habitat_override][download][type] = "git"
+;projects[bear_habitat_override][download][url] = "https://github.com/heliogabal/bear_habitat_override.git"
+;projects[bear_habitat_override][subdir] = "features"
+;projects[bear_habitat_override][options][working-copy] = TRUE
 
 projects[rhadmintheme][type] = module
 projects[rhadmintheme][download][type] = "git"
@@ -725,8 +722,8 @@ projects[commerce_pet][download][url] = "https://git.drupal.org/sandbox/sarjeet.
 projects[commerce_pet][subdir] = "custom"
 projects[commerce_pet][options][working-copy] = TRUE
 
-projects[commerce_taxonomy_conditions][version] = "2.0"
-projects[commerce_taxonomy_conditions][subdir] = "commerce"
+;projects[commerce_taxonomy_conditions][version] = "2.0"
+;projects[commerce_taxonomy_conditions][subdir] = "commerce"
 
 ; +++++ Themes +++++
 
