@@ -808,3 +808,8 @@ libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier/arch
 ;libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
 libraries[emogrifier][destination] = "libraries"
 libraries[emogrifier][directory_name] = "emogrifier"
+
+libraries[fontfaceobserver][download][type] = file
+libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v2.0.9.zip"
+libraries[fontfaceobserver][destination] = "libraries"
+libraries[fontfaceobserver][directory_name] = "fontfaceobserver"
