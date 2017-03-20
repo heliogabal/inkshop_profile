@@ -636,8 +636,8 @@ projects[filefield_sources][subdir] = "contrib"
 projects[follow][version] = "2.0-alpha1"
 projects[follow][subdir] = "contrib"
 
-;projects[editableviews][version] = "1.0-beta10"
-;projects[editableviews][subdir] = "contrib"
+projects[editableviews][version] = "1.0-beta10"
+projects[editableviews][subdir] = "contrib"
 
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
@@ -802,8 +802,9 @@ projects[features][patch][2143765] = "http://drupal.org/files/issues/features-fi
 projects[features][patch][2479803] = "https://www.drupal.org/files/issues/ignore_hidden_modules-2479803-1.patch"
 ;projects[features][patch][2534138] = "https://www.drupal.org/files/issues/2534138-field-base-exception-catch-1.patch"
 
-libraries[emogrifier][download][type] = "git"
-libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier.git"
-libraries[emogrifier][download][branch] = "master"
-libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
+libraries[emogrifier][download][type] = file
+libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier/archive/V1.2.0.zip"
+;libraries[emogrifier][download][branch] = "master"
+;libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
 libraries[emogrifier][destination] = "libraries"
+libraries[emogrifier][directory_name] = "emogrifier"
