@@ -776,7 +776,7 @@ libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socia
 
 ; chosen
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
