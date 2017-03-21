@@ -813,3 +813,8 @@ libraries[fontfaceobserver][download][type] = file
 libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v2.0.9.zip"
 libraries[fontfaceobserver][destination] = "libraries"
 libraries[fontfaceobserver][directory_name] = "fontfaceobserver"
+
+libraries[mailgun][download][type] = file
+libraries[mailgun][download][url] = "https://github.com/mailgun/mailgun-php/archive/v1.7.2.zip"
+libraries[mailgun][destination] = "libraries"
+libraries[mailgun][directory_name] = "mailgun"
