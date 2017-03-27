@@ -285,6 +285,9 @@ projects[views_php][subdir] = "contrib"
 projects[views_data_export][version] = "3.1"
 projects[views_data_export][subdir] = "contrib"
 
+projects[views_data_export_phpexcel][version] = "1.0"
+projects[views_data_export_phpexcel][subdir] = "contrib"
+
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
@@ -818,3 +821,8 @@ libraries[mailgun][download][type] = file
 libraries[mailgun][download][url] = "https://github.com/mailgun/mailgun-php/archive/v1.7.2.zip"
 libraries[mailgun][destination] = "libraries"
 libraries[mailgun][directory_name] = "mailgun"
+
+libraries[PHPExcel][download][type] = file
+libraries[PHPExcel][download][url] = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.zip"
+libraries[PHPExcel][destination] = "libraries"
+libraries[PHPExcel][directory_name] = "PHPExcel"
