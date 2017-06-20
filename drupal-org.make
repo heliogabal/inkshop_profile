@@ -235,7 +235,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg_template][version] = 2.12
 projects[wysiwyg_template][subdir] = contrib
 
-projects[linkit][version] = "2.7"
+projects[linkit][version] = "3.5"
 projects[linkit][subdir] = "contrib"
 
 projects[linkit_target][version] = "1.0"
