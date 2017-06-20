@@ -61,7 +61,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.12"
+projects[colorbox][version] = "2.13"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
@@ -103,7 +103,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-beta2"
+projects[uuid][version] = "1.0"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha4"
@@ -132,26 +132,20 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.0-rc12"
+projects[media][version] = "2.8"
 projects[media][subdir] = "contrib"
-; http://drupal.org/node/1411340
-;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta3"
-; dev wegen Fix for file download token problems:
-; https://www.drupal.org/node/2267483
-; https://www.drupal.org/node/2215247
+projects[file_entity][version] = "2.2"
 projects[file_entity][subdir] = "contrib"
 
-projects[entityreference][version] = "1.2"
+projects[entityreference][version] = "1.4"
 projects[entityreference][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
-;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
 ;projects[logintoboggan][version] = "1.4"
 ;projects[logintoboggan][subdir] = "contrib"
@@ -187,7 +181,7 @@ projects[linkchecker][subdir] = contrib
 projects[title][version] = "1.0-alpha9"
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0"
+projects[module_filter][version] = "2.1"
 projects[module_filter][subdir] = "contrib"
 
 projects[pathauto][version] = "1.3"
@@ -199,7 +193,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.15"
+projects[i18n][version] = "1.18"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -223,21 +217,20 @@ projects[editablefields][subdir] ="contrib"
 # PHP7 compatibility
 #projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
 
-projects[rules][version] = "2.9"
+projects[rules][version] = "2.10"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n_fatal-2495599-2.patch"
-;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.patch"
-projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch"
+#projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch" now:
+projects[rules][patch][] = "https://www.drupal.org/files/issues/2406863_rules-7-x-2.10-configurable_rules_stampede_protection-126.patch"
 
 
 projects[metatag][version] = "1.21"
 projects[metatag][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.4"
 projects[wysiwyg][subdir] = "contrib"
-; projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ajax-error-1757684-13.patch
 
 projects[wysiwyg_template][version] = 2.12
 projects[wysiwyg_template][subdir] = contrib
@@ -268,10 +261,8 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.15"
+projects[views][version] = "3.16"
 projects[views][subdir] = "contrib"
-; https://www.drupal.org/node/2059555 not needed any more?
-; projects[views][patch][] = https://www.drupal.org/files/2059555-reduce-formatter-form-state.patch
 
 projects[views_bulk_operations][version] = "3.4"
 projects[views_bulk_operations][subdir] = "contrib"
@@ -282,7 +273,7 @@ projects[views_litepager][subdir] ="contrib"
 projects[views_php][version] = "1.0-alpha3"
 projects[views_php][subdir] = "contrib"
 
-projects[views_data_export][version] = "3.1"
+projects[views_data_export][version] = "3.2"
 projects[views_data_export][subdir] = "contrib"
 
 projects[views_data_export_phpexcel][version] = "1.0"
@@ -292,7 +283,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.14"
+projects[webform][version] = "4.15"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -396,7 +387,7 @@ projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = "2.3"
+projects[commerce_paypal][version] = "2.4"
 
 projects[commerce_price_components][version] = "1.x-dev"
 projects[commerce_price_components][subdir] = "commerce"
@@ -415,7 +406,7 @@ projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerc
 ; VBO Download PDF Action: https://www.drupal.org/node/2512978
 ; projects[commerce_billy][patch][] = "https://www.drupal.org/files/issues/commerce_billy-2512978-3.patch"
 
-projects[commerce_billy_mail][version] = "1.x-dev"
+projects[commerce_billy_mail][version] = "1.0-beta7"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
@@ -516,9 +507,8 @@ projects[mailsystem][subdir] = "contrib"
 ;Fix lost theme bug
 projects[mailsystem][patch][] = "https://www.drupal.org/files/issues/mailsystem-theme_registry-2051135-3.patch"
 
-projects[mimemail][version] = "1.0-beta4"
+projects[mimemail][version] = "1.0"
 projects[mimemail][subdir] = "contrib"
-;projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
 projects[token][version] = "1.7"
 projects[token][subdir] = "contrib"
@@ -526,7 +516,7 @@ projects[token][subdir] = "contrib"
 projects[eva][version] = "1.3"
 projects[eva][subdir] = "contrib"
 
-projects[icon][version] = "1.0-rc1"
+projects[icon][version] = "1.0"
 projects[icon][subdir] = "contrib"
 
 ;projects[fontello][version] = "1.0"
@@ -538,7 +528,7 @@ projects[message][subdir] = "contrib"
 projects[message_notify][version] = "2.5"
 projects[message_notify][subdir] = "contrib"
 
-projects[date][version] = "2.9"
+projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.1"
@@ -582,7 +572,7 @@ projects[title][subdir] = "contrib"
 ;projects[special_menu_items][version] = "2.0"
 ;projects[special_menu_items][subdir] = "contrib"
 
-projects[chosen][version] = "2.0"
+projects[chosen][version] = "2.1"
 projects[chosen][subdir] = "contrib"
 
 projects[taxonomy_menu_block][version] = "1.4"
