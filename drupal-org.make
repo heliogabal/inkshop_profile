@@ -611,6 +611,9 @@ projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field
 projects[search_api_solr][version] = "1.12"
 projects[search_api_solr][subdir] = "contrib"
 
+projects[search_api_autocomplete][version] = "1.4"
+projects[search_api_autocomplete][subdir] = "contrib"
+
 ; +++++ Local Installs +++++
 projects[commerce_ajax_cart][version] = "1.x-dev"
 projects[commerce_ajax_cart][subdir] = "commerce"
