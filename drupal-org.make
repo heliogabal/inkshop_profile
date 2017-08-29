@@ -447,6 +447,9 @@ projects[commerce_custom_order_status][subdir] = "commerce"
 projects[commerce_extra_tokens][version] = "1.x-dev"
 projects[commerce_extra_tokens][subdir] = "commerce"
 
+projects[commerce_admin_order_advanced][version] = "1.0"
+projects[commerce_admin_order_advanced][subdir] = "commerce"
+
 ; Other commerce contribs.
 
 projects[countries][version] = "2.3"
