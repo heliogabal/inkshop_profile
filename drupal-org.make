@@ -238,10 +238,10 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg_template][version] = 2.12
 projects[wysiwyg_template][subdir] = contrib
 
-projects[linkit][version] = "3.5"
+projects[linkit][version] = "3.x-dev"
 projects[linkit][subdir] = "contrib"
 
-projects[linkit_target][version] = "1.0"
+projects[linkit_target][version] = "3.x-dev"
 projects[linkit_target][subdir] = "contrib"
 
 projects[image_resize_filter][version] = "1.14"
