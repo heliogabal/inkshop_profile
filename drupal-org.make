@@ -29,7 +29,7 @@ projects[admin_views][subdir] = "contrib"
 projects[autoassignrole][version] = "1.0"
 projects[autoassignrole][subdir] = "contrib"
 
-projects[autocomplete_deluxe][version] = "2.2"
+projects[autocomplete_deluxe][version] = "2.3"
 projects[autocomplete_deluxe][subdir] = "contrib"
 
 projects[block_class][version] = "2.3"
@@ -132,16 +132,16 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.8"
+projects[media][version] = "2.10"
 projects[media][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.2"
+projects[file_entity][version] = "2.4"
 projects[file_entity][subdir] = "contrib"
 
-projects[entityreference][version] = "1.4"
+projects[entityreference][version] = "1.5"
 projects[entityreference][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -190,7 +190,7 @@ projects[pathauto][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.3"
+projects[robotstxt][version] = "1.4"
 projects[robotstxt][subdir] = "contrib"
 
 projects[i18n][version] = "1.18"
@@ -229,7 +229,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/2406863_rules-7-x-2.10-configurable_rules_stampede_protection-126.patch"
 
 
-projects[metatag][version] = "1.21"
+projects[metatag][version] = "1.22"
 projects[metatag][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.4"
@@ -264,7 +264,7 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.16"
+projects[views][version] = "3.18"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.4"
@@ -413,7 +413,7 @@ projects[commerce_billy_mail][version] = "1.0-beta7"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
-projects[commerce_message][version] = "1.0-rc5"
+projects[commerce_message][version] = "1.0"
 
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = "1.6"
@@ -552,7 +552,7 @@ projects[login_destination][subdir] = "contrib"
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[smtp][version] = "1.6"
+projects[smtp][version] = "1.7"
 projects[smtp][subdir] = "contrib"
 
 ;projects[menu_attributes][version] = "1.0-rc3"
@@ -588,7 +588,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.21"
+projects[search_api][version] = "1.22"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.6"
@@ -617,7 +617,7 @@ projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field
 projects[search_api_solr][version] = "1.12"
 projects[search_api_solr][subdir] = "contrib"
 
-projects[search_api_autocomplete][version] = "1.4"
+projects[search_api_autocomplete][version] = "1.5"
 projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++
