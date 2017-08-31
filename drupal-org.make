@@ -209,6 +209,9 @@ projects[taxonomy_manager][subdir] ="contrib"
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
 
+projects[views_distinct][version] = "1.0"
+projects[views_distinct][subdir] = "contrib"
+
 projects[equalheights][version] = "2.4"
 projects[equalheights][subdir] = "contrib"
 
