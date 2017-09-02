@@ -344,6 +344,9 @@ projects[commerce_bank_transfer][subdir] = "commerce"
 projects[commerce_checkout_pane_payment][version] = "1.1"
 projects[commerce_checkout_pane_payment][subdir] = "commerce"
 
+projects[commerce_checkout_admin][version] = "1.1"
+projects[commerce_checkout_admin][subdir] = "commerce"
+
 projects[commerce_conditions][version] = "1.x-dev"
 projects[commerce_conditions][subdir] = "commerce"
 
