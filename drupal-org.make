@@ -35,13 +35,13 @@ projects[autocomplete_deluxe][subdir] = "contrib"
 projects[block_class][version] = "2.3"
 projects[block_class][subdir] = "contrib"
 
-projects[clientside_validation][version] = "1.44"
+projects[clientside_validation][version] = "1.46"
 projects[clientside_validation][subdir] = "contrib"
 
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-beta3"
+projects[feeds][version] = "2.0-beta4"
 projects[feeds][subdir] = "contrib"
 
 projects[feeds_tamper][version] = "1.x-dev"
@@ -132,13 +132,13 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.10"
+projects[media][version] = "2.13"
 projects[media][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.4"
+projects[file_entity][version] = "2.11"
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.5"
@@ -155,6 +155,7 @@ projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
+;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-on-exception-return-null-1596594-62.patch"
 
 projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
@@ -286,7 +287,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.15"
+projects[webform][version] = "4.16"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -652,6 +653,9 @@ projects[me][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.3"
 projects[xmlsitemap][subdir] = "contrib"
+
+#projects[vertical_tabs_config][version] = "1.2"
+#projects[vertical_tabs_config][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
