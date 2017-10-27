@@ -336,6 +336,9 @@ projects[commerce_addressbook][subdir] = "commerce"
 projects[commerce_addressbook_extra][version] = "1.4"
 projects[commerce_addressbook_extra][subdir] = "commerce"
 
+projects[customer_profile_type_ui][version] = "1.0"
+projects[customer_profile_type_ui][subdir] = "commerce"
+
 projects[commerce_bank_transfer][version] = "1.0-alpha3"
 projects[commerce_bank_transfer][subdir] = "commerce"
 
