@@ -123,7 +123,7 @@ projects[addressfield_title][subdir] = "contrib"
 projects[vat_number][version] = "1.0-rc1"
 projects[vat_number][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.4"
+projects[better_exposed_filters][version] = "3.5"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -138,7 +138,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.11"
+projects[file_entity][version] = "2.12"
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.5"
