@@ -514,6 +514,8 @@ projects[mailgun][version] = "1.x-dev"
 projects[mailgun][subdir] = "contrib"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2684451-5.patch"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2688231-6.patch"
+projects[mailgun][patch][] = "https://www.drupal.org/files/issues/2866627-mailgun-library-info-8.patch"
+# need to do composer update in profiles/inkshop/libraries/mailgun
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
