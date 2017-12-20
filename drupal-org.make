@@ -510,12 +510,13 @@ projects[field_extractor][subdir] = "contrib"
 ;projects[service_links][subdir] = "contrib"
 ;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
-projects[mailgun][version] = "1.x-dev"
-projects[mailgun][subdir] = "contrib"
-projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2684451-5.patch"
-projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2688231-6.patch"
-projects[mailgun][patch][] = "https://www.drupal.org/files/issues/2866627-mailgun-library-info-8.patch"
+;projects[mailgun][version] = "1.x-dev"
+;projects[mailgun][subdir] = "contrib"
+;projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2684451-5.patch"
+;projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2688231-6.patch"
+;projects[mailgun][patch][] = "https://www.drupal.org/files/issues/2866627-mailgun-library-info-8.patch"
 # need to do composer update in profiles/inkota_shop/libraries/mailgun
+# need to install old version in order to work
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
