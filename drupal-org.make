@@ -326,7 +326,7 @@ projects[commerce_features][patch][] = https://www.drupal.org/files/issues/comme
 ;projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
 ;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
 ;https://www.drupal.org/node/2292895
-projects[commerce_features][patch][] = https://www.drupal.org/files/issues/2292895-commerce_features-customer_commerce_fix.patch
+;projects[commerce_features][patch][] = https://www.drupal.org/files/issues/2292895-commerce_features-customer_commerce_fix.patch
 ;https://www.drupal.org/node/1973098
 ;projects[commerce_features][patch][] = https://www.drupal.org/files/issues/commerce_features-payment_methods-1973098-3.patch
 
@@ -510,7 +510,7 @@ projects[field_extractor][subdir] = "contrib"
 ;projects[service_links][subdir] = "contrib"
 ;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
-projects[mailgun][version] = "1.6"
+projects[mailgun][version] = "1.x-dev"
 projects[mailgun][subdir] = "contrib"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2684451-5.patch"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2688231-6.patch"
@@ -796,7 +796,7 @@ libraries[chosen][destination] = "libraries"
 
 ; dompdf for commerce billy
 libraries[dompdf][download][type] = "get"
-libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.8.1/dompdf_0-8-1.zip"
+libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.8.2/dompdf_0-8-2.zip"
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
