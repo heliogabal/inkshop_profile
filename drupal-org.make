@@ -44,10 +44,10 @@ projects[fpa][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta4"
 projects[feeds][subdir] = "contrib"
 
-projects[feeds_tamper][version] = "1.x-dev"
+projects[feeds_tamper][version] = "1.1"
 projects[feeds_tamper][subdir] = "contrib"
-# PHP7 compatibility, already fixed in dev version
-projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
+; PHP7 compatibility, already fixed in dev version
+;projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
 
 ;projects[habitat][version] = "1.0"
 ;projects[habitat][subdir] = "contrib"
@@ -132,7 +132,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.13"
+projects[media][version] = "2.14"
 projects[media][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc4"
@@ -157,7 +157,7 @@ projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-on-exception-return-null-1596594-62.patch"
 
-projects[field_group][version] = "1.5"
+projects[field_group][version] = "1.6"
 projects[field_group][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
@@ -194,7 +194,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.4"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.18"
+projects[i18n][version] = "1.22"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -308,7 +308,7 @@ projects[pet][subdir] = "contrib"
 projects[pet][patch][] = "https://www.drupal.org/files/issues/pet-specify_entity_types_for_tokens-2612754-1.patch"
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = "1.13"
+projects[commerce][version] = "1.14"
 projects[commerce][subdir] = "commerce"
 projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 ; try instead of views patch https://www.drupal.org/node/2057073
@@ -316,7 +316,7 @@ projects[commerce][patch][] = "https://www.drupal.org/files/2057073-15-reduce-vi
 ; Submit button problem when form validation fails: https://www.drupal.org/node/1775750
 projects[commerce][patch][] = "https://www.drupal.org/files/issues/disable-button-on-submit-instead-of-click-1775750-3.patch"
 
-projects[commerce_features][version] = "1.2"
+projects[commerce_features][version] = "1.3"
 projects[commerce_features][subdir] = "commerce"
 ; https://www.drupal.org/node/1973602
 ;projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
@@ -361,7 +361,7 @@ projects[commerce_simplenews_checkout][version] = "1.0"
 projects[commerce_simplenews_checkout][subdir] = "commerce"
 ;projects[commerce_simplenews_checkout][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_simplenews_checkout-remove-update-message.patch"
 
-projects[commerce_shipping][version] = "2.2"
+projects[commerce_shipping][version] = "2.3"
 projects[commerce_shipping][subdir] = "commerce"
 
 projects[commerce_flat_rate][version] = "1.0-beta2"
@@ -477,7 +477,7 @@ projects[emogrifier][subdir] = "contrib"
 projects[flag][version] = "3.9"
 projects[flag][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.22"
+projects[select_or_other][version] = "2.23"
 projects[select_or_other][subdir] = "contrib"
 
 projects[visualization][version] = "1.0-beta2"
@@ -510,12 +510,12 @@ projects[field_extractor][subdir] = "contrib"
 ;projects[service_links][subdir] = "contrib"
 ;projects[service_links][patch][] = "http://drupal.org/files/drupal7-service_links-2.2-update_1.patch"
 
-projects[mailgun][version] = "1.x-dev"
+projects[mailgun][version] = "1.6"
 projects[mailgun][subdir] = "contrib"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2684451-5.patch"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/mailgun-2688231-6.patch"
 projects[mailgun][patch][] = "https://www.drupal.org/files/issues/2866627-mailgun-library-info-8.patch"
-# need to do composer update in profiles/inkshop/libraries/mailgun
+# need to do composer update in profiles/inkota_shop/libraries/mailgun
 
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
@@ -653,7 +653,7 @@ projects[editableviews][subdir] = "contrib"
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
-projects[me][version] = "1.2"
+projects[me][version] = "1.3"
 projects[me][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.3"
