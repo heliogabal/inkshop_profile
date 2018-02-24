@@ -486,6 +486,9 @@ projects[visualization][subdir] = "contrib"
 projects[commerce_reports][version] = "4.0-beta3"
 projects[commerce_reports][subdir] = "commerce"
 
+projects[commerce_cartmessage][version] = "1.0"
+projects[commerce_cartmessage][subdir] = "commerce"
+
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
