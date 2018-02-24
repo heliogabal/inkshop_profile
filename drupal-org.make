@@ -492,6 +492,9 @@ projects[commerce_cartmessage][subdir] = "commerce"
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
+projects[lazyloader][version] = "1.4"
+projects[lazyloader][subdir] = "contrib"
+
 ;projects[remote_stream_wrapper][version] = "1.0-beta4"
 ;projects[remote_stream_wrapper][subdir] = "contrib"
 
