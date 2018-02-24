@@ -535,7 +535,7 @@ projects[mimemail][subdir] = "contrib"
 projects[token][version] = "1.7"
 projects[token][subdir] = "contrib"
 
-projects[eva][version] = "1.3"
+projects[eva][version] = "1.4"
 projects[eva][subdir] = "contrib"
 
 projects[icon][version] = "1.0"
@@ -587,7 +587,7 @@ projects[references_dialog][subdir] = "contrib"
 projects[rules_link][version] = "1.1"
 projects[rules_link][subdir] = "contrib"
 
-projects[title][version] = "1.0-alpha8"
+projects[title][version] = "1.0-alpha9"
 projects[title][subdir] = "contrib"
 ;projects[title][patch][] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
 
