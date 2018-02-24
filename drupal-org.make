@@ -44,7 +44,7 @@ projects[fpa][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta4"
 projects[feeds][subdir] = "contrib"
 
-projects[feeds_tamper][version] = "1.1"
+projects[feeds_tamper][version] = "1.2"
 projects[feeds_tamper][subdir] = "contrib"
 ; PHP7 compatibility, already fixed in dev version
 ;projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
@@ -55,7 +55,7 @@ projects[feeds_tamper][subdir] = "contrib"
 ;projects[bear_habitat][version] = "1.x-dev"
 ;projects[bear_habitat][subdir] = "contrib"
 
-projects[job_scheduler][version] = "2.0-alpha3"
+projects[job_scheduler][version] = "2.0"
 projects[job_scheduler][subdir] = "contrib"
 
 projects[filefield_nginx_progress][version] = "2.3"
@@ -67,7 +67,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.12"
+projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.0-rc1"
@@ -132,13 +132,13 @@ projects[simplenews][subdir] = "contrib"
 projects[simplify][version] = "3.4"
 projects[simplify][subdir] = "contrib"
 
-projects[media][version] = "2.14"
+projects[media][version] = "2.16"
 projects[media][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.12"
+projects[file_entity][version] = "2.16"	
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.5"
@@ -153,14 +153,14 @@ projects[l10n_update][subdir] = "contrib"
 projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.8"
+projects[entity][version] = "1.9"
 projects[entity][subdir] = "contrib"
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-on-exception-return-null-1596594-62.patch"
 
 projects[field_group][version] = "1.6"
 projects[field_group][subdir] = "contrib"
 
-projects[globalredirect][version] = "1.5"
+projects[globalredirect][version] = "1.6"
 projects[globalredirect][subdir] = "contrib"
 
 projects[jquery_update][version] = "2.x-dev"
@@ -642,7 +642,7 @@ projects[commerce_wishlist][patch][] = "https://www.drupal.org/files/issues/sche
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
 
-projects[filefield_sources][version] = "1.10"
+projects[filefield_sources][version] = "1.11"
 projects[filefield_sources][subdir] = "contrib"
 
 projects[follow][version] = "2.0-alpha1"
@@ -654,7 +654,7 @@ projects[editableviews][subdir] = "contrib"
 project[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
-projects[me][version] = "1.3"
+projects[me][version] = "1.4"
 projects[me][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.3"
