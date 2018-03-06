@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.21"
+projects[advagg][version] = "2.32"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
