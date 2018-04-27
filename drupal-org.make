@@ -844,3 +844,10 @@ libraries[PHPExcel][download][type] = file
 libraries[PHPExcel][download][url] = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.zip"
 libraries[PHPExcel][destination] = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
+
+; YUI
+libraries[YUI-CSS-compressor-PHP-port][directory_name] = "YUI-CSS-compressor-PHP-port"
+libraries[YUI-CSS-compressor-PHP-port][type] = "library"
+libraries[YUI-CSS-compressor-PHP-port][destination] = "libraries"
+libraries[YUI-CSS-compressor-PHP-port][download][type] = "get"
+libraries[YUI-CSS-compressor-PHP-port] = https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port/archive/master.zip
