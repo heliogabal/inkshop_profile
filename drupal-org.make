@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.32"
+projects[advagg][version] = "2.33"
 projects[advagg][subdir] = "contrib"
 ; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
@@ -16,7 +16,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu_source][version] = "1.1"
 projects[admin_menu_source][subdir] = "contrib"
 
-projects[adminimal_admin_menu][version] = "1.7"
+projects[adminimal_admin_menu][version] = "1.9"
 projects[adminimal_admin_menu][subdir] = "contrib"
 
 projects[admin_theme][version] = "1.0"
@@ -70,7 +70,7 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
-projects[charts][version] = "2.0-rc1"
+projects[charts][version] = "2.0"
 projects[charts][subdir] = "contrib"
 
 projects[date][version] = "2.9"
@@ -82,7 +82,7 @@ projects[prlp][subdir] = "contrib"
 ;projects[panels][version] = "3.4"
 ;projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.14"
+projects[ds][version] = "2.15"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
@@ -138,7 +138,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.16"	
+projects[file_entity][version] = "2.20"	
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.5"
@@ -150,7 +150,7 @@ projects[l10n_update][subdir] = "contrib"
 ;projects[logintoboggan][version] = "1.4"
 ;projects[logintoboggan][subdir] = "contrib"
 
-projects[breakpoints][version] = "1.4"
+projects[breakpoints][version] = "1.6"
 projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.9"
@@ -194,7 +194,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.4"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.22"
+projects[i18n][version] = "1.24"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -230,10 +230,10 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/2406863_rules-7-x-2.10-configurable_rules_stampede_protection-126.patch"
 
 
-projects[metatag][version] = "1.22"
+projects[metatag][version] = "1.25"
 projects[metatag][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.4"
+projects[wysiwyg][version] = "2.5"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[wysiwyg_template][version] = 2.12
@@ -265,7 +265,7 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.4"
@@ -287,7 +287,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.16"
+projects[webform][version] = "4.17"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -604,7 +604,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.22"
+projects[search_api][version] = "1.24"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.6"
