@@ -103,7 +103,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0"
+projects[uuid][version] = "1.2"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha4"
@@ -663,7 +663,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[me][version] = "1.4"
 projects[me][subdir] = "contrib"
 
-projects[xmlsitemap][version] = "2.3"
+projects[xmlsitemap][version] = "2.5"
 projects[xmlsitemap][subdir] = "contrib"
 
 #projects[vertical_tabs_config][version] = "1.2"
