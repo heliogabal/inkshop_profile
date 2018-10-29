@@ -26,13 +26,13 @@ projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_the
 projects[admin_views][version] = "1.6"
 projects[admin_views][subdir] = "contrib"
 
-projects[autoassignrole][version] = "1.0"
+projects[autoassignrole][version] = "1.2"
 projects[autoassignrole][subdir] = "contrib"
 
 projects[autocomplete_deluxe][version] = "2.3"
 projects[autocomplete_deluxe][subdir] = "contrib"
 
-projects[block_class][version] = "2.3"
+projects[block_class][version] = "2.4"
 projects[block_class][subdir] = "contrib"
 
 projects[clientside_validation][version] = "1.46"
@@ -70,7 +70,7 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
-projects[charts][version] = "2.0"
+projects[charts][version] = "2.1"
 projects[charts][subdir] = "contrib"
 
 projects[date][version] = "2.9"
@@ -82,7 +82,7 @@ projects[prlp][subdir] = "contrib"
 ;projects[panels][version] = "3.4"
 ;projects[panels][subdir] = "contrib"
 
-projects[ds][version] = "2.15"
+projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
 projects[download_count][version] = "3.1"
@@ -123,7 +123,7 @@ projects[addressfield_title][subdir] = "contrib"
 projects[vat_number][version] = "1.0-rc1"
 projects[vat_number][subdir] = "contrib"
 
-projects[better_exposed_filters][version] = "3.5"
+projects[better_exposed_filters][version] = "3.6"
 projects[better_exposed_filters][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -171,7 +171,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.4"
+projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -268,7 +268,7 @@ projects[variable][subdir] = "contrib"
 projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.4"
+projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_litepager][version] ="3.x-dev"
@@ -287,7 +287,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.17"
+projects[webform][version] = "4.18"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -397,7 +397,7 @@ projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = "2.4"
+projects[commerce_paypal][version] = "2.6"
 
 projects[commerce_price_components][version] = "1.x-dev"
 projects[commerce_price_components][subdir] = "commerce"
@@ -451,7 +451,7 @@ projects[commerce_buttonloesung][subdir] = "commerce"
 projects[commerce_rules_extra][version] = "2.1"
 projects[commerce_rules_extra][subdir] = "commerce"
 
-projects[commerce_custom_order_status][version] = "1.0"
+projects[commerce_custom_order_status][version] = "1.1"
 projects[commerce_custom_order_status][subdir] = "commerce"
 
 projects[commerce_extra_tokens][version] = "1.x-dev"
@@ -477,7 +477,7 @@ projects[emogrifier][subdir] = "contrib"
 projects[flag][version] = "3.9"
 projects[flag][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.23"
+projects[select_or_other][version] = "2.24"
 projects[select_or_other][subdir] = "contrib"
 
 projects[visualization][version] = "1.0-beta2"
@@ -492,7 +492,7 @@ projects[commerce_cartmessage][subdir] = "commerce"
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 
-projects[lazyloader][version] = "1.4"
+projects[lazyloader][version] = "1.5"
 projects[lazyloader][subdir] = "contrib"
 
 ;projects[remote_stream_wrapper][version] = "1.0-beta4"
@@ -529,7 +529,7 @@ projects[mailsystem][subdir] = "contrib"
 ;Fix lost theme bug
 projects[mailsystem][patch][] = "https://www.drupal.org/files/issues/mailsystem-theme_registry-2051135-3.patch"
 
-projects[mimemail][version] = "1.0"
+projects[mimemail][version] = "1.1"
 projects[mimemail][subdir] = "contrib"
 
 projects[token][version] = "1.7"
@@ -604,10 +604,10 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.24"
+projects[search_api][version] = "1.25"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.6"
+projects[search_api_db][version] = "1.7"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -630,10 +630,10 @@ projects[search_api_sorts][version] = "1.7"
 projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_sorts][patch][] = "https://www.drupal.org/files/issues/field_name_inside_the-2753453-2.patch"
 
-projects[search_api_solr][version] = "1.12"
+projects[search_api_solr][version] = "1.14"
 projects[search_api_solr][subdir] = "contrib"
 
-projects[search_api_autocomplete][version] = "1.5"
+projects[search_api_autocomplete][version] = "1.6"
 projects[search_api_autocomplete][subdir] = "contrib"
 
 ; +++++ Local Installs +++++
@@ -663,7 +663,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[me][version] = "1.4"
 projects[me][subdir] = "contrib"
 
-projects[xmlsitemap][version] = "2.5"
+projects[xmlsitemap][version] = "2.6"
 projects[xmlsitemap][subdir] = "contrib"
 
 #projects[vertical_tabs_config][version] = "1.2"
