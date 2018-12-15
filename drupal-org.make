@@ -645,6 +645,9 @@ projects[commerce_wishlist][subdir] = "commerce"
 ;projects[commerce_wishlist][patch][] = "https://raw.githubusercontent.com/heliogabal/inkshop_patches/master/commerce_wishlist-remove-target.patch"
 projects[commerce_wishlist][patch][] = "https://www.drupal.org/files/issues/schema-definition-2623040-2.patch"
 
+projects[commerce_pet][version] = "1.x-dev"
+projects[commerce_pet][subdir] = "commerce"
+
 projects[entity_bundle_plugin][version] = "1.0-beta2"
 projects[entity_bundle_plugin][subdir] = "contrib"
 
@@ -736,12 +739,6 @@ projects[rhadmintheme][download][type] = "git"
 projects[rhadmintheme][download][url] = "https://github.com/heliogabal/rhadmintheme.git"
 projects[rhadmintheme][subdir] = "custom"
 projects[rhadmintheme][options][working-copy] = TRUE
-
-projects[commerce_pet][type] = module
-projects[commerce_pet][download][type] = "git"
-projects[commerce_pet][download][url] = "https://git.drupal.org/sandbox/sarjeet.singh/2576101.git"
-projects[commerce_pet][subdir] = "custom"
-projects[commerce_pet][options][working-copy] = TRUE
 
 ;projects[commerce_taxonomy_conditions][version] = "2.0"
 ;projects[commerce_taxonomy_conditions][subdir] = "commerce"
