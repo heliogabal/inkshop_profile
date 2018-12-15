@@ -91,7 +91,7 @@ projects[download_count][subdir] = "contrib"
 projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
-projects[diff][version] = "3.3"
+projects[diff][version] = "3.4"
 projects[diff][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-rc3"
@@ -168,7 +168,7 @@ projects[jquery_update][subdir] = "contrib"
 ; # Patch needed until newer version comes out: https://drupal.org/node/1448490
 ; projects[jquery_update][patch][] = "https://drupal.org/files/issues/jquery_update-remove_states_js.patch"
 
-projects[libraries][version] = "2.3"
+projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.5"
@@ -251,7 +251,7 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[realname][version] = "1.3"
 projects[realname][subdir] = "contrib"
 
-projects[email_registration][version] = "1.3"
+projects[email_registration][version] = "1.4"
 projects[email_registration][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
