@@ -801,7 +801,7 @@ libraries[chosen][destination] = "libraries"
 
 ; dompdf for commerce billy
 libraries[dompdf][download][type] = "get"
-libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.8.2/dompdf_0-8-2.zip"
+libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.8.3/dompdf_0-8-3.zip"
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
