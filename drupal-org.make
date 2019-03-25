@@ -10,7 +10,7 @@ projects[advagg][subdir] = "contrib"
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
 ;projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
-projects[admin_menu][version] = "3.0-rc5"
+projects[admin_menu][version] = "3.0-rc6"
 projects[admin_menu][subdir] = "contrib"
 
 projects[admin_menu_source][version] = "1.1"
@@ -67,7 +67,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.14"
+projects[ctools][version] = "1.15"
 projects[ctools][subdir] = "contrib"
 
 projects[charts][version] = "2.1"
@@ -88,7 +88,7 @@ projects[ds][subdir] = "contrib"
 projects[download_count][version] = "3.1"
 projects[download_count][subdir] = "contrib"
 
-projects[features][version] = "2.10"
+projects[features][version] = "2.11"
 projects[features][subdir] = "contrib"
 
 projects[diff][version] = "3.4"
@@ -171,7 +171,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.5"
+projects[link][version] = "1.6"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -194,7 +194,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.4"
 projects[robotstxt][subdir] = "contrib"
 
-projects[i18n][version] = "1.24"
+projects[i18n][version] = "1.26"
 projects[i18n][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
@@ -248,7 +248,7 @@ projects[linkit_target][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[realname][version] = "1.3"
+projects[realname][version] = "1.4"
 projects[realname][subdir] = "contrib"
 
 projects[email_registration][version] = "1.4"
@@ -265,7 +265,7 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"
@@ -754,7 +754,7 @@ projects[omega][patch][] = "https://www.drupal.org/files/issues/omega-2492461-1-
 ;projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.24"
+projects[adminimal_theme][version] = "1.25"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
