@@ -793,8 +793,9 @@ libraries[socialshareprivacy][download][type] = "get"
 libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
 
 ; chosen
+libraries[chosen][type] = "library"
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v1.1.0.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
@@ -837,8 +838,9 @@ libraries[mailgun][download][url] = "https://github.com/mailgun/mailgun-php/arch
 libraries[mailgun][destination] = "libraries"
 libraries[mailgun][directory_name] = "mailgun"
 
+libraries[PHPExcel][type] = "library"
 libraries[PHPExcel][download][type] = file
-libraries[PHPExcel][download][url] = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.zip"
+libraries[PHPExcel][download][url] = "https://github.com/PHPOffice/PHPExcel/archive/1.8.2.zip"
 libraries[PHPExcel][destination] = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
 
