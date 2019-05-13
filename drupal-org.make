@@ -117,8 +117,11 @@ projects[addressfield][subdir] = "contrib"
 ; Try to resolve duplicate addresses on commerce_addressbook, but it doesn not seem to work: https://www.drupal.org/node/2169863
 projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_addressbook-fix-profile-dupes.patch"
 
-projects[addressfield_title][version] = "1.0"
+projects[addressfield_title][version] = "1.x-dev"
 projects[addressfield_title][subdir] = "contrib"
+projects[addressfield_title][patch][] = "https://www.drupal.org/files/issues/addressfield_title-codingstandards-2828448-2.patch"
+projects[addressfield_title][patch][] = "https://www.drupal.org/files/issues/addressfield_title-codingstandards-2828448-2.patch"
+
 
 projects[vat_number][version] = "1.0-rc1"
 projects[vat_number][subdir] = "contrib"
