@@ -119,8 +119,7 @@ projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_
 
 projects[addressfield_title][version] = "1.x-dev"
 projects[addressfield_title][subdir] = "contrib"
-projects[addressfield_title][patch][] = "https://www.drupal.org/files/issues/addressfield_title-codingstandards-2828448-2.patch"
-projects[addressfield_title][patch][] = "https://www.drupal.org/files/issues/addressfield_title-codingstandards-2828448-2.patch"
+;projects[addressfield_title][patch][] = "https://www.drupal.org/files/issues/addressfield_title-codingstandards-2828448-2.patch"
 
 
 projects[vat_number][version] = "1.0-rc1"
@@ -185,7 +184,7 @@ projects[linkchecker][subdir] = contrib
 projects[title][version] = "1.0-alpha9"
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "2.1"
+projects[module_filter][version] = "2.2"
 projects[module_filter][subdir] = "contrib"
 
 projects[pathauto][version] = "1.3"
@@ -268,7 +267,7 @@ projects[follow][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.21"
+projects[views][version] = "3.23"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"
