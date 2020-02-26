@@ -23,7 +23,7 @@ projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][patch][] = "https://www.drupal.org/files/disable_admin_theme.patch"
 
-projects[admin_views][version] = "1.6"
+projects[admin_views][version] = "1.7"
 projects[admin_views][subdir] = "contrib"
 
 projects[autoassignrole][version] = "1.2"
@@ -103,7 +103,7 @@ projects[features_translations][subdir] = "contrib"
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.2"
+projects[uuid][version] = "1.3"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha4"
@@ -112,7 +112,7 @@ projects[uuid_features][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "dev"
 
-projects[addressfield][version] = "1.2"
+projects[addressfield][version] = "1.3"
 projects[addressfield][subdir] = "contrib"
 ; Try to resolve duplicate addresses on commerce_addressbook, but it doesn not seem to work: https://www.drupal.org/node/2169863
 projects[addressfield][patch][] = "https://www.drupal.org/files/issues/commerce_addressbook-fix-profile-dupes.patch"
@@ -140,7 +140,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.20"	
+projects[file_entity][version] = "2.20"
 projects[file_entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.5"
@@ -218,7 +218,7 @@ projects[views_distinct][subdir] = "contrib"
 projects[equalheights][version] = "2.4"
 projects[equalheights][subdir] = "contrib"
 
-projects[editablefields][version] = "1.0-alpha3"
+projects[editablefields][version] = "1.0-alpha4"
 projects[editablefields][subdir] ="contrib"
 # PHP7 compatibility
 #projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-php7-compatibility-2686329-1.patch"
@@ -230,7 +230,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-rules_i18n
 projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.patch"
 #projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-remove-cache-rebuild-log-2406863-21.patch" now:
 projects[rules][patch][] = "https://www.drupal.org/files/issues/2406863_rules-7-x-2.10-configurable_rules_stampede_protection-126.patch"
-
+projects[rules][patch][] = "https://www.drupal.org/files/issues/php7_2_compatibility-2923477-5.patch"
 
 projects[metatag][version] = "1.25"
 projects[metatag][subdir] = "contrib"
@@ -289,7 +289,7 @@ projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
 
-projects[webform][version] = "4.18"
+projects[webform][version] = "4.22"
 projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -606,7 +606,7 @@ projects[translation_helpers][version] = "1.0"
 projects[translation_helpers][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = "1.25"
+projects[search_api][version] = "1.26"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.7"
