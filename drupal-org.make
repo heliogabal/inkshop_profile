@@ -85,7 +85,7 @@ projects[prlp][subdir] = "contrib"
 projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
-projects[download_count][version] = "3.1"
+projects[download_count][version] = "3.2"
 projects[download_count][subdir] = "contrib"
 
 projects[features][version] = "2.11"
@@ -173,7 +173,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.6"
+projects[link][version] = "1.7"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -232,7 +232,7 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules-2020917.pa
 projects[rules][patch][] = "https://www.drupal.org/files/issues/2406863_rules-7-x-2.10-configurable_rules_stampede_protection-126.patch"
 projects[rules][patch][] = "https://www.drupal.org/files/issues/php7_2_compatibility-2923477-5.patch"
 
-projects[metatag][version] = "1.25"
+projects[metatag][version] = "1.27"
 projects[metatag][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.5"
@@ -399,7 +399,7 @@ projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = "2.6"
+projects[commerce_paypal][version] = "2.7"
 
 projects[commerce_price_components][version] = "1.x-dev"
 projects[commerce_price_components][subdir] = "commerce"
@@ -504,7 +504,7 @@ projects[physical][version] = "1.0"
 projects[physical][subdir] = "contrib"
 projects[physical][patch][] = "https://www.drupal.org/files/issues/physical-1372070-integrate_with_feeds-54.patch"
 
-projects[inline_entity_form][version] = "1.8"
+projects[inline_entity_form][version] = "1.9"
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[float_filter][version] = "1.2"
@@ -756,7 +756,7 @@ projects[omega][patch][] = "https://www.drupal.org/files/issues/omega-2492461-1-
 ;projects[shiny][version] = "1.6"
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.25"
+projects[adminimal_theme][version] = "1.26"
 
 projects[inkshop][type] = "theme"
 projects[inkshop][download][type] = "git"
